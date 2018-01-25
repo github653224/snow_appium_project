@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180115 17:03:29.882" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\PythonProjects\DjangoProject\guest\sign\tests\test_interfaceTestsForRobotframework\resources\HTTPRequests.robot" id="s1" name="HTTPRequests">
+<test id="s1-t1" name="TESET">
+<kw name="Generate Full JSON Body For Add Event HTTP Request">
+<doc>Generate full JSON body For Add Event HTTP request</doc>
+<arguments>
+<arg>addevent</arg>
+</arguments>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<doc>Verifies that the given item is not empty.</doc>
+<arguments>
+<arg>${request_type}</arg>
+</arguments>
+<msg timestamp="20180115 17:03:30.885" level="INFO">Length is 8</msg>
+<status status="PASS" endtime="20180115 17:03:30.886" starttime="20180115 17:03:30.884"></status>
+</kw>
+<kw name="Get EVENT Json Template" library="TemplateTool">
+<arguments>
+<arg>${request_type}</arg>
+</arguments>
+<assign>
+<var>${output}</var>
+</assign>
+<msg timestamp="20180115 17:03:30.888" level="INFO">{
+  "eid":"17",
+  "name":"\xe6\xb7\xbb\xe5\x8a\xa0test\xe6\x9c\xba\xe5\x8f\x91\xe5\xb8\x83\xe4\xbc\x9a",
+  "limit":"2000",
+  "status":"0",
+  "address":"\xe6\xb3\x95\xe5\x9b\xbd\xe5\xb7\xb4\xe9\xbb\x8e",
+  "start_time":"2018-01-17 14:00:00"
+
+}</msg>
+<msg timestamp="20180115 17:03:30.888" level="INFO">${output} = {
+  "eid":"17",
+  "name":"\xe6\xb7\xbb\xe5\x8a\xa0test\xe6\x9c\xba\xe5\x8f\x91\xe5\xb8\x83\xe4\xbc\x9a",
+  "limit":"2000",
+  "status":"0",
+  "address":"\xe6\xb3\x95\xe5\x9b\xbd\xe5\xb7\xb4\xe9\xbb\x8e...</msg>
+<status status="PASS" endtime="20180115 17:03:30.889" starttime="20180115 17:03:30.886"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${output}</arg>
+</arguments>
+<msg timestamp="20180115 17:03:30.890" level="INFO">{
+  "eid":"17",
+  "name":"\xe6\xb7\xbb\xe5\x8a\xa0test\xe6\x9c\xba\xe5\x8f\x91\xe5\xb8\x83\xe4\xbc\x9a",
+  "limit":"2000",
+  "status":"0",
+  "address":"\xe6\xb3\x95\xe5\x9b\xbd\xe5\xb7\xb4\xe9\xbb\x8e",
+  "start_time":"2018-01-17 14:00:00"
+
+}</msg>
+<status status="PASS" endtime="20180115 17:03:30.890" starttime="20180115 17:03:30.889"></status>
+</kw>
+<status status="PASS" endtime="20180115 17:03:30.891" starttime="20180115 17:03:30.883"></status>
+</kw>
+<status status="PASS" endtime="20180115 17:03:30.891" critical="yes" starttime="20180115 17:03:30.881"></status>
+</test>
+<status status="PASS" endtime="20180115 17:03:30.894" starttime="20180115 17:03:29.898"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="HTTPRequests" pass="1">HTTPRequests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

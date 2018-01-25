@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180117 11:06:23.607" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\PythonProjects\DjangoProject\guest\sign\tests\Interface\test_interfaceTestsForRobotframework(robotframework-requests)\Tests\testVentSignIfInterface.robot" id="s1" name="testVentSignIfInterface">
+<test id="s1-t1" name="Test for Guest If Sign Interface">
+<kw name="Test Procedure">
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>Content-Type=application/x-www-form-urlencoded</arg>
+</arguments>
+<assign>
+<var>${header}</var>
+</assign>
+<msg timestamp="20180117 11:06:25.276" level="INFO">${header} = {u'Content-Type': u'application/x-www-form-urlencoded'}</msg>
+<status status="PASS" endtime="20180117 11:06:25.276" starttime="20180117 11:06:25.274"></status>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>event</arg>
+<arg>http://127.0.0.1:8989/api</arg>
+</arguments>
+<msg timestamp="20180117 11:06:25.277" level="INFO">Creating Session using : alias=event, url=http://127.0.0.1:8989/api, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" endtime="20180117 11:06:25.278" starttime="20180117 11:06:25.276"></status>
+</kw>
+<kw name="Generate Full JSON Body For Add Event HTTP Request" library="HTTPRequests">
+<doc>Generate full JSON body For Add Event HTTP request</doc>
+<arguments>
+<arg>signevent</arg>
+<arg>SIGN</arg>
+</arguments>
+<assign>
+<var>${postdata}</var>
+</assign>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<doc>Verifies that the given item is not empty.</doc>
+<arguments>
+<arg>${request_type}</arg>
+</arguments>
+<msg timestamp="20180117 11:06:25.280" level="INFO">Length is 9</msg>
+<status status="PASS" endtime="20180117 11:06:25.280" starttime="20180117 11:06:25.279"></status>
+</kw>
+<kw name="Get EVENT Json Template" library="TemplateTool">
+<arguments>
+<arg>${request_type}</arg>
+<arg>${event_name}</arg>
+</arguments>
+<assign>
+<var>${output}</var>
+</assign>
+<msg timestamp="20180117 11:06:25.283" level="INFO">{
+  "eid":"1",
+  "phone":"18000000000"
+
+}</msg>
+<msg timestamp="20180117 11:06:25.283" level="INFO">${output} = OrderedDict([('phone', '18000000000'), ('eid', '1')])</msg>
+<status status="PASS" endtime="20180117 11:06:25.283" starttime="20180117 11:06:25.281"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${output}</arg>
+</arguments>
+<msg timestamp="20180117 11:06:25.284" level="INFO">OrderedDict([('phone', '18000000000'), ('eid', '1')])</msg>
+<status status="PASS" endtime="20180117 11:06:25.284" starttime="20180117 11:06:25.283"></status>
+</kw>
+<msg timestamp="20180117 11:06:25.285" level="INFO">${postdata} = OrderedDict([('phone', '18000000000'), ('eid', '1')])</msg>
+<status status="PASS" endtime="20180117 11:06:25.285" starttime="20180117 11:06:25.278"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${postdata}</arg>
+</arguments>
+<msg timestamp="20180117 11:06:25.286" level="INFO">OrderedDict([('phone', '18000000000'), ('eid', '1')])</msg>
+<status status="PASS" endtime="20180117 11:06:25.286" starttime="20180117 11:06:25.285"></status>
+</kw>
+<kw name="Post Request" library="RequestsLibrary">
+<doc>Send a POST request on the session object found using the</doc>
+<arguments>
+<arg>event</arg>
+<arg>/user_sign/</arg>
+<arg>data=${postdata}</arg>
+<arg>headers=${header}</arg>
+</arguments>
+<assign>
+<var>${r}</var>
+</assign>
+<msg timestamp="20180117 11:06:25.464" level="INFO">Post Request using : alias=event, uri=/user_sign/, data=phone=18000000000&amp;eid=1, headers={u'Content-Type': u'application/x-www-form-urlencoded'}, files=None, allow_redirects=True </msg>
+<msg timestamp="20180117 11:06:25.464" level="INFO">${r} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20180117 11:06:25.464" starttime="20180117 11:06:25.287"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${r.status_code}</arg>
+<arg>200</arg>
+</arguments>
+<msg timestamp="20180117 11:06:25.466" level="INFO">Argument types are:
+&lt;type 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20180117 11:06:25.466" starttime="20180117 11:06:25.465"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${r.json()}</arg>
+</arguments>
+<msg timestamp="20180117 11:06:25.467" level="INFO">{u'status': 200, u'message': u'sign success'}</msg>
+<status status="PASS" endtime="20180117 11:06:25.467" starttime="20180117 11:06:25.466"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${r.json()}</arg>
+</arguments>
+<assign>
+<var>${dict}</var>
+</assign>
+<msg timestamp="20180117 11:06:25.469" level="INFO">${dict} = {u'status': 200, u'message': u'sign success'}</msg>
+<status status="PASS" endtime="20180117 11:06:25.469" starttime="20180117 11:06:25.468"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${dict}</arg>
+</arguments>
+<msg timestamp="20180117 11:06:25.470" level="INFO">{u'status': 200, u'message': u'sign success'}</msg>
+<status status="PASS" endtime="20180117 11:06:25.470" starttime="20180117 11:06:25.469"></status>
+</kw>
+<kw name="Get From Dictionary" library="Collections">
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<arguments>
+<arg>${dict}</arg>
+<arg>message</arg>
+</arguments>
+<assign>
+<var>${msg}</var>
+</assign>
+<msg timestamp="20180117 11:06:25.472" level="INFO">${msg} = sign success</msg>
+<status status="PASS" endtime="20180117 11:06:25.472" starttime="20180117 11:06:25.471"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${msg}</arg>
+<arg>sign success</arg>
+</arguments>
+<status status="PASS" endtime="20180117 11:06:25.473" starttime="20180117 11:06:25.472"></status>
+</kw>
+<kw name="Get From Dictionary" library="Collections">
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<arguments>
+<arg>${dict}</arg>
+<arg>status</arg>
+</arguments>
+<assign>
+<var>${sta}</var>
+</assign>
+<msg timestamp="20180117 11:06:25.474" level="INFO">${sta} = 200</msg>
+<status status="PASS" endtime="20180117 11:06:25.474" starttime="20180117 11:06:25.473"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>int(200)</arg>
+</arguments>
+<assign>
+<var>${status}</var>
+</assign>
+<msg timestamp="20180117 11:06:25.478" level="INFO">${status} = 200</msg>
+<status status="PASS" endtime="20180117 11:06:25.478" starttime="20180117 11:06:25.474"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${sta}</arg>
+<arg>${status}</arg>
+</arguments>
+<status status="PASS" endtime="20180117 11:06:25.479" starttime="20180117 11:06:25.478"></status>
+</kw>
+<status status="PASS" endtime="20180117 11:06:25.480" starttime="20180117 11:06:25.273"></status>
+</kw>
+<status status="PASS" endtime="20180117 11:06:25.481" critical="yes" starttime="20180117 11:06:25.271"></status>
+</test>
+<status status="PASS" endtime="20180117 11:06:25.484" starttime="20180117 11:06:23.618"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="testVentSignIfInterface" pass="1">testVentSignIfInterface</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

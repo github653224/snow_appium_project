@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Page</title>
+    <style type="text/css">
+        *{margin:0;padding:0}
+        body{background: springgreen}
+        .div_form{background-image: url("../../static/images/bg3.jpg")}
+        .div_form{width:600px;height:300px;margin:200px auto;border:2px solid antiquewhite}
+        .div_form h1{margin:0 200px;padding:38px 0;color:white}
+        .div_form form{margin:0 200px;}
+        .div_form form #btn{width:172px;}
+        .div_form form #txt ,.pwd{background:whitesmoke;}
+        .div_form form #txt:hover{background:red;color:white}
+        .div_form form .pwd:hover{background:red;color:white}
+        .div_form form #btn{background: darkgray;color:white;font-weight: bold}
+        .div_form form #btn:hover{background: green;color:white;font-weight: bolder;border-radius: 3px 3px 3px 3px}
+        .message{width:300px;height:50px;background: black;border-radius: 12px 12px 12px 12px}
+        .message .sp_02{color:red;font-weight: 800;line-height: 50px}
+
+       .message .sp_01{color:white;font-weight: 800}
+    </style>
+</head>
+<body>
+    <div class="div_form">
+        <h1>发布会管理</h1>
+        <form method="post" action="/login_action/">
+
+            <input id="txt" type="text" name="username" placeholder="enter your name"/><br />
+            <input class="pwd" type="password" name="password" placeholder="enter your password"/><br /><br />
+
+            <input id="btn" type="submit" value="commit">
+            {% csrf_token %}
+        </form>
+    </div>
+    <div class="message">
+
+        <span class="sp_02">{{ error }}</span><br>
+    </div>
+
+   <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+       function hoverText() {
+            document.style.color="red";
+       }
+    </script>
+</body>
+</html>
