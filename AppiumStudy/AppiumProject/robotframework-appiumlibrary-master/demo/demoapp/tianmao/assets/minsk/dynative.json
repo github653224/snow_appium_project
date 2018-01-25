@@ -1,0 +1,15 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "dynative", 
+    "catalogList": [
+        {
+            "content": {
+                "shop": {
+                    "clearCache": false
+                }
+            }, 
+            "id": 874386
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "share", 
+    "catalogList": [
+        {
+            "content": {
+                "on": true, 
+                "type": "4"
+            }, 
+            "id": 874404
+        }, 
+        {
+            "content": {
+                "on": true, 
+                "type": "6"
+            }, 
+            "id": 874405
+        }, 
+        {
+            "content": {
+                "on": true, 
+                "type": "1"
+            }, 
+            "id": 874406
+        }, 
+        {
+            "content": {
+                "on": true, 
+                "type": "9"
+            }, 
+            "id": 874407
+        }, 
+        {
+            "content": {
+                "on": true, 
+                "type": "7"
+            }, 
+            "id": 874408
+        }, 
+        {
+            "content": {
+                "on": true, 
+                "type": "2"
+            }, 
+            "id": 874409
+        }, 
+        {
+            "content": {
+                "on": true, 
+                "type": "10"
+            }, 
+            "id": 874410
+        }, 
+        {
+            "content": {
+                "on": true, 
+                "type": "11"
+            }, 
+            "id": 874411
+        }, 
+        {
+            "content": {
+                "on": false, 
+                "type": "3"
+            }, 
+            "id": 874412
+        }, 
+        {
+            "content": {
+                "on": false, 
+                "type": "8"
+            }, 
+            "id": 874413
+        }, 
+        {
+            "content": {
+                "on": false, 
+                "type": "5"
+            }, 
+            "id": 874414
+        }
+    ]
+}

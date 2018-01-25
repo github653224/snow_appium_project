@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_message_interface_switch", 
+    "catalogList": [
+        {
+            "content": {
+                "unreadAndRedDot": 0
+            }, 
+            "id": 875340
+        }
+    ]
+}

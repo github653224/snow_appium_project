@@ -1,0 +1,33 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_process_protected", 
+    "catalogList": [
+        {
+            "content": {
+                "intervalTime": 1800000, 
+                "appList": [
+                    {
+                        "action": "com.youku.pushsdk.pushservice.FRIEND", 
+                        "serviceName": "com.youku.pushsdk.service.PushService", 
+                        "packageName": "com.youku.phone", 
+                        "delayTime": 60000, 
+                        "pairList": {
+                            "source": "tmall"
+                        }
+                    }, 
+                    {
+                        "action": "com.immomo.momo.invoke.action.STARTUP_OPTIMIZER", 
+                        "serviceName": "com.immomo.momo.android.service.AwakeService", 
+                        "packageName": "com.immomo.momo", 
+                        "delayTime": 120000, 
+                        "pairList": {
+                            "extra.from_packagename": "tmall"
+                        }
+                    }
+                ]
+            }, 
+            "id": 874601
+        }
+    ]
+}

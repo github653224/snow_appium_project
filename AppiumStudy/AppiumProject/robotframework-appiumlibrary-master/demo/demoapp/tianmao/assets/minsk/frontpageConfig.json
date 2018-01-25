@@ -1,0 +1,24 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "frontpageConfig", 
+    "catalogList": [
+        {
+            "content": {
+                "frontpage_b_cardlift": true, 
+                "timeout_duration": 86400, 
+                "longPressDisable": true, 
+                "topbar_change_color": "#FF0036", 
+                "topbar_change_end_time": "2016-01-21 23:59:59", 
+                "loading_duration": 3600, 
+                "frontpage_b_exposure_max_count": "40", 
+                "tac": {
+                    "SELECT_FRONT_PAGE": true
+                }, 
+                "topbar_change_start_time": "2016-01-17 00:00:00", 
+                "recommend_longclick_delete": true
+            }, 
+            "id": 874426
+        }
+    ]
+}

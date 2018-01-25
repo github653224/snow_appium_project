@@ -1,0 +1,25 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_leg", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//pages\\.tmall\\.com/wh/tmall/jifen/act/point-exchange/?(\\?.*)?", 
+                "new": "http://www.tmall.com/wow/jifen/act/index$1", 
+                "flag": "l", 
+                "comment": "\u732b\u5ba2\u548c\u624b\u6dd8\u4f7f\u7528\u4e0d\u540c\u7684\u5730\u5740\uff0cfuck"
+            }, 
+            "id": 875172
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//m\\.tmall\\.com/qr/gxfc\\?.*id=(\\d+)", 
+                "new": "tmall://page.tm/shop?shopId=$1", 
+                "flag": "l", 
+                "comment": "\u5e97\u94fa\u5206\u4eabbug"
+            }, 
+            "id": 875173
+        }
+    ]
+}

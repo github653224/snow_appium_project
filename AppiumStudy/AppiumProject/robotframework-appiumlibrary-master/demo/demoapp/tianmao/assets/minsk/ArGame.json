@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "ArGame", 
+    "catalogList": [
+        {
+            "content": {
+                "resource_url": "http://dtmall-tel.alicdn.com/fileware/952a535f76c58fc9229d3b7ce345bbbe", 
+                "libraryUrl": "http://dtmall-tel.alicdn.com/fileware/ca3e5a5d5999b7b7c5d108f1986eef1e"
+            }, 
+            "id": 875339
+        }
+    ]
+}

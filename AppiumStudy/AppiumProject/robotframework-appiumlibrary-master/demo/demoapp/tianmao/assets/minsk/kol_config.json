@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "kol_config", 
+    "catalogList": [
+        {
+            "content": {
+                "link_jump": 1, 
+                "check_commodities": true
+            }, 
+            "id": 875341
+        }
+    ]
+}

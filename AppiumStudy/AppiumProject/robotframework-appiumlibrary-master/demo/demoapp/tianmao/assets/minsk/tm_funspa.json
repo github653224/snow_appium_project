@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tm_funspa", 
+    "catalogList": [
+        {
+            "content": {
+                "defaultThemeName": "\u9ed8\u8ba4\u76ae\u80a4", 
+                "closeFunsPa": false, 
+                "brandThemeName": "\u54c1\u724c\u76ae\u80a4", 
+                "settingName": "\u76ae\u80a4\u8bbe\u7f6e"
+            }, 
+            "id": 874557
+        }
+    ]
+}

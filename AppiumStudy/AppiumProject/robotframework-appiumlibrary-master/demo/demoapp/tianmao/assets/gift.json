@@ -1,0 +1,60 @@
+{
+  "cid": "",
+  "countdownTime": "30000",
+  "model": [
+    {
+      "giftId": "0",
+      "imgUrl": "https://gw.alicdn.com/tps/TB1UGVMOFXXXXbNXVXXXXXXXXXX-220-192.png",
+      "bgImgUrl": "https://gw.alicdn.com/tps/TB1P0plNVXXXXcpXVXXXXXXXXXX-120-120.jpg",
+      "title": "亲吻",
+      "text": "${userName}送了一个吻",
+      "packageUrl": "http://dtmall-tel.alicdn.com/fileware/cc30452a87f338da318ffbe26c8cf60c",
+      "style": 1
+    },
+    {
+      "giftId": "1",
+      "imgUrl": "https://gw.alicdn.com/tps/TB10I5bOFXXXXXrXXXXXXXXXXXX-165-320.png",
+      "bgImgUrl": "https://gw.alicdn.com/tps/TB1V.ddNVXXXXbhaXXXXXXXXXXX-120-120.jpg",
+      "title": "舔屏",
+      "text": "${userName}舔了你一口",
+      "packageUrl": "http://dtmall-tel.alicdn.com/fileware/2b5668ed431fc1d9432a92084d45d039",
+      "style": 1
+    },
+    {
+      "giftId": "2",
+      "imgUrl": "https://gw.alicdn.com/tps/TB1cAdJOXXXXXafXFXXXXXXXXXX-216-88.png",
+      "bgImgUrl": "https://gw.alicdn.com/tps/TB1dwVgOXXXXXbyaFXXXXXXXXXX-120-120.jpg",
+      "title": "调戏",
+      "text": "${userName}调戏了你一下",
+      "packageUrl": "",
+      "style": 0
+    },
+    {
+      "giftId": "3",
+      "imgUrl": "https://gw.alicdn.com/tps/TB1Ir42OXXXXXc5XpXXXXXXXXXX-292-112.png",
+      "bgImgUrl": "https://gw.alicdn.com/tps/TB1tiXCOXXXXXaMapXXXXXXXXXX-120-120.jpg",
+      "title": "祝大卖",
+      "text": "${userName}祝主播大卖",
+      "packageUrl": "",
+      "style": 0
+    },
+    {
+      "giftId": "4",
+      "imgUrl": "https://gw.alicdn.com/tps/TB1y6pHOXXXXXaPaXXXXXXXXXXX-286-100.png",
+      "bgImgUrl": "https://gw.alicdn.com/tps/TB1rd8VOXXXXXbbXFXXXXXXXXXX-120-120.jpg",
+      "title": "求红包",
+      "text": "${userName}求红包",
+      "packageUrl": "",
+      "style": 0
+    },
+    {
+      "giftId": "5",
+      "imgUrl": "https://gw.alicdn.com/tps/TB1xnVwOXXXXXX1apXXXXXXXXXX-286-106.png",
+      "bgImgUrl": "https://gw.alicdn.com/tps/TB1tv8pOXXXXXbfaVXXXXXXXXXX-120-120.jpg",
+      "title": "买买买",
+      "text": "${userName}想要买买买",
+      "packageUrl": "",
+      "style": 0
+    }
+  ]
+}

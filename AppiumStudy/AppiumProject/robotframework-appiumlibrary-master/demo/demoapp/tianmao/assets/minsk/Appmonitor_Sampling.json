@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "Appmonitor_Sampling", 
+    "catalogList": [
+        {
+            "content": {
+                "countSampling": 1000, 
+                "statSampling": 1000, 
+                "alarmSampling": 10000, 
+                "sampling": 10000
+            }, 
+            "id": 874657
+        }
+    ]
+}

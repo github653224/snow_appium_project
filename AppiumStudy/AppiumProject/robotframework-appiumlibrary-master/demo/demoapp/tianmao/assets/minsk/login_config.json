@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "login_config", 
+    "catalogList": [
+        {
+            "content": {
+                "ssoLoginEnable": true, 
+                "sdkConfig": {
+                    "useSeparateThreadpool": "true"
+                }
+            }, 
+            "id": 875250
+        }
+    ]
+}

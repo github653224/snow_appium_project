@@ -1,0 +1,83 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "mtabbar_market", 
+    "catalogList": [
+        {
+            "content": {
+                "selectedColor": "#dd2727", 
+                "iconFontPackageUrl": "http://at.alicdn.com/t/font_1470385879_9538362.ttf", 
+                "dividerColor": "#e4e4e4", 
+                "backgroundColor": "#ffffff", 
+                "items": [
+                    {
+                        "url": "//chaoshi.m.tmall.com", 
+                        "text": "\u9996\u9875", 
+                        "iconFont": true, 
+                        "nativeUrl": "tmall://page.tm/market.home", 
+                        "selectedIcon": "&#xe601;", 
+                        "isSelected": true, 
+                        "itemNativeId": "market_item_home", 
+                        "isSupportNative": true, 
+                        "id": "item_0", 
+                        "normalIcon": "&#xe600;", 
+                        "spm-cnt": "a3204.7152233.0.0"
+                    }, 
+                    {
+                        "stationed": true, 
+                        "url": "//chaoshi.m.tmall.com/welfare.htm", 
+                        "text": "\u7ffb\u724c", 
+                        "iconFont": true, 
+                        "selectedIcon": "&#xe603;", 
+                        "isSelected": false, 
+                        "itemNativeId": "market_item_welfare", 
+                        "needLogin": true, 
+                        "isSupportNative": false, 
+                        "id": "item_1", 
+                        "normalIcon": "&#xe602;", 
+                        "spm-cnt": "a3204.7929615.0.0"
+                    }, 
+                    {
+                        "url": "//pages.tmall.com/wow/chaoshi/act/brand-activity", 
+                        "text": "\u54c1\u724c\u7279\u60e0", 
+                        "iconFont": true, 
+                        "selectedIcon": "&#xe605;", 
+                        "isSelected": false, 
+                        "itemNativeId": "market_item_activity", 
+                        "isSupportNative": false, 
+                        "id": "item_2", 
+                        "normalIcon": "&#xe604;", 
+                        "spm-cnt": "a3204.7672538.0.0"
+                    }, 
+                    {
+                        "url": "https://s.m.tmall.com/m/category.htm?businessName=chaoshi", 
+                        "text": "\u5206\u7c7b", 
+                        "iconFont": true, 
+                        "pop": true, 
+                        "selectedIcon": "&#xe606;", 
+                        "itemNativeId": "market_item_category", 
+                        "isSupportNative": false, 
+                        "id": "item_3", 
+                        "normalIcon": "&#xe606;"
+                    }, 
+                    {
+                        "url": "https://chaoshi.m.tmall.com/i.htm", 
+                        "text": "\u6211\u7684", 
+                        "iconFont": true, 
+                        "selectedIcon": "&#xe609;", 
+                        "isSelected": false, 
+                        "itemNativeId": "market_item_my", 
+                        "needLogin": true, 
+                        "isSupportNative": false, 
+                        "id": "item_4", 
+                        "normalIcon": "&#xe608;", 
+                        "spm-cnt": "a3204.8135853.0.0"
+                    }
+                ], 
+                "isAnimation": false, 
+                "normalColor": "#3d4245"
+            }, 
+            "id": 874473
+        }
+    ]
+}

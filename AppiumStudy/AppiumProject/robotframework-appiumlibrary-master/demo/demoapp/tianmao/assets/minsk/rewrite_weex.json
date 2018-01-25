@@ -1,0 +1,43 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_weex", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/need\\/weex\\/container\\.html\\/?(\\?.*itemId=(\\d+).*)", 
+                "new": "tmall://page.tm/itemDetail$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875033
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/.*\\?(.*_wx_tpl=.*&_wx_virtual=true.*)", 
+                "new": "tmall://page.tm/redim?$1", 
+                "flag": 1, 
+                "comment": ""
+            }, 
+            "id": 875034
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:.*_wx_tpl=(.*))", 
+                "new": "tmall://page.tm/weexpage?_wx_tpl=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875035
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:.*wh_weex=true.*)", 
+                "new": "tmall://page.tm/weexpage?wh_weex=true&origin=$$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875036
+        }
+    ]
+}

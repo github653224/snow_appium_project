@@ -1,0 +1,79 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "profileUploadAnyway", 
+    "catalogList": [
+        {
+            "content": {
+                "key": "device.appVersion"
+            }, 
+            "id": 874602
+        }, 
+        {
+            "content": {
+                "key": "device.isLogin"
+            }, 
+            "id": 874603
+        }, 
+        {
+            "content": {
+                "key": "device.sysVersion"
+            }, 
+            "id": 874604
+        }, 
+        {
+            "content": {
+                "key": "device.location"
+            }, 
+            "id": 874605
+        }, 
+        {
+            "content": {
+                "key": "device.online"
+            }, 
+            "id": 874606
+        }, 
+        {
+            "content": {
+                "key": "device.latitude"
+            }, 
+            "id": 874607
+        }, 
+        {
+            "content": {
+                "key": "device.longitude"
+            }, 
+            "id": 874608
+        }, 
+        {
+            "content": {
+                "key": "device.province"
+            }, 
+            "id": 874609
+        }, 
+        {
+            "content": {
+                "key": "device.city"
+            }, 
+            "id": 874610
+        }, 
+        {
+            "content": {
+                "key": "device.area"
+            }, 
+            "id": 874611
+        }, 
+        {
+            "content": {
+                "key": "device.street"
+            }, 
+            "id": 874612
+        }, 
+        {
+            "content": {
+                "key": "device.address"
+            }, 
+            "id": 874613
+        }
+    ]
+}

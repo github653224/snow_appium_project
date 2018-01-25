@@ -1,0 +1,57 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "preload", 
+    "catalogList": [
+        {
+            "content": {
+                "type": "dynative", 
+                "params": {
+                    "version": "0", 
+                    "resId": "gala.index"
+                }
+            }, 
+            "id": 874393
+        }, 
+        {
+            "content": {
+                "type": "dynative", 
+                "params": {
+                    "version": "0", 
+                    "resId": "gala.jia"
+                }
+            }, 
+            "id": 874394
+        }, 
+        {
+            "content": {
+                "type": "dynative", 
+                "params": {
+                    "version": "0", 
+                    "resId": "gala.clothing"
+                }
+            }, 
+            "id": 874395
+        }, 
+        {
+            "content": {
+                "type": "dynative", 
+                "params": {
+                    "version": "0", 
+                    "resId": "gala.mei"
+                }
+            }, 
+            "id": 874396
+        }, 
+        {
+            "content": {
+                "type": "dynative", 
+                "params": {
+                    "version": "0", 
+                    "resId": "gala.3c"
+                }
+            }, 
+            "id": 874397
+        }
+    ]
+}

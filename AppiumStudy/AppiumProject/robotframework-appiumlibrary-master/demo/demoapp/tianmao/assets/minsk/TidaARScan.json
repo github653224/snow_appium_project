@@ -1,0 +1,19 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "TidaARScan", 
+    "catalogList": [
+        {
+            "content": {
+                "enable": "true", 
+                "name": "arScanPage", 
+                "bannerEndTime": "2017-09-22 23:59:59", 
+                "bannerUrl": "https://floor.ews.m.jaeapp.com/hamburger/index.html", 
+                "bannerStartTime": "2017-09-20 00:00:00", 
+                "recognizeInterval": 2000, 
+                "bannerImage": "https://img.alicdn.com/tfs/TB11nlDegMPMeJjy1XcXXXpppXa-1125-360.png"
+            }, 
+            "id": 875370
+        }
+    ]
+}

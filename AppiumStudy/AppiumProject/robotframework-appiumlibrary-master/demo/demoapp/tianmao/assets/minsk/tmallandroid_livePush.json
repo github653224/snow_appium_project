@@ -1,0 +1,37 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmallandroid_livePush", 
+    "catalogList": [
+        {
+            "content": {
+                "brand": [
+                    {
+                        "models": [
+                            "GT-N7102", 
+                            "GT-N7100"
+                        ], 
+                        "brandName": "samsung"
+                    }, 
+                    {
+                        "models": [
+                            "HUAWEI P7-L09"
+                        ], 
+                        "brandName": "Huawei"
+                    }
+                ], 
+                "pushParams": {
+                    "bitrate": 1500000, 
+                    "gop": 2, 
+                    "fps": 25
+                }, 
+                "HpushParams": {
+                    "bitrate": 1500000, 
+                    "gop": 2, 
+                    "fps": 25
+                }
+            }, 
+            "id": 875342
+        }
+    ]
+}

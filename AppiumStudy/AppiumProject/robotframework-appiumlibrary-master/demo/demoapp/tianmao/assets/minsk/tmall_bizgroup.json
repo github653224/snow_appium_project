@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_bizgroup", 
+    "catalogList": [
+        {
+            "content": {
+                "huanxin_background_color": ""
+            }, 
+            "id": 874579
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "feedback_category", 
+    "catalogList": [
+        {
+            "content": {
+                "category": [
+                    "\u529f\u80fd\u5efa\u8bae", 
+                    "\u8d2d\u4e70\u9047\u5230\u95ee\u9898", 
+                    "\u6027\u80fd\u95ee\u9898", 
+                    "\u5176\u4ed6"
+                ]
+            }, 
+            "id": 874621
+        }
+    ]
+}

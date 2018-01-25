@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_alivfs_config", 
+    "catalogList": [
+        {
+            "content": {
+                "degrade": false
+            }, 
+            "id": 875247
+        }
+    ]
+}

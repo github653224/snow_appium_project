@@ -1,0 +1,46 @@
+{
+  "name": "time",
+  "displayName": "时间任务",
+  "summary": "特定时间触发的任务",
+  "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.TimeTrigger",
+  "category": "时间",
+  "author": "fangbo",
+  "events": [
+    {
+      "name": "时间戳",
+      "desc": "这个触发器将特定时刻触发",
+      "pageName": "timeTriggerSetting",
+      "value": "timestamp"
+    },
+    {
+      "name": "每天",
+      "desc": "这个触发器将在每天的固定时间点触发",
+      "pageName": "timeTriggerSetting",
+      "value": "day"
+    },
+    {
+      "name": "每小时",
+      "desc": "这个触发器将在每小时的 :00, :15, :30, :45触发",
+      "pageName": "timeTriggerSetting",
+      "value": "hour"
+    },
+    {
+      "name": "每周",
+      "desc": "这个触发器将在每周的特定日期触发",
+      "pageName": "timeTriggerSetting",
+      "value": "week"
+    },
+    {
+      "name": "每月",
+      "desc": "这个触发器将在每月的特定日期触发",
+      "pageName": "timeTriggerSetting",
+      "value": "month"
+    },
+    {
+      "name": "每年",
+      "desc": "这个触发器将在每年的特定日期触发",
+      "pageName": "timeTriggerSetting",
+      "value": "year"
+    }
+  ]
+}

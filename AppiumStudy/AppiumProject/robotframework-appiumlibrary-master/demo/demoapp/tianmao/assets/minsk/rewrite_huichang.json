@@ -1,0 +1,52 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_huichang", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/act\\/15715\\/main\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/huichang$1", 
+                "flag": "l", 
+                "comment": "\u4f1a\u573a"
+            }, 
+            "id": 875038
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/man\\.tmall\\.com\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/huichang$1", 
+                "flag": "l", 
+                "comment": "\u4f1a\u573aMan"
+            }, 
+            "id": 875039
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/act\\/15715\\/fhc\\/?\\??(.*)?", 
+                "new": "tmall://page.tm/huichang?index=1&$1", 
+                "flag": "l", 
+                "comment": "\u4f1a\u573aTab1"
+            }, 
+            "id": 875040
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/act\\/15715\\/manday-dapei\\/?\\??(.*)?", 
+                "new": "tmall://page.tm/huichang?index=3&$1", 
+                "flag": "l", 
+                "comment": "\u4f1a\u573aTab3"
+            }, 
+            "id": 875041
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/act\\/15715\\/manday-me\\/?\\??(.*)?", 
+                "new": "tmall://page.tm/huichang?index=4&$1", 
+                "flag": "l", 
+                "comment": "\u4f1a\u573aTab4"
+            }, 
+            "id": 875042
+        }
+    ]
+}

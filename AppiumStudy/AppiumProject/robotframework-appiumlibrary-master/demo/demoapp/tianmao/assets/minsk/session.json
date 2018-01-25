@@ -1,0 +1,14 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "session", 
+    "catalogList": [
+        {
+            "content": {
+                "interval": "30", 
+                "isOpen": true
+            }, 
+            "id": 874389
+        }
+    ]
+}

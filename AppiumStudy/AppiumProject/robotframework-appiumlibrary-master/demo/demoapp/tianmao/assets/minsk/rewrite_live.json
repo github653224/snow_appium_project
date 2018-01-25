@@ -1,0 +1,87 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_live", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/hotspot\\/act\\/tmall-live-player\\/?(\\?.*isVR=.*)", 
+                "new": "tmall://page.tm/LiveVRPlay$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875098
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/hotspot\\/act\\/tmall-live-player\\/?(\\?.*isSplit=.*)", 
+                "new": "tmall://page.tm/LiveVRPlayLand$1&__meta__=%7B%22navType%22%3A1%7D", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875099
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/pages\\.tmall\\.com\\/wow\\/hotspot\\/act\\/tmall-live-player\\/?(\\?.*presentType=fullscreenplay.*)", 
+                "new": "tmall://page.tm/fullscreenplay$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875100
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/hotspot\\/act\\/tmall-live-player\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/LivePlay$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875101
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/hotspot\\/act\\/tmalllive-vh-player\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/LivePlayVertical$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875102
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/party16\\.tmall\\.com\\/((night_t|night_h|night_n).*)", 
+                "new": "tmall://page.tm/$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875103
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/huodong\\.m\\.taobao\\.com\\/act\\/talent\\/live.html\\/?(\\?.*screenOrientation=landscape.*)", 
+                "new": "tmall://page.tm/LivePlay$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875104
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/huodong\\.m\\.taobao\\.com\\/act\\/talent\\/live.html\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/LivePlayVertical$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875105
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/taolive\\/video\\.html(.*)?", 
+                "new": "tmall://page.tm/taobaolive$1", 
+                "flag": 1
+            }, 
+            "id": 875106
+        }
+    ]
+}

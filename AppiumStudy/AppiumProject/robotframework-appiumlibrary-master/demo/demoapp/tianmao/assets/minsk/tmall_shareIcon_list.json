@@ -1,0 +1,111 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tmall_shareIcon_list", 
+    "catalogList": [
+        {
+            "content": {
+                "quickCopySwitch": true, 
+                "shareOfferCodeDrawASAC": "D89CX5GWDV8R9Q4BE1HN", 
+                "shareBenefitWhiteList": [
+                    "shop", 
+                    "detail"
+                ], 
+                "shareBasicConfig": {
+                    "hasBenefitNew": "true", 
+                    "fanIconNew": "true", 
+                    "shopbackimage": "https://img.alicdn.com/tps/TB16N8EOpXXXXbnXVXXXXXXXXXX-654-654.png"
+                }, 
+                "iconList0": [
+                    {
+                        "default": true, 
+                        "type": 4, 
+                        "badge": "", 
+                        "name": "\u5fae\u4fe1", 
+                        "icon": "share_icon_weixin"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 6, 
+                        "badge": "", 
+                        "name": "\u670b\u53cb\u5708", 
+                        "icon": "share_icon_pengyouquan"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 15, 
+                        "badge": "", 
+                        "name": "QQ", 
+                        "icon": "share_icon_qq"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 1, 
+                        "badge": "", 
+                        "name": "\u5fae\u535a", 
+                        "icon": "share_icon_weibo"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 14, 
+                        "badge": "", 
+                        "name": "\u652f\u4ed8\u5b9d\u597d\u53cb", 
+                        "icon": "share_icon_zhifubao"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 9, 
+                        "badge": "", 
+                        "name": "\u77ed\u4fe1", 
+                        "icon": "share_icon_sms"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 7, 
+                        "badge": "", 
+                        "name": "\u6765\u5f80\u52a8\u6001", 
+                        "icon": "share_icon_laiwangdongtai"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 2, 
+                        "badge": "", 
+                        "name": "\u6765\u5f80\u597d\u53cb", 
+                        "icon": "share_icon_laiwang"
+                    }
+                ], 
+                "iconList1": [
+                    {
+                        "default": true, 
+                        "type": 18, 
+                        "badge": "", 
+                        "name": "\u590d\u5236\u53e3\u4ee4", 
+                        "icon": "share_icon_miaokouling"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 11, 
+                        "badge": "", 
+                        "name": "\u4e8c\u7ef4\u7801", 
+                        "icon": "share_icon_qrcode"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 17, 
+                        "badge": "", 
+                        "name": "\u590d\u5236\u94fe\u63a5", 
+                        "icon": "share_icon_copy_link"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 22, 
+                        "badge": "", 
+                        "name": "\u58f0\u6ce2\u5206\u4eab", 
+                        "icon": "share_icon_sonic"
+                    }
+                ]
+            }, 
+            "id": 874433
+        }
+    ]
+}

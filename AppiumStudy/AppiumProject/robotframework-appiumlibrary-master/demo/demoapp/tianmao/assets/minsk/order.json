@@ -1,0 +1,32 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "order", 
+    "catalogList": [
+        {
+            "content": {
+                "orderAppVersion": "2.0", 
+                "orderAppName": "tmallorder", 
+                "orderTrackUrlList": [
+                    "h5.m.taobao.com/mlapp/mytaobao.html", 
+                    "h5.m.taobao.com/trade/paySuccess.html"
+                ], 
+                "confirm_callback_url": "http://buy.m.tmall.com/order/wapTradeSuccess.htm?bizOrderId=", 
+                "pay_buy_error_url": "tmall://page.tm/orderList?orderType=4", 
+                "serviceItemCanClick": false, 
+                "hideRecommend": "false", 
+                "cart_url": "", 
+                "recommend": {
+                    "crowdMax": "0", 
+                    "personalHallCount": "2", 
+                    "page": "1", 
+                    "pageCount": "50"
+                }, 
+                "cainiao_service_url": "https://h5.m.taobao.com/guoguo/cn-league/index.html?serviceIds=${serviceIds}", 
+                "hide_logistics_complain": false, 
+                "pay_callback_url": "http://buy.m.tmall.com/order/wapPaySuccess.htm?_wx_tpl=http://g.alicdn.com/buy/wx-pay-m/0.2.6/app.weex.js&bizOrderId="
+            }, 
+            "id": 874416
+        }
+    ]
+}

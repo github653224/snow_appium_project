@@ -1,0 +1,13 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "appNeedSpeedExit", 
+    "catalogList": [
+        {
+            "content": {
+                "need": 1
+            }, 
+            "id": 874357
+        }
+    ]
+}

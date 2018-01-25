@@ -1,0 +1,96 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "jarvis_config", 
+    "catalogList": [
+        {
+            "content": {
+                "match_config": {
+                    "kouling_cache_time": "256400", 
+                    "max_match_length": "14", 
+                    "pinyin_weight": "0.01", 
+                    "distance_threshold": "5", 
+                    "distance_rate": "0.20"
+                }, 
+                "nav_config": {
+                    "no_video": "poplayer", 
+                    "video_portrait": "interact", 
+                    "video_landscape": "interact"
+                }, 
+                "kouling_pinyin": [
+                    {
+                        "url": "https://dtmall-tel.alicdn.com/minsk/online/fileware/201703/34cd462a-4708-4ad4-bc2e-170dc83fa18f", 
+                        "type": "plain", 
+                        "name": "\u5bfc\u822a"
+                    }, 
+                    {
+                        "url": "https://dtmall-tel.alicdn.com/minsk/online/fileware/201704/7e935cec-b803-4559-81c9-c5fa93e376b2", 
+                        "type": "plain", 
+                        "name": "hongbao"
+                    }, 
+                    {
+                        "url": "http://dtmall-tel.alicdn.com/fileware/811db3984c00fee6e256bde76b057c42", 
+                        "type": "plain", 
+                        "name": "odpsdata", 
+                        "time": "2016-08-12 16:43:27"
+                    }
+                ], 
+                "whitelist": [
+                    "TmallSelected", 
+                    "TMLivePlay", 
+                    "LivePlay", 
+                    "FrontPage", 
+                    "FrontBPage", 
+                    "MyTmall", 
+                    "MyStreetMain", 
+                    "MyStreetDiscovery", 
+                    "myStreet", 
+                    "FunHome", 
+                    "ShoppingCart", 
+                    "Shop", 
+                    "Detail", 
+                    "Gray"
+                ], 
+                "ui_config": {
+                    "show_stream_text": "true", 
+                    "show_tip": "true", 
+                    "long_press_duration": "1.2", 
+                    "show_guide": true
+                }, 
+                "degrade": {
+                    "use_mtop": false
+                }, 
+                "ui_texts": {
+                    "recording_title": "\u8bf7\u8bf4\u53e3\u4ee4\uff0c\u6b63\u5728\u8046\u542c...", 
+                    "fail_title": "\u5bf9\u4e0d\u8d77\uff0c\u627e\u4e0d\u5230\u7ed3\u679c\uff0c\u8bf7\u6309\u4f4f\u9ea6\u514b\u98ce\u91cd\u8bd5", 
+                    "helper": "\u60a8\u7684\u957f\u6309\u53ec\u5524\u51fa\u4e86\u8bed\u97f3\u52a9\u624b", 
+                    "recording_subtitle": "\u677e\u5f00\u8bc6\u522b\u53e3\u4ee4 \u4e0a\u5212\u53d6\u6d88", 
+                    "unauth_title": "\u55b5~ \u672a\u53d6\u5f97\u5f55\u97f3\u6388\u6743!\u8bf7\u5230\u8bbe\u7f6e\u4e2d\u6253\u5f00", 
+                    "sytem_time_error_title": "\u65f6\u95f4\u6821\u9a8c\u5931\u8d25\uff0c\u8bf7\u68c0\u67e5\u624b\u673a\u65f6\u95f4", 
+                    "record_too_short_title": "\u8bf4\u8bdd\u65f6\u95f4\u592a\u77ed\u5566\uff01 \u8bf7\u6309\u4f4f\u8bdd\u7b52\u91cd\u8bd5", 
+                    "tips": [
+                        {
+                            "content": "\u641c\u7d22***", 
+                            "prefix": "\u60f3\u641c\u7d22\u5546\u54c1\uff1f\u8bd5\u8bd5\u558a"
+                        }, 
+                        {
+                            "content": "\u6253\u5f00\u6536\u85cf\u5939", 
+                            "prefix": "\u5feb\u901f\u627e\u9891\u9053\uff1f\u53ef\u4ee5\u8bf4"
+                        }
+                    ], 
+                    "default_title": "\u55b5~ \u8bf7\u6309\u4f4f\u9ea6\u514b\u98ce\u8bf4\u53e3\u4ee4", 
+                    "recognizing_title": "\u6b63\u5728\u8bc6\u522b..."
+                }, 
+                "aliyun_asr": {
+                    "asr_in": "tmallandroid", 
+                    "app_key": "tmall001-android-streaming", 
+                    "svc_url": "ws://nls.dataapi.aliyun.com", 
+                    "ak_secret": "XeVt9WO4jkaBzeFJh24KNjjTYu7Zoq", 
+                    "ak_id": "XWA9b61eN8qp9uv8", 
+                    "vad_on": "false"
+                }
+            }, 
+            "id": 874661
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tm_fps_track", 
+    "catalogList": [
+        {
+            "content": {
+                "shop": {
+                    "commit": 5, 
+                    "open": true, 
+                    "period": 500
+                }, 
+                "search": {
+                    "commit": 25, 
+                    "open": true, 
+                    "period": 500
+                }, 
+                "global": true, 
+                "myStreet": {
+                    "commit": 5, 
+                    "open": true, 
+                    "period": 500
+                }
+            }, 
+            "id": 874595
+        }
+    ]
+}

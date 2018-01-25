@@ -1,0 +1,13 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tmall_mage", 
+    "catalogList": [
+        {
+            "content": {
+                "switch": true
+            }, 
+            "id": 874432
+        }
+    ]
+}

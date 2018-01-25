@@ -1,0 +1,46 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "Update_Apk_Config_New", 
+    "catalogList": [
+        {
+            "content": {
+                "install_force": {
+                    "msg": "", 
+                    "bottom": "", 
+                    "subtitle": "", 
+                    "confirm": "", 
+                    "title": ""
+                }, 
+                "enable": true, 
+                "dialogFrequency": {
+                    "minIntervalHour": 12, 
+                    "cycleDay": 1, 
+                    "maxShowTime": 2
+                }, 
+                "download_force": {
+                    "msg": "", 
+                    "bottom": "", 
+                    "subtitle": "", 
+                    "confirm": "", 
+                    "title": ""
+                }, 
+                "install": {
+                    "msg": "", 
+                    "bottom": "", 
+                    "subtitle": "", 
+                    "confirm": "", 
+                    "title": ""
+                }, 
+                "download": {
+                    "msg": "", 
+                    "bottom": "", 
+                    "subtitle": "", 
+                    "confirm": "", 
+                    "title": ""
+                }
+            }, 
+            "id": 875347
+        }
+    ]
+}

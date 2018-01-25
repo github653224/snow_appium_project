@@ -1,0 +1,73 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "bundleInterceptionConfig", 
+    "catalogList": [
+        {
+            "content": [
+                {
+                    "name": "detail", 
+                    "url": "http://detail.m.tmall.com/item.htm?id=", 
+                    "param": "itemId", 
+                    "isCrash": false, 
+                    "activity": "com.tmall.wireless.detail.ui.TMItemDetailsActivity", 
+                    "isEffect": true
+                }, 
+                {
+                    "name": "shop", 
+                    "url": "http://shop.m.tmall.com/shop/shop_index.htm?shop_id=", 
+                    "param": "shopId", 
+                    "isCrash": false, 
+                    "activity": "com.tmall.wireless.shop.TMShopActivity", 
+                    "isEffect": true
+                }, 
+                {
+                    "url": "https://s.m.tmall.com/m/searchbar.htm", 
+                    "isEffect": true, 
+                    "name": "search", 
+                    "isCrash": false, 
+                    "activity": "com.tmall.wireless.module.search.xbiz.input.activity.TMSearchInputActivity"
+                }, 
+                {
+                    "name": "search", 
+                    "url": "https://s.m.tmall.com/m/search.htm", 
+                    "isCrash": false, 
+                    "params": "keyword:q,cat:cat,brandId:brand,prop:prop,auctionTag:auction_tag:startPrice:start_price,endPrice:end_price", 
+                    "activity": "com.tmall.wireless.module.search.searchResult.TMSearchResultActivity", 
+                    "isEffect": true
+                }, 
+                {
+                    "name": "search", 
+                    "url": "https://s.m.tmall.com/chaoshi.htm", 
+                    "isCrash": false, 
+                    "params": "keyword:q,cat:cat,brandId:brand,prop:prop,auctionTag:auction_tag:startPrice:start_price,endPrice:end_price", 
+                    "activity": "com.tmall.wireless.module.search.xbiz.supermarket.TMSearchMarketActivity", 
+                    "isEffect": true
+                }, 
+                {
+                    "url": "https://m.tmall.com", 
+                    "isEffect": true, 
+                    "name": "maintab", 
+                    "isCrash": false, 
+                    "activity": "com.tmall.wireless.maintab.module.TMMainTabActivity"
+                }, 
+                {
+                    "name": "venue", 
+                    "url": "http://www.tmall.com/wow/portal/act/app-tmall-err-302?index=", 
+                    "param": "index", 
+                    "isCrash": false, 
+                    "activity": "com.tmall.wireless.venue.activity.TMVenueActivity", 
+                    "isEffect": true
+                }, 
+                {
+                    "url": "https://chaoshi.m.tmall.com", 
+                    "isEffect": true, 
+                    "name": "market", 
+                    "isCrash": false, 
+                    "activity": "com.tmall.market.plugin.main.MainTabActivity"
+                }
+            ], 
+            "id": 874427
+        }
+    ]
+}

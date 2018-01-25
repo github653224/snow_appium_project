@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171217 12:38:56.130" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\AppiumProject\robotframework-appiumlibrary-master\demo\test_android_contact_resource.robot" id="s1" name="Test Android Contact Resource">
+<test id="s1-t1" name="Test Procetrue">
+<kw name="add new contact">
+<arguments>
+<arg>panxueyan</arg>
+<arg>18910193189</arg>
+<arg>944851899@qq.com</arg>
+</arguments>
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=192.168.58.101:5555</arg>
+<arg>app=${APP}</arg>
+<arg>automationName=appium</arg>
+<arg>appPackage=com.example.android.contactmanager</arg>
+</arguments>
+<status status="PASS" endtime="20171217 12:39:17.597" starttime="20171217 12:38:56.468"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Add Contact</arg>
+</arguments>
+<msg timestamp="20171217 12:39:17.598" level="INFO">Clicking element 'accessibility_id=Add Contact'.</msg>
+<status status="PASS" endtime="20171217 12:39:18.893" starttime="20171217 12:39:17.598"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=com.example.android.contactmanager:id/contactNameEditText</arg>
+<arg>${contact_name}</arg>
+</arguments>
+<msg timestamp="20171217 12:39:18.895" level="INFO">Typing text 'panxueyan' into text field 'id=com.example.android.contactmanager:id/contactNameEditText'</msg>
+<status status="PASS" endtime="20171217 12:39:25.995" starttime="20171217 12:39:18.894"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=com.example.android.contactmanager:id/contactPhoneEditText</arg>
+<arg>${contact_phone}</arg>
+</arguments>
+<msg timestamp="20171217 12:39:25.996" level="INFO">Typing text '18910193189' into text field 'id=com.example.android.contactmanager:id/contactPhoneEditText'</msg>
+<status status="PASS" endtime="20171217 12:39:32.485" starttime="20171217 12:39:25.995"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=com.example.android.contactmanager:id/contactEmailEditText</arg>
+<arg>${contact_email}</arg>
+</arguments>
+<msg timestamp="20171217 12:39:32.486" level="INFO">Typing text '944851899@qq.com' into text field 'id=com.example.android.contactmanager:id/contactEmailEditText'</msg>
+<status status="PASS" endtime="20171217 12:39:39.603" starttime="20171217 12:39:32.485"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Save</arg>
+</arguments>
+<msg timestamp="20171217 12:39:39.604" level="INFO">Clicking element 'accessibility_id=Save'.</msg>
+<status status="PASS" endtime="20171217 12:39:43.790" starttime="20171217 12:39:39.603"></status>
+</kw>
+<status status="PASS" endtime="20171217 12:39:43.790" starttime="20171217 12:38:56.467"></status>
+</kw>
+<status status="PASS" endtime="20171217 12:39:43.791" critical="yes" starttime="20171217 12:38:56.466"></status>
+</test>
+<status status="PASS" endtime="20171217 12:39:43.794" starttime="20171217 12:38:56.140"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test Android Contact Resource" pass="1">Test Android Contact Resource</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

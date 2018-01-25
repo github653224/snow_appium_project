@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "test_module", 
+    "catalogList": [
+        {
+            "content": {
+                "1": 1
+            }, 
+            "id": 875336
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "webViewSettings", 
+    "catalogList": [
+        {
+            "content": {
+                "needShowCartBtn": true, 
+                "degradeType": "wv", 
+                "degradeUrls": [], 
+                "cartBtnStyle": "{\"icon\":\"&#xe798\",\"iconFont\":\"true\",\"style\":{\"iconColor\":\"#5F646E\"},\"resUrl\":\"https:\\/\\/at.alicdn.com\\/t\\/font_72cjlf45nt5wxw29.ttf\"}", 
+                "systemCore": false, 
+                "loginReg": "^(http[s]?:)//((login.taobao.com/member/login.jhtml)|(login.m.taobao.com/login.htm)|(login.tmall.com)).*", 
+                "postHost": [
+                    "//d.m.taobao.com/"
+                ]
+            }, 
+            "id": 874360
+        }
+    ]
+}

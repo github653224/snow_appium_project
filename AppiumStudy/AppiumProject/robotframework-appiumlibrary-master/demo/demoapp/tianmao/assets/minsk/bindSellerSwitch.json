@@ -1,0 +1,13 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "bindSellerSwitch", 
+    "catalogList": [
+        {
+            "content": {
+                "bind": true
+            }, 
+            "id": 874418
+        }
+    ]
+}

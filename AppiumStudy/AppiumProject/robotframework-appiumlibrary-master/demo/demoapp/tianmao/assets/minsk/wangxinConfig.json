@@ -1,0 +1,14 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "wangxinConfig", 
+    "catalogList": [
+        {
+            "content": {
+                "isJumpToWangxinApp": "1", 
+                "version": "5.0.0"
+            }, 
+            "id": 874359
+        }
+    ]
+}

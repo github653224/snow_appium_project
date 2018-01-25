@@ -1,0 +1,158 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "TMMainTab", 
+    "catalogList": [
+        {
+            "content": {
+                "tabBarConfig": {
+                    "textSelectedColor": "#DD2727", 
+                    "bgImage": "", 
+                    "bgColor": "#ffffff", 
+                    "textNormalColor": "#999999", 
+                    "iconNormalColor": "#5F646E", 
+                    "itemsByTag": [
+                        {
+                            "iconfontSelected": "e68b", 
+                            "iconfontNormal": "e67f", 
+                            "jumpUrl": "", 
+                            "tag": "home", 
+                            "intent": "tmall://page.tm/mainTabHomePage", 
+                            "title": "\u5929\u732b", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "iconfontSelected": "e68f", 
+                            "iconfontNormal": "e68e", 
+                            "jumpUrl": "", 
+                            "tag": "myStreet", 
+                            "intent": "tmall://page.tm/myStreet", 
+                            "title": "\u5173\u6ce8", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "iconfontSelected": "e68f", 
+                            "iconfontNormal": "e68e", 
+                            "jumpUrl": "", 
+                            "tag": "fansPa", 
+                            "intent": "tmall://page.tm/fansPa", 
+                            "title": "\u7c89\u4e1d\u8db4", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "iconfontSelected": "e6bc", 
+                            "iconfontNormal": "e6a0", 
+                            "jumpUrl": "", 
+                            "tag": "fun", 
+                            "intent": "tmall://page.tm/funMainPage?pageType=Fun", 
+                            "title": "\u8303\u513f", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "tabSwitchPath": "fun", 
+                            "title": "\u5929\u732b\u76f4\u64ad", 
+                            "iconfontNormal": "e781", 
+                            "iconfontSelected": "e780", 
+                            "jumpUrl": "", 
+                            "tag": "live", 
+                            "intent": "tmall://page.tm/funMainPage?pageType=Live", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "tabSwitchPath": "fun", 
+                            "title": "\u53cc11\u76f4\u64ad", 
+                            "iconfontNormal": "e781", 
+                            "iconfontSelected": "e780", 
+                            "jumpUrl": "https://pages.tmall.com/wow/mit/act/20161111-live?wh_weex=false", 
+                            "tag": "live-h5-1111", 
+                            "intent": "", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "tabSwitchPath": "fun", 
+                            "title": "\u53cc11\u76f4\u64ad", 
+                            "iconfontNormal": "e781", 
+                            "iconfontSelected": "e780", 
+                            "jumpUrl": "https://pages.tmall.com/wow/mit/act/20161111-live?wh_weex=true", 
+                            "tag": "live-weex-1111", 
+                            "intent": "", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "iconfontSelected": "e69a", 
+                            "iconfontNormal": "e66d", 
+                            "jumpUrl": "", 
+                            "tag": "cart", 
+                            "intent": "tmall://page.tm/cart", 
+                            "title": "\u8d2d\u7269\u8f66", 
+                            "forceLogin": true
+                        }, 
+                        {
+                            "iconfontSelected": "e696", 
+                            "iconfontNormal": "e695", 
+                            "jumpUrl": "", 
+                            "tag": "myTmall", 
+                            "intent": "tmall://page.tm/myTmall", 
+                            "title": "\u6211", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "tabSwitchPath": "fun", 
+                            "title": "\u53cc11\u665a\u4f1a", 
+                            "iconfontNormal": "e781", 
+                            "iconfontSelected": "e780", 
+                            "jumpUrl": "https://pages.tmall.com/wow/lafite/act/wh", 
+                            "tag": "party-1111", 
+                            "intent": "", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "tabSwitchPath": "fun", 
+                            "title": "\u53cc11\u76f4\u64ad", 
+                            "iconfontNormal": "e781", 
+                            "iconfontSelected": "e780", 
+                            "jumpUrl": "https://pages.tmall.com/wow/mit/act/20161111-livevenue?wh_weex=false", 
+                            "tag": "live-h5-1111-venue", 
+                            "intent": "", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "tabSwitchPath": "fun", 
+                            "title": "\u53cc11\u76f4\u64ad", 
+                            "iconfontNormal": "e781", 
+                            "iconfontSelected": "e780", 
+                            "jumpUrl": "https://pages.tmall.com/wow/mit/act/20161111-livevenue?wh_weex=true", 
+                            "tag": "live-weex-1111-venue", 
+                            "intent": "", 
+                            "forceLogin": false
+                        }
+                    ], 
+                    "iconSelectedColor": "#DD2727"
+                }, 
+                "baseLayout": [
+                    {
+                        "tag": "home", 
+                        "module": "tab.0"
+                    }, 
+                    {
+                        "tag": "myStreet", 
+                        "module": "tab.1"
+                    }, 
+                    {
+                        "tag": "live", 
+                        "module": "tab.2"
+                    }, 
+                    {
+                        "tag": "cart", 
+                        "module": "tab.3"
+                    }, 
+                    {
+                        "tag": "myTmall", 
+                        "module": "tab.4"
+                    }
+                ]
+            }, 
+            "id": 874662
+        }
+    ]
+}

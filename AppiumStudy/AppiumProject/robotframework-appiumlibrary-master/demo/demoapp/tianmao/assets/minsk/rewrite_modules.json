@@ -1,0 +1,295 @@
+{
+    "json": false, 
+    "version": 1, 
+    "name": "rewrite_modules", 
+    "catalogList": [
+        {
+            "content": {
+                "name": "rewrite_header"
+            }, 
+            "id": 875181
+        }, 
+        {
+            "content": {
+                "name": "downgrade_rewrite_fanspa"
+            }, 
+            "id": 875182
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_shop"
+            }, 
+            "id": 875183
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_search"
+            }, 
+            "id": 875184
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_weex"
+            }, 
+            "id": 875185
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_wx"
+            }, 
+            "id": 875186
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_live"
+            }, 
+            "id": 875187
+        }, 
+        {
+            "content": {
+                "name": "downgrade_rewrite_chaoshi"
+            }, 
+            "id": 875188
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_detail"
+            }, 
+            "id": 875189
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_trade"
+            }, 
+            "id": 875190
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_cart"
+            }, 
+            "id": 875191
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_shopfav"
+            }, 
+            "id": 875192
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_coupon"
+            }, 
+            "id": 875193
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_itemfav"
+            }, 
+            "id": 875194
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_msgbox"
+            }, 
+            "id": 875195
+        }, 
+        {
+            "content": {
+                "xxname": "downgrade_rewrite_scan"
+            }, 
+            "id": 875196
+        }, 
+        {
+            "content": {
+                "name": "rewrite_neck"
+            }, 
+            "id": 875197
+        }, 
+        {
+            "content": {
+                "name": "rewrite_webview"
+            }, 
+            "id": 875198
+        }, 
+        {
+            "content": {
+                "name": "rewrite_weex"
+            }, 
+            "id": 875199
+        }, 
+        {
+            "content": {
+                "name": "rewrite_tab"
+            }, 
+            "id": 875200
+        }, 
+        {
+            "content": {
+                "name": "rewrite_weapp"
+            }, 
+            "id": 875201
+        }, 
+        {
+            "content": {
+                "name": "rewrite_market"
+            }, 
+            "id": 875202
+        }, 
+        {
+            "content": {
+                "name": "rewrite_huichang"
+            }, 
+            "id": 875203
+        }, 
+        {
+            "content": {
+                "name": "rewrite_detail"
+            }, 
+            "id": 875204
+        }, 
+        {
+            "content": {
+                "name": "rewrite_jinkou"
+            }, 
+            "id": 875205
+        }, 
+        {
+            "content": {
+                "name": "rewrite_mlh"
+            }, 
+            "id": 875206
+        }, 
+        {
+            "content": {
+                "name": "rewrite_miao"
+            }, 
+            "id": 875207
+        }, 
+        {
+            "content": {
+                "name": "rewrite_ziying"
+            }, 
+            "id": 875208
+        }, 
+        {
+            "content": {
+                "name": "rewrite_shop"
+            }, 
+            "id": 875209
+        }, 
+        {
+            "content": {
+                "name": "rewrite_search"
+            }, 
+            "id": 875210
+        }, 
+        {
+            "content": {
+                "name": "rewrite_cart"
+            }, 
+            "id": 875211
+        }, 
+        {
+            "content": {
+                "name": "rewrite_profile"
+            }, 
+            "id": 875212
+        }, 
+        {
+            "content": {
+                "name": "rewrite_message"
+            }, 
+            "id": 875213
+        }, 
+        {
+            "content": {
+                "name": "rewrite_order"
+            }, 
+            "id": 875214
+        }, 
+        {
+            "content": {
+                "name": "rewrite_juhuasuan"
+            }, 
+            "id": 875215
+        }, 
+        {
+            "content": {
+                "name": "rewrite_live"
+            }, 
+            "id": 875216
+        }, 
+        {
+            "content": {
+                "name": "rewrite_fanspa"
+            }, 
+            "id": 875217
+        }, 
+        {
+            "content": {
+                "name": "rewrite_huanxin"
+            }, 
+            "id": 875218
+        }, 
+        {
+            "content": {
+                "name": "rewrite_shenghuojia"
+            }, 
+            "id": 875219
+        }, 
+        {
+            "content": {
+                "name": "rewrite_fun"
+            }, 
+            "id": 875220
+        }, 
+        {
+            "content": {
+                "name": "rewrite_fushi"
+            }, 
+            "id": 875221
+        }, 
+        {
+            "content": {
+                "name": "rewrite_topbrand"
+            }, 
+            "id": 875222
+        }, 
+        {
+            "content": {
+                "name": "rewrite_interactive"
+            }, 
+            "id": 875223
+        }, 
+        {
+            "content": {
+                "name": "rewrite_lightpage"
+            }, 
+            "id": 875224
+        }, 
+        {
+            "content": {
+                "name": "rewrite_kol"
+            }, 
+            "id": 875225
+        }, 
+        {
+            "content": {
+                "name": "rewrite_leg"
+            }, 
+            "id": 875226
+        }, 
+        {
+            "content": {
+                "name": "rewrite_footer"
+            }, 
+            "id": 875227
+        }, 
+        {
+            "content": {
+                "name": "rewrite_thera"
+            }, 
+            "id": 875228
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_assistant", 
+    "catalogList": [
+        {
+            "content": {
+                "sessionUpdateDisabled": "false"
+            }, 
+            "id": 874618
+        }
+    ]
+}

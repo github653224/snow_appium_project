@@ -1,0 +1,41 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "Bifrost", 
+    "catalogList": [
+        {
+            "content": {
+                "rules": [
+                    {
+                        "enable": true, 
+                        "ruleId": "2016-04-11 19:32 ali_teleport_feedback", 
+                        "conditions": {
+                            "page": "All", 
+                            "network": {
+                                "ssid": "alibaba-inc"
+                            }
+                        }, 
+                        "invokers": [
+                            {
+                                "identifier": "teleport", 
+                                "data": {
+                                    "data": {
+                                        "action": "tmall://component.tm/snapshotFeedback", 
+                                        "position": "100_flex_flex_0_40_40", 
+                                        "url": "https://img.alicdn.com/tps/TB1a0ZdJXXXXXXEXFXXXXXXXXXX-96-96.png", 
+                                        "isGif": false
+                                    }, 
+                                    "teleportType": "TeleportFloat"
+                                }
+                            }
+                        ], 
+                        "desc": "\u5185\u7f51\u4e0b\uff1a\u6d6e\u70b9\uff0b\u622a\u5c4f\u53cd\u9988"
+                    }
+                ], 
+                "enable": true, 
+                "event": "page"
+            }, 
+            "id": 874598
+        }
+    ]
+}

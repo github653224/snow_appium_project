@@ -1,0 +1,111 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_shop", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^tmall:\\/\\/page\\.tm/shop\\/?\\?(.*(shopId=130766898|user_id=2653351646|sellerId=2653351646).*)", 
+                "new": "//miao.m.tmall.com?$1", 
+                "flag": "l"
+            }, 
+            "id": 875306
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/mxs(\\.m)?\\.tmall\\.com(.*)", 
+                "new": "//miao.m.tmall.com$2", 
+                "flag": "l"
+            }, 
+            "id": 875307
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//shop130766898(\\.m)*(\\.wapa)*\\.taobao\\.com(.*)", 
+                "new": "//miao.m.tmall.com$3", 
+                "flag": "l"
+            }, 
+            "id": 875308
+        }, 
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page\\.tm\\/(?:shop|shopCategory)\\/?.*([\\?&](?:shopId|shop_id)=(\\d+))", 
+                "new": "//shop$2.m.taobao.com", 
+                "flag": "l"
+            }, 
+            "id": 875309
+        }, 
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page\\.tm\\/(?:shop|shopCategory)\\/?.*([\\?&](?:sellerId|user_id)=(\\d+))", 
+                "new": "//store.taobao.com/shop/view_shop.htm?user_number_id=$2", 
+                "flag": "l"
+            }, 
+            "id": 875310
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(wapp|h5)\\.(m|waptest|wapa)\\.taobao\\.com/weapp/view_page\\.htm(.*[\\?&]page=(shop/activity|tmallshop/tmall_individual|shop/act_detail).*)", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875311
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(\\w+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)/shop/shop_index.htm([\\?&]shop_id=(\\d+)|[\\?&](user_id|user_number_id)=(\\d+)|[\\?&]nick=((%(\\w\\w)|\\w)+))", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875312
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(shop|store)(\\.m)?\\.(taobao|tmall)\\.com/shop(/(shop_index|shopindex|shopIndex|view_shop))?\\.htm.*([\\?&]shop_id=(\\d+)|[\\?&](user_id|user_number_id|userId)=(\\d+)|[\\?&]nick=((%(\\w\\w)|\\w)+))", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875313
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop(\\d+)(\\.m)*(\\.wapa)?.taobao\\.com", 
+                "new": "//shop$1.m.taobao.com?shop_id=$1", 
+                "flag": "l"
+            }, 
+            "id": 875314
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(\\w+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)/(shop/shop_index|shop/view|view_shop|index\\.htm)", 
+                "new": "//shop$shopid.m.taobao.com?shopId=$shopid", 
+                "flag": "l,s"
+            }, 
+            "id": 875315
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//([\\w|-]+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)", 
+                "new": "//shop$shopid.m.taobao.com?shopId=$shopid", 
+                "flag": "l,s"
+            }, 
+            "id": 875316
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(\\w+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)/shop/shop_auction_search\\.htm(\\?(.*([\\?&]scid=(\\d+)).*))?", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875317
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//shop(\\d+)(\\.m)?(\\.wapa)?\\.taobao\\.com\\/?.*?([\\?&]catId=(\\d+))?.*?#list.*?([\\?&]catId=(\\d+))?", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875318
+        }
+    ]
+}

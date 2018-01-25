@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "configcenter_dynamic", 
+    "catalogList": [
+        {
+            "content": {
+                "cdnUrl": "https://dtmall-tel.alicdn.com/source/conf-online-tmall-android-#version#.json"
+            }, 
+            "id": 874488
+        }
+    ]
+}

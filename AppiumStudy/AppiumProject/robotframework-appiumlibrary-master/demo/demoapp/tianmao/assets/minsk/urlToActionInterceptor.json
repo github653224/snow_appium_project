@@ -1,0 +1,13 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "urlToActionInterceptor", 
+    "catalogList": [
+        {
+            "content": {
+                "http://www.tmall.com/go/fun/promotion-act/VideoEntrance.php": "internal:url=tmall://mobile.tmall.com/page/bsVideoEntrance"
+            }, 
+            "id": 874378
+        }
+    ]
+}

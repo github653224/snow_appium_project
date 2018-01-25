@@ -1,0 +1,24 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_profile", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/lafite\\/act\\/shoping-list-detail\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/ShopListDetail$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875074
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/awp\\/coupon\\/list\\.htm\\/?\\?.*couponType=1.*", 
+                "new": "tmall://page.tm/myCoupon#needLogin", 
+                "flag": "l"
+            }, 
+            "id": 875075
+        }
+    ]
+}

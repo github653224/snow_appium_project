@@ -1,0 +1,70 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "performanceConfig", 
+    "catalogList": [
+        {
+            "content": {
+                "type": "masterSwitch", 
+                "masterSwitch": 1, 
+                "numberForPercent": 100
+            }, 
+            "id": 874380
+        }, 
+        {
+            "content": {
+                "countsViaWWan": 10, 
+                "countsViaWifi": 20, 
+                "time": 240, 
+                "swith": 1, 
+                "type": "imageType", 
+                "numberForPercent": 100
+            }, 
+            "id": 874381
+        }, 
+        {
+            "content": {
+                "countsViaWWan": 100, 
+                "countsViaWifi": 1000, 
+                "time": 240, 
+                "swith": 1, 
+                "type": "netWorkType", 
+                "numberForPercent": 100
+            }, 
+            "id": 874382
+        }, 
+        {
+            "content": {
+                "countsViaWWan": 1000, 
+                "countsViaWifi": 1000, 
+                "time": 240, 
+                "swith": 1, 
+                "type": "pageType", 
+                "numberForPercent": 100
+            }, 
+            "id": 874383
+        }, 
+        {
+            "content": {
+                "countsViaWWan": 1000, 
+                "countsViaWifi": 1000, 
+                "time": 240, 
+                "swith": 1, 
+                "type": "launchType", 
+                "numberForPercent": 100
+            }, 
+            "id": 874384
+        }, 
+        {
+            "content": {
+                "countsViaWWan": 100, 
+                "countsViaWifi": 1000, 
+                "time": 240, 
+                "swith": 0, 
+                "type": "otherType", 
+                "numberForPercent": 100
+            }, 
+            "id": 874385
+        }
+    ]
+}

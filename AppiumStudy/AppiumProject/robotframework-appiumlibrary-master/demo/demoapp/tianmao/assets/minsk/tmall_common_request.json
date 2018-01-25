@@ -1,0 +1,20 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_common_request", 
+    "catalogList": [
+        {
+            "content": {
+                "bizParams": {
+                    "itemsNum": 100
+                }, 
+                "pageCode": "WUSE_FORU", 
+                "apiName": "mtop.taobao.aladdin.service.AldRecommendService.wnwuse", 
+                "basicParams": {
+                    "v": "1.0"
+                }
+            }, 
+            "id": 874628
+        }
+    ]
+}

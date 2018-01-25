@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "web_error_config", 
+    "catalogList": [
+        {
+            "content": {
+                "sslErrorTipsConfig": {
+                    "shouldShowTips": true, 
+                    "allowedDiffDays": 7
+                }
+            }, 
+            "id": 874593
+        }
+    ]
+}

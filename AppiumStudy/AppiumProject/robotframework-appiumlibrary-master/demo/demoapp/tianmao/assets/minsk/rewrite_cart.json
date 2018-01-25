@@ -1,0 +1,25 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_cart", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(h5|d|cart)(\\.m)?\\.(taobao|tmall)\\.com/(cart|mybag|my_cart)(/(index|myCart))?\\.htm", 
+                "new": "tmall://page.tm/cart", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875072
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/awp\\/base\\/cart\\.htm(?!#.*(awp\\/core\\/buy\\.htm))", 
+                "new": "tmall://page.tm/cart", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875073
+        }
+    ]
+}

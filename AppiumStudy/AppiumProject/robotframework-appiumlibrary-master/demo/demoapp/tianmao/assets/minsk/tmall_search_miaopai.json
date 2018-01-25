@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_search_miaopai", 
+    "catalogList": [
+        {
+            "content": {
+                "enableMiaoPai": true
+            }, 
+            "id": 874578
+        }
+    ]
+}

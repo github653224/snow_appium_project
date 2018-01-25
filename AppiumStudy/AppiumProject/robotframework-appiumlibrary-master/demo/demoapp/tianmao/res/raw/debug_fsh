@@ -1,0 +1,12 @@
+precision mediump float;
+
+uniform int uFocused;
+
+void main(){
+    if(1 == uFocused)//focus
+        gl_FragColor = vec4(1.0,0,0,1.0);
+    else if(0 == uFocused)//normal
+        gl_FragColor = vec4(0,1.0,0,1.0);
+    else//highlight
+        gl_FragColor = vec4(1.0,1.0,1.0,1.0);
+}

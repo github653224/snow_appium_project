@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "atlas_runtime", 
+    "catalogList": [
+        {
+            "content": {
+                "excludeVersions": "21", 
+                "enable": "0"
+            }, 
+            "id": 875331
+        }
+    ]
+}

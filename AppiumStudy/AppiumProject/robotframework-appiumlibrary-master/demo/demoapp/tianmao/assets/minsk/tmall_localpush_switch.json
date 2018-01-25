@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_localpush_switch", 
+    "catalogList": [
+        {
+            "content": {
+                "tm_localpush_switch": true, 
+                "tm_localpush_locationtime": 30
+            }, 
+            "id": 875240
+        }
+    ]
+}

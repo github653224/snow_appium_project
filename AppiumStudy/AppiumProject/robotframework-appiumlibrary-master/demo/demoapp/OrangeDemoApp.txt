@@ -1,0 +1,25 @@
+package: name='com.netease.qa.orangedemo' versionCode='1' versionName='1.0' platformBuildVersionName=''
+sdkVersion:'8'
+targetSdkVersion:'18'
+application-icon-160:'res/drawable-mdpi/ic_launcher.png'
+application-icon-240:'res/drawable-hdpi/ic_launcher.png'
+application-icon-320:'res/drawable-xhdpi/ic_launcher.png'
+application-icon-480:'res/drawable-xxhdpi/ic_launcher.png'
+application: label='' icon='res/drawable-mdpi/ic_launcher.png'
+application-debuggable
+launchable-activity: name='com.netease.qa.orangedemo.MainActivity'  label='Orange_Demo' icon=''
+uses-permission: name='android.permission.MOUNT_UNMOUNT_FILESYSTEMS'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+uses-implied-permission: name='android.permission.READ_EXTERNAL_STORAGE' reason='requested WRITE_EXTERNAL_STORAGE'
+feature-group: label=''
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+main
+other-activities
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales:
+densities: '160' '240' '320' '480'

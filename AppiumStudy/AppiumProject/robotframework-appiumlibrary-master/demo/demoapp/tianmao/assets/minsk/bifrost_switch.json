@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "bifrost_switch", 
+    "catalogList": [
+        {
+            "content": {
+                "close": false
+            }, 
+            "id": 874631
+        }
+    ]
+}

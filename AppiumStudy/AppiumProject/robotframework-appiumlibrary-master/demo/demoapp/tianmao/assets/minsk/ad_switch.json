@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "ad_switch", 
+    "catalogList": [
+        {
+            "content": {
+                "switch": false, 
+                "imgUrl": "https://img.alicdn.com/tps/TB1XRhsNXXXXXXdaXXXXXXXXXXX-96-54.png"
+            }, 
+            "id": 875245
+        }
+    ]
+}

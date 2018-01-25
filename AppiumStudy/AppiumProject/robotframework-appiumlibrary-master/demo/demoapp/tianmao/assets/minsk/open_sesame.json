@@ -1,0 +1,17 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "open_sesame", 
+    "catalogList": [
+        {
+            "content": {
+                "masterSwitchOn": true, 
+                "subSwitches": {
+                    "voiceplusSwitchOn": true, 
+                    "feedbackSwitchOn": false
+                }
+            }, 
+            "id": 874600
+        }
+    ]
+}

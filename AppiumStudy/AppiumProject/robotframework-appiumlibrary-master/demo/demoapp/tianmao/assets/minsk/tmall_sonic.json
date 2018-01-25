@@ -1,0 +1,173 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_sonic", 
+    "catalogList": [
+        {
+            "content": {
+                "soundFinger": {
+                    "map": {
+                        "2000000004": {
+                            "url": "https://miao.tmall.com", 
+                            "endTime": "2017-04-28 11:30", 
+                            "name": "\u5929\u732b\u5973\u738b\u8282\u5e7f\u544a1", 
+                            "startTime": "2017-02-12 11:30"
+                        }, 
+                        "2000000005": {
+                            "url": "https://miao.tmall.com", 
+                            "endTime": "2017-04-28 11:30", 
+                            "name": "\u5929\u732b\u5973\u738b\u8282\u5e7f\u544a1", 
+                            "startTime": "2017-02-12 11:30"
+                        }, 
+                        "2000000006": {
+                            "url": "https://miao.tmall.com", 
+                            "endTime": "2017-04-28 11:30", 
+                            "name": "\u5929\u732b\u5973\u738b\u8282\u5e7f\u544a1", 
+                            "startTime": "2017-02-12 11:30"
+                        }, 
+                        "2000000001": {
+                            "url": "https://miao.tmall.com", 
+                            "endTime": "2017-04-28 11:30", 
+                            "name": "\u5929\u732b\u5973\u738b\u8282\u5e7f\u544a1", 
+                            "startTime": "2017-02-12 11:30"
+                        }, 
+                        "2000000002": {
+                            "url": "https://miao.tmall.com", 
+                            "endTime": "2017-04-28 11:30", 
+                            "name": "\u5929\u732b\u5973\u738b\u8282\u5e7f\u544a1", 
+                            "startTime": "2017-02-12 11:30"
+                        }, 
+                        "2000000003": {
+                            "url": "https://miao.tmall.com", 
+                            "endTime": "2017-04-28 11:30", 
+                            "name": "\u5929\u732b\u5973\u738b\u8282\u5e7f\u544a1", 
+                            "startTime": "2017-02-12 11:30"
+                        }
+                    }
+                }, 
+                "enable": true, 
+                "silenceListener": {
+                    "url": "tmall://component.tm/sonic?mode=3&duration=300&authMsg=%e5%a4%a9%e7%8c%ab%e9%9c%80%e8%a6%81%e5%bd%95%e9%9f%b3%e6%9d%83%e9%99%90%ef%bc%8c%e9%82%80%e8%af%b7%e6%82%a8%e4%bd%93%e9%aa%8c%e4%bc%a0%e9%9f%b3%e5%8a%9f%e8%83%bd&minInterval=20&active=false&latitude=31.236633&longitude=121.501171&radius=300000&startTime=2017-02-21-16-20&endTime=2017-02-28-22-00", 
+                    "enable": true, 
+                    "blackBrand": "OPPO,VIVO"
+                }, 
+                "listening": {
+                    "enable": true
+                }, 
+                "disablelist": [
+                    "G717C"
+                ], 
+                "bizList": [
+                    {
+                        "enable": true, 
+                        "bizName": "\u626b\u7801", 
+                        "brandCfgs": [
+                            {
+                                "brand": "MI 5", 
+                                "maxAMP": 5000
+                            }
+                        ], 
+                        "listening": {
+                            "enable": true, 
+                            "otherBusinessBlocked": false, 
+                            "tokenAutoConverted": true
+                        }, 
+                        "playing": {
+                            "enable": false, 
+                            "maxAMP": 21589
+                        }, 
+                        "bizID": "00"
+                    }, 
+                    {
+                        "enable": true, 
+                        "bizName": "\u5206\u4eab", 
+                        "blackList": [], 
+                        "brandCfgs": [
+                            {
+                                "brand": "MI 5", 
+                                "maxAMP": 5000
+                            }
+                        ], 
+                        "listening": {
+                            "enable": true, 
+                            "otherBusinessBlocked": false, 
+                            "tokenAutoConverted": true
+                        }, 
+                        "playing": {
+                            "enable": true, 
+                            "maxAMP": 500
+                        }, 
+                        "bizID": "01"
+                    }, 
+                    {
+                        "enable": true, 
+                        "bizName": "\u53cc\u5341\u4e00Demo", 
+                        "blackList": [], 
+                        "brandCfgs": [
+                            {
+                                "brand": "MI 5", 
+                                "maxAMP": 5000
+                            }
+                        ], 
+                        "listening": {
+                            "enable": true, 
+                            "otherBusinessBlocked": false, 
+                            "tokenAutoConverted": true
+                        }, 
+                        "playing": {
+                            "enable": true, 
+                            "maxAMP": 500
+                        }, 
+                        "bizID": "02"
+                    }, 
+                    {
+                        "enable": true, 
+                        "bizName": "\u58f0\u6ce2\u5206\u4eab", 
+                        "blackList": [], 
+                        "brandCfgs": [
+                            {
+                                "brand": "MI 5", 
+                                "maxAMP": 5000
+                            }
+                        ], 
+                        "listening": {
+                            "enable": true, 
+                            "otherBusinessBlocked": false, 
+                            "tokenAutoConverted": true
+                        }, 
+                        "playing": {
+                            "enable": true, 
+                            "maxAMP": 5000
+                        }, 
+                        "bizID": "03"
+                    }, 
+                    {
+                        "enable": true, 
+                        "bizName": "\u542c\u4e00\u542c", 
+                        "brandCfgs": [
+                            {
+                                "brand": "MI 5", 
+                                "maxAMP": 5000
+                            }
+                        ], 
+                        "listening": {
+                            "enable": true, 
+                            "otherBusinessBlocked": false, 
+                            "tokenAutoConverted": true
+                        }, 
+                        "playing": {
+                            "enable": false, 
+                            "maxAMP": 21589
+                        }, 
+                        "bizID": "04"
+                    }
+                ], 
+                "playing": {
+                    "enable": true, 
+                    "maxAMP": 10000
+                }
+            }, 
+            "id": 874664
+        }
+    ]
+}

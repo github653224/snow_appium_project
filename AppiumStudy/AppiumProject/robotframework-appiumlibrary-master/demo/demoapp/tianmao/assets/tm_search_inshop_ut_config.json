@@ -1,0 +1,38 @@
+ {
+     "ShopSearchItem":      {
+         "ctrl_name": "Button-TMShop-ShopSearchItem",
+         "combo": "sis-srp-ShopSearchItem",
+         "click_type": "auction",
+         "spos": ""
+     },
+     "ShopSearchCategory":      {
+         "ctrl_name": "Button-TMShop-ShopSearchCategory",
+         "combo": "sis-nav-ShopSearchCategory",
+         "click_type": "nav",
+         "spos": ""
+     },
+     "ShopSearchLayout":      {
+         "ctrl_name": "Button-TMShop-ShopSearchLayout",
+         "combo": "sis-nav-ShopSearchLayout",
+         "click_type": "nav",
+         "spos": ""
+     },
+     "ShopSearchSort":      {
+         "ctrl_name": "Button-TMShop-ShopSearchSort",
+         "combo": "sis-nav-ShopSearchSort",
+         "click_type": "nav",
+         "spos": ""
+     },
+     "ShopSearchKeyword":      {
+         "ctrl_name": "Button-TMShop-ShopSearchKeyword",
+         "combo": "sis-nav-ShopSearchKeyword",
+         "click_type": "nav",
+         "spos": ""
+     },
+     "ShopNavHot":      {
+         "combo": "sis-srp-ShopNavHot",
+         "click_type": "cat",
+         "ctrl_name": "TMShop-ShopNavHot",
+         "spos": "ShopNavHot"
+     }
+ }

@@ -1,0 +1,48 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_tv_acr", 
+    "catalogList": [
+        {
+            "content": {
+                "tipsTime": 1000, 
+                "waterMarkConfig": [
+                    {
+                        "type": 0, 
+                        "timeStampId": 16, 
+                        "contentId": 4
+                    }, 
+                    {
+                        "type": 1, 
+                        "timeStampId": 16, 
+                        "contentId": 16
+                    }
+                ], 
+                "times": [
+                    3, 
+                    3, 
+                    3
+                ], 
+                "collections": [
+                    "voice", 
+                    "wifi", 
+                    "gps", 
+                    "watermark"
+                ], 
+                "sampleRate": 44100, 
+                "maxTime": 15000
+            }, 
+            "id": 875390
+        }, 
+        {
+            "content": {
+                "collections": [
+                    "voice", 
+                    "watermark", 
+                    "gps"
+                ]
+            }, 
+            "id": 875391
+        }
+    ]
+}

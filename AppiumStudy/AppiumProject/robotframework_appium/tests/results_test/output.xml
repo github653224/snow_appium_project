@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171218 10:22:11.731" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\AppiumProject\robotframework_appium\tests\test_install_baidu.robot" id="s1" name="Test Install Baidu">
+<test id="s1-t1" name="Test Procedure">
+<kw name="Test test">
+<kw name="Take Pic" library="takepictrue">
+<msg timestamp="20171218 10:22:12.583" level="INFO">hello</msg>
+<status status="PASS" endtime="20171218 10:22:12.583" starttime="20171218 10:22:12.583"></status>
+</kw>
+<status status="PASS" endtime="20171218 10:22:12.584" starttime="20171218 10:22:12.582"></status>
+</kw>
+<status status="PASS" endtime="20171218 10:22:12.584" critical="yes" starttime="20171218 10:22:12.581"></status>
+</test>
+<status status="PASS" endtime="20171218 10:22:12.586" starttime="20171218 10:22:11.739"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test Install Baidu" pass="1">Test Install Baidu</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

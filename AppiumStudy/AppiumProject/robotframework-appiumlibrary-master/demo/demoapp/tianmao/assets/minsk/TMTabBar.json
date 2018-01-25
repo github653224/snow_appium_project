@@ -1,0 +1,62 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "TMTabBar", 
+    "catalogList": [
+        {
+            "content": {
+                "title": "\u5929\u732b", 
+                "pos": 0, 
+                "tag": "homepage", 
+                "intent": "tmall://page.tm/mainTabHomePage", 
+                "unfocusTitleColor": "#cdcdcd", 
+                "unfocusIconColor": "#cdcdcd", 
+                "focusColor": "#9dffff"
+            }, 
+            "id": 874529
+        }, 
+        {
+            "content": {
+                "pos": 1, 
+                "tag": "street", 
+                "intent": "tmall://page.tm/myStreet", 
+                "unfocusTitleColor": "#cdcdcd", 
+                "unfocusIconColor": "#cdcdcd", 
+                "focusColor": "#9dffff"
+            }, 
+            "id": 874530
+        }, 
+        {
+            "content": {
+                "pos": 4, 
+                "tag": "mytmall", 
+                "intent": "tmall://page.tm/myTmall", 
+                "unfocusTitleColor": "#cdcdcd", 
+                "unfocusIconColor": "#cdcdcd", 
+                "focusColor": "#9dffff"
+            }, 
+            "id": 874531
+        }, 
+        {
+            "content": {
+                "pos": 3, 
+                "tag": "cart", 
+                "intent": "tmall://page.tm/cart", 
+                "unfocusTitleColor": "#cdcdcd", 
+                "unfocusIconColor": "#cdcdcd", 
+                "focusColor": "#9dffff"
+            }, 
+            "id": 874532
+        }, 
+        {
+            "content": {
+                "intent": "tmall://page.tm/funMainPage", 
+                "focusIcon": "zip://fun.png", 
+                "unfocusIcon": "zip://fun.png", 
+                "tag": "fun", 
+                "pos": 2
+            }, 
+            "id": 874533
+        }
+    ]
+}

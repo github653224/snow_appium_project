@@ -1,0 +1,228 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_shareIcon_custommade", 
+    "catalogList": [
+        {
+            "content": {
+                "shareBizNameList": {
+                    "TmallDefaultBiz": {
+                        "portrait": {
+                            "iconList0": [
+                                {
+                                    "type": 18
+                                }, 
+                                {
+                                    "type": 11
+                                }, 
+                                {
+                                    "type": 17
+                                }, 
+                                {
+                                    "type": 22
+                                }
+                            ], 
+                            "iconList1": [
+                                {
+                                    "type": 4
+                                }, 
+                                {
+                                    "type": 6
+                                }, 
+                                {
+                                    "type": 15
+                                }, 
+                                {
+                                    "type": 1
+                                }, 
+                                {
+                                    "type": 19
+                                }, 
+                                {
+                                    "type": 14
+                                }, 
+                                {
+                                    "type": 9
+                                }
+                            ]
+                        }, 
+                        "landscape": {
+                            "iconList0": [
+                                {
+                                    "type": 4
+                                }, 
+                                {
+                                    "type": 6
+                                }, 
+                                {
+                                    "type": 15
+                                }, 
+                                {
+                                    "type": 1
+                                }, 
+                                {
+                                    "type": 19
+                                }, 
+                                {
+                                    "type": 14
+                                }, 
+                                {
+                                    "type": 9
+                                }
+                            ], 
+                            "iconList1": [
+                                {
+                                    "type": 4
+                                }, 
+                                {
+                                    "type": 15
+                                }, 
+                                {
+                                    "type": 1
+                                }, 
+                                {
+                                    "type": 19
+                                }, 
+                                {
+                                    "type": 17
+                                }
+                            ]
+                        }
+                    }, 
+                    "eatGold": {
+                        "portrait": {
+                            "iconList0": [
+                                {
+                                    "style": 3, 
+                                    "type": 4
+                                }, 
+                                {
+                                    "style": 3, 
+                                    "type": 15
+                                }, 
+                                {
+                                    "style": 3, 
+                                    "type": 1
+                                }, 
+                                {
+                                    "style": 3, 
+                                    "type": 19
+                                }, 
+                                {
+                                    "style": 3, 
+                                    "type": 14
+                                }
+                            ], 
+                            "iconList1": []
+                        }, 
+                        "landscape": {
+                            "iconList0": [
+                                {
+                                    "style": 3, 
+                                    "type": 4
+                                }, 
+                                {
+                                    "style": 3, 
+                                    "type": 15
+                                }, 
+                                {
+                                    "style": 3, 
+                                    "type": 1
+                                }, 
+                                {
+                                    "style": 3, 
+                                    "type": 19
+                                }, 
+                                {
+                                    "style": 3, 
+                                    "type": 14
+                                }
+                            ], 
+                            "iconList1": []
+                        }
+                    }
+                }, 
+                "iconList": [
+                    {
+                        "default": true, 
+                        "type": 18, 
+                        "badge": "", 
+                        "name": "\u590d\u5236\u53e3\u4ee4", 
+                        "icon": "share_icon_miaokouling"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 11, 
+                        "badge": "", 
+                        "name": "\u4e8c\u7ef4\u7801", 
+                        "icon": "share_icon_qrcode"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 17, 
+                        "badge": "", 
+                        "name": "\u590d\u5236\u94fe\u63a5", 
+                        "icon": "share_icon_copy_new"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 4, 
+                        "badge": "", 
+                        "name": "\u5fae\u4fe1", 
+                        "icon": "share_icon_weixin"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 6, 
+                        "badge": "", 
+                        "name": "\u670b\u53cb\u5708", 
+                        "icon": "share_icon_pengyouquan"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 15, 
+                        "badge": "", 
+                        "name": "QQ", 
+                        "icon": "share_icon_qq"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 1, 
+                        "badge": "", 
+                        "name": "\u5fae\u535a", 
+                        "icon": "share_icon_weibo"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 19, 
+                        "badge": "", 
+                        "name": "\u9489\u9489", 
+                        "icon": "share_icon_dd"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 14, 
+                        "badge": "", 
+                        "name": "\u652f\u4ed8\u5b9d", 
+                        "icon": "share_icon_zhifubao"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 22, 
+                        "badge": "", 
+                        "name": "\u58f0\u6ce2\u5206\u4eab", 
+                        "icon": "share_icon_sonic"
+                    }, 
+                    {
+                        "default": true, 
+                        "type": 9, 
+                        "badge": "", 
+                        "name": "\u77ed\u4fe1", 
+                        "icon": "share_icon_sms"
+                    }
+                ]
+            }, 
+            "id": 875249
+        }
+    ]
+}

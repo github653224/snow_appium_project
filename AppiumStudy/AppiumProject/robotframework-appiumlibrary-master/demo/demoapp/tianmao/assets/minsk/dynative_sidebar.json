@@ -1,0 +1,17 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "dynative_sidebar", 
+    "catalogList": [
+        {
+            "content": {
+                "gala.mei": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php", 
+                "gala.3c": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php", 
+                "gala.jia": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php", 
+                "gala.index": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php", 
+                "gala.clothing": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php"
+            }, 
+            "id": 874398
+        }
+    ]
+}

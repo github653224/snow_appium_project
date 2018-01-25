@@ -1,0 +1,25 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "profileNotUpload", 
+    "catalogList": [
+        {
+            "content": {
+                "key": "TMProfileKeyUnreadMessageCount"
+            }, 
+            "id": 874614
+        }, 
+        {
+            "content": {
+                "key": "WX_DELETED"
+            }, 
+            "id": 874615
+        }, 
+        {
+            "content": {
+                "key": "msgcenter_mask_guide_hasShowed"
+            }, 
+            "id": 874616
+        }
+    ]
+}

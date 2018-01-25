@@ -1,0 +1,123 @@
+Structure for Appium Test Cases – Robot Framework
+August 18, 2016 Shivaram SubramanyaAppium, Automation
+
+Hopefully you have got the Appium with Robot Framework up & running.
+
+If not, please go through this blog for all the details.
+
+Now, comes the question how to have a basic structure for your test cases so that you can start building on top of it.
+
+So, here I try to explain the basic structure for appium test cases which has worked for me.
+
+You can further build on top of it.
+
+First is the directory structure.
+
+Create 2 text files in your root directory.
+
+__init__.txt & global.txt.
+
+Another sub-directory of any name where you can start writing your test case. In this case I’ll name it as Testing-App
+
+
+
+appium-robot-structure
+
+Content of the files.
+
+
+
+Shivaram:Android shivaram$ cat __init__.txt
+ *** Settings ***
+ Library         AppiumLibrary
+ Resource        global.txt
+ Suite Setup     Start Suite Setup
+ Suite Teardown  Stop Suite Setup
+ Test Setup      Login Test Setup
+ Test Teardown   Login Test Teardown
+
+Shivaram:Android shivaram$ cat global.txt
+ *** Settings ***
+ Library         AppiumLibrary
+ #Resource        demo_resources.txt
+ #Variables    variables.py
+
+*** Variables ***
+
+*** Keywords ***
+Start Suite Setup
+  Close All Applications
+  Open Application  http://localhost:4723/wd/hub  platformName=Android  platformVersion=5.1.1  deviceName=fd1bee6e  app=com.android.browser  automationName=appium  appPackage=com.android.browser  appActivity=BrowserActivity
+  Sleep     20
+
+Stop Suite Setup
+ Close All Applications
+
+Login Test Setup
+ Portrait
+
+Login Test Teardown
+ Capture Page Screenshot
+
+The actual test case.
+
+Shivaram:Testing-App shivaram$ ls -lrt
+ total 8
+
+-rw-r--r--  1 shivaram  staff  283 Aug 18 13:48 test_andriod_demo.txt
+
+Shivaram:Testing-App shivaram$ cat test_andriod_demo.txt
+ *** Settings ***
+ LibraryAppiumLibrary
+ Documentation   demo for appium library
+
+Force Tags      demo
+
+Resource../global.txt
+
+*** Test Cases ***
+test_demo
+[Tags]  regression
+
+ Input Text      id=com.android.browser:id/url     www.google.com
+
+
+
+In the above example, I’m opening a default android browser, you can use any app in it’s place.
+
+The one advantage of having this structure is you can start adding test cases in any sub-directory without worrying about including how to bring up the App or close it down.
+
+To run this, go to the directory where the __init__.txt & global.txt are present in the command prompt & run the below command or give the complete path of the root directory.
+
+Shivaram:Android shivaram$ pybot .
+ ==============================================================================
+ Android
+ ==============================================================================
+ Android.Testing-App
+
+==============================================================================
+
+==============================================================================
+ test_demo                                                             | PASS |
+ ------------------------------------------------------------------------------
+ Android.Testing-App.Test Andriod Demo :: demo for appium library      | PASS |
+ 1 critical test, 1 passed, 0 failed
+ 1 test total, 1 passed, 0 failed
+ ==============================================================================
+ Android.Testing-App                                                   | PASS |
+ 1 critical test, 1 passed, 0 failed
+ 1 test total, 1 passed, 0 failed
+ ==============================================================================
+ Android                                                               | PASS |
+ 1 critical test, 1 passed, 0 failed
+ 1 test total, 1 passed, 0 failed
+ ==============================================================================
+ Output:  /Users/shivaram/projects/Android/output.xml
+ Log:     /Users/shivaram/projects/Android/log.html
+ Report:  /Users/shivaram/projects/Android/report.html
+
+Shivaram:Android shivaram$
+
+
+
+Check the Robot report file generated in the root directory of your test case.

@@ -1,0 +1,7 @@
+attribute vec4 aPosition;
+uniform mat4 uMatrixPVM;
+varying float vLength;
+void main(){
+    gl_Position = uMatrixPVM * vec4(aPosition.xyz,1.0);
+    vLength = aPosition.w;
+}

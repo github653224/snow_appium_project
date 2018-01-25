@@ -1,0 +1,81 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "TMTabBar_Config", 
+    "catalogList": [
+        {
+            "content": {
+                "styles": [
+                    {
+                        "status": true, 
+                        "imgZipMd5": "8965e7de19dfd3ee05a9096730bcc22e", 
+                        "background": "zip://bg.png", 
+                        "level": 3, 
+                        "url": "https://tmge.alicdn.com/tmge/2/146597896798621151.zip", 
+                        "hideFunIcon": 0, 
+                        "tabs": [
+                            {
+                                "title": "\u5929\u732b", 
+                                "unfocusIcon": "zip://home.png", 
+                                "pos": "0", 
+                                "tag": "homepage", 
+                                "intent": "tmall://page.tm/mainTabHomePage", 
+                                "unfocusTitleColor": "#9dffff", 
+                                "focusIcon": "zip://home_select.png", 
+                                "focusColor": "#cdcdcd"
+                            }, 
+                            {
+                                "title": "\u5173\u6ce8", 
+                                "unfocusIcon": "zip://guanzhu.png", 
+                                "pos": "1", 
+                                "tag": "street", 
+                                "intent": "tmall://page.tm/myStreet", 
+                                "unfocusTitleColor": "#9dffff", 
+                                "focusIcon": "zip://guanzhu_select.png", 
+                                "focusColor": "#cdcdcd"
+                            }, 
+                            {
+                                "title": "\u8303\u513f", 
+                                "unfocusIcon": "zip://fun.png", 
+                                "pos": "2", 
+                                "tag": "fun", 
+                                "intent": "tmall://page.tm/funMainPage", 
+                                "unfocusTitleColor": "", 
+                                "focusIcon": "zip://fun_select.png", 
+                                "focusColor": ""
+                            }, 
+                            {
+                                "title": "\u8d2d\u7269\u8f66", 
+                                "unfocusIcon": "zip://cart.png", 
+                                "pos": "3", 
+                                "tag": "cart", 
+                                "intent": "tmall://page.tm/cart", 
+                                "unfocusTitleColor": "#9dffff", 
+                                "focusIcon": "zip://cart_select.png", 
+                                "focusColor": "#cdcdcd"
+                            }, 
+                            {
+                                "title": "\u6211", 
+                                "unfocusIcon": "zip://me.png", 
+                                "pos": "4", 
+                                "tag": "mytmall", 
+                                "intent": "tmall://page.tm/myTmall", 
+                                "unfocusTitleColor": "#9dffff", 
+                                "focusIcon": "zip://me_select.png", 
+                                "focusColor": "#cdcdcd"
+                            }
+                        ], 
+                        "imgZipUrl": "https://tmge.alicdn.com/tmge/2/146597896798621151.zip", 
+                        "startTime": 1465920000000, 
+                        "endTime": 1466438399000, 
+                        "id": 208820, 
+                        "name": "tabbar11"
+                    }, 
+                    {}
+                ], 
+                "name": "TMTabBar"
+            }, 
+            "id": 874630
+        }
+    ]
+}

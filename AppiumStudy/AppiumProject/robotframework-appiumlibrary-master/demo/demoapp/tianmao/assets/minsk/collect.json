@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "collect", 
+    "catalogList": [
+        {
+            "content": {
+                "intimeUrl": "https://pages.tmall.com/wow/act/16445/hexiao?rightId=", 
+                "comparisonSwitch": true
+            }, 
+            "id": 874655
+        }
+    ]
+}

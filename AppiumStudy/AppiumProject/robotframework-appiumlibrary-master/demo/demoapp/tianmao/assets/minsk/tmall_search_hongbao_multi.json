@@ -1,0 +1,47 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_search_hongbao_multi", 
+    "catalogList": [
+        {
+            "content": {
+                "url": {
+                    "u1": "https://pages.tmall.com/wow/lafite/act/search-offer", 
+                    "u3": "https://s.m.tmall.com/m/category.htm?businessName=chaoshi", 
+                    "u2": "https://s.m.tmall.com/m/category.htm?businessName=dianqc"
+                }, 
+                "data": [
+                    {
+                        "k": "\u5c0f\u7f8e\u6d4b\u8bd5", 
+                        "data": [
+                            {
+                                "comment": "3.21-3.21+15\u5929", 
+                                "e": 1459839014547, 
+                                "b": 1458543014547, 
+                                "u": "u1"
+                            }, 
+                            {
+                                "comment": "3.21+\u4e00\u4e2a\u6708-3.21+\u4e09\u4e2a\u6708", 
+                                "e": 1466491814547, 
+                                "b": 1461221414547, 
+                                "u": "u2"
+                            }
+                        ]
+                    }, 
+                    {
+                        "k": "\u8df3\u8f6c\u6d4b\u8bd5\u8d85\u5e02", 
+                        "data": [
+                            {
+                                "comment": "3.21-3.21+\u4e09\u4e2a\u6708", 
+                                "b": 1458543014547, 
+                                "e": 1466491814547, 
+                                "u3": "u3"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            "id": 874626
+        }
+    ]
+}

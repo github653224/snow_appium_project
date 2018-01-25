@@ -1,0 +1,92 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "funSwitch", 
+    "catalogList": [
+        {
+            "content": {
+                "host": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=native&labelId=", 
+                "enable": "true", 
+                "key": "huatiDetail"
+            }, 
+            "id": 874363
+        }, 
+        {
+            "content": {
+                "host": "http://h5.m.taobao.com/app/fun/pages/homepage/index.html", 
+                "enable": "true", 
+                "key": "indexPromo1"
+            }, 
+            "id": 874364
+        }, 
+        {
+            "content": {
+                "host": "[{\"name\":\"\u8bdd\u9898\",\"url\":\"tmall://page.tm/funTopicList\"},{\"name\":\"\u8fbe\u4eba\",\"url\":\"http://h5.m.taobao.com/app/fun/pages/talent/index.html\"},{\"name\":\"\u559c\u6b22\u7684\u4eba\",\"url\":\"tmall://page.tm/funFeedFollowing#needLogin\"}]", 
+                "enable": "true", 
+                "key": "indexCeiling"
+            }, 
+            "id": 874365
+        }, 
+        {
+            "content": {
+                "host": "http://h5.m.taobao.com/app/fun/pages/brand/index.html?from=native&labelId=", 
+                "enable": true, 
+                "key": "brandDetail"
+            }, 
+            "id": 874366
+        }, 
+        {
+            "content": {
+                "enable": true, 
+                "key": "canAddingNewTag"
+            }, 
+            "id": 874367
+        }, 
+        {
+            "content": {
+                "host": "{\"BSCRules\":[{\"minBrightness\":40,\"maxBrightness\":100,\"minSaturation\":0,\"maxSaturation\":29,\"configuration\":{\"brightness\":0.0841906315789474,\"saturation\":1.28635494736842,\"contrast\":1.2}},{\"minBrightness\":40,\"maxBrightness\":100,\"minSaturation\":29,\"maxSaturation\":69,\"configuration\":{\"brightness\":0.08,\"saturation\":1,\"contrast\":1.2}},{\"minBrightness\":40,\"maxBrightness\":100,\"minSaturation\":69,\"maxSaturation\":100,\"configuration\":{\"brightness\":0.08419,\"saturation\":1,\"contrast\":1.1}},{\"minBrightness\":100,\"maxBrightness\":179,\"minSaturation\":0,\"maxSaturation\":29,\"configuration\":{\"brightness\":0.09678525,\"saturation\":1,\"contrast\":1.1}},{\"minBrightness\":100,\"maxBrightness\":179,\"minSaturation\":29,\"maxSaturation\":69,\"configuration\":{\"brightness\":0.012097,\"saturation\":0.8,\"contrast\":1.2}},{\"minBrightness\":100,\"maxBrightness\":179,\"minSaturation\":69,\"maxSaturation\":100,\"configuration\":{\"brightness\":0.08,\"saturation\":1,\"contrast\":1.1}},{\"minBrightness\":179,\"maxBrightness\":240,\"minSaturation\":0,\"maxSaturation\":29,\"configuration\":{\"brightness\":-0.0274915,\"saturation\":1.34100875,\"contrast\":1}},{\"minBrightness\":179,\"maxBrightness\":240,\"minSaturation\":70,\"maxSaturation\":100,\"configuration\":{\"brightness\":-0.24214625,\"saturation\":1.28037075,\"contrast\":1}}],\"TemperatureRule\":[{\"minTemperature\":0,\"maxTemperature\":10000,\"configuration\":{\"temperature\":6394.95285377778}},{\"minTemperature\":10000,\"maxTemperature\":12000,\"configuration\":{\"temperature\":5994.19968580435}},{\"minTemperature\":12000,\"maxTemperature\":15000,\"configuration\":{\"temperature\":5694}},{\"minTemperature\":15000,\"maxTemperature\":18000,\"configuration\":{\"temperature\":4650}},{\"minTemperature\":18000,\"maxTemperature\":99999,\"configuration\":{\"temperature\":4350}}],\"sharpness\":0.3}", 
+                "enable": true, 
+                "key": "AutoImageOptimization"
+            }, 
+            "id": 874368
+        }, 
+        {
+            "content": {
+                "contentUrl": "http://gtms02.alicdn.com/tps/i2/TB18vB7KpXXXXceXpXXw1E97pXX-550-550.jpg", 
+                "enable": true, 
+                "key": "funInteraction", 
+                "endTime": 1465660800000, 
+                "startTime": 1465574400000, 
+                "action": "https://pages.tmall.com/wow/mit/act/topic?labelId=576433", 
+                "contentFrequency": 24, 
+                "type": 3, 
+                "maxDuration": 3000, 
+                "tabIconUrl": ""
+            }, 
+            "id": 874369
+        }, 
+        {
+            "content": {
+                "url": "http://h5.m.taobao.com/app/fun/pages/evaluation/index.html?postId=", 
+                "enable": true, 
+                "key": "jumpH5AfterRate"
+            }, 
+            "id": 874370
+        }, 
+        {
+            "content": {
+                "wifi": 2, 
+                "other": 1, 
+                "key": "imagePreload"
+            }, 
+            "id": 874371
+        }, 
+        {
+            "content": {
+                "useCache": true, 
+                "key": "frontPageCache"
+            }, 
+            "id": 874372
+        }
+    ]
+}

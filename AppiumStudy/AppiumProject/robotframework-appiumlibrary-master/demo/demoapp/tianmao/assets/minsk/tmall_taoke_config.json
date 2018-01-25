@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_taoke_config", 
+    "catalogList": [
+        {
+            "content": {
+                "timeout": 86400
+            }, 
+            "id": 874594
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_ziying", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/good(?:\\.m)?\\.tmall\\.com\\/?(\\?.*)?", 
+                "new": "$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875374
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop515312097(?:\\.m)?(?:\\.wapa)?\\.(?:tmall|taobao)\\.com\\/?(\\?(?!gotoSearch).*)", 
+                "new": "https://good.m.tmall.com$1", 
+                "flag": "l"
+            }, 
+            "id": 875375
+        }, 
+        {
+            "content": {
+                "origin": "^tmall:\\/\\/page\\.tm\\/shop(?!Cat).*([\\?&](shopId=515312097|sellerId=3294889394|user_id=3294889394|sellerNick=%E6%B7%98%E5%AE%9D%E5%BF%83%E9%80%89).*)", 
+                "new": "https://good.m.tmall.com$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875376
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/pages\\.tmall\\.com\\/wow\\/chaoshi\\/act\\/shandian\\/?(\\?.*)?", 
+                "new": "$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875377
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop295500225(?:\\.m)?(?:\\.wapa)?\\.(?:tmall|taobao)\\.com\\/?(\\?.*)?", 
+                "new": "https://pages.tmall.com/wow/chaoshi/act/shandian$1", 
+                "flag": "l"
+            }, 
+            "id": 875378
+        }, 
+        {
+            "content": {
+                "origin": "^tmall:\\/\\/page\\.tm\\/shop(.*[\\?&](shopId=295500225|sellerId=3235541504|user_id=3235541504|(sellerNick|nick)=%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82%E9%97%AA%E5%BA%97).*)", 
+                "new": "https://pages.tmall.com/wow/chaoshi/act/shandian$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875379
+        }, 
+        {
+            "content": {
+                "origin": "^tmall:\\/\\/page\\.tm\\/(?:shop|shopDetail)\\?(.*(shopId=62812886|sellerId=517546721|user_id=517546721|sellerNick=%E9%93%B6%E6%B3%B0%E7%99%BE%E8%B4%A7%E7%B2%BE%E5%93%81%E6%97%97%E8%88%B0%E5%BA%97|sellNick=\u94f6\u6cf0\u767e\u8d27\u7cbe\u54c1\u65d7\u8230\u5e97).*)", 
+                "new": "https://ju.taobao.com/m/jusp/o/yt88/mtp.htm&app=lv", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875380
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/yintai(?:\\.m)?(?:\\.wapa)?\\.(?:tmall|taobao)\\.com\\/?(\\?.*)?", 
+                "new": "https://ju.taobao.com/m/jusp/o/yt88/mtp.htm&app=lv", 
+                "flag": "l"
+            }, 
+            "id": 875381
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop\\.m\\.taobao\\.com\\/shop\\/shop_index\\.htm\\?(.*(shop_id=62812886).*)", 
+                "new": "https://ju.taobao.com/m/jusp/o/yt88/mtp.htm&app=lv", 
+                "flag": "l"
+            }, 
+            "id": 875382
+        }, 
+        {
+            "content": {
+                "origin": "^tmall:\\/\\/page\\.tm\\/shop(.*[\\?&](shopId=257214627|sellerId=3405569954|user_id=3405569954|(sellerNick|nick)=%E5%A4%A9%E7%8C%AB%E4%BC%98%E5%93%81%E5%AE%98%E6%96%B9%E7%9B%B4%E8%90%A5).*)", 
+                "new": "https://tmyp.tmall.com$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875383
+        }
+    ]
+}

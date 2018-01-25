@@ -1,0 +1,52 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "mtop_cache", 
+    "catalogList": [
+        {
+            "content": {
+                "enable": true, 
+                "version": "1.0", 
+                "age": 2952000000, 
+                "request": true, 
+                "api": "com.tmall.yosemite.home.queryHome", 
+                "params": [
+                    "tangramPageNO", 
+                    "pageType", 
+                    "industryId", 
+                    "exptBucket"
+                ]
+            }, 
+            "id": 875023
+        }, 
+        {
+            "content": {
+                "isPatchLogicEnable": false, 
+                "version": "1.0", 
+                "age": 2592000000, 
+                "request": true, 
+                "api": "com.tmall.wireless.industrychannel.queryHome", 
+                "params": [
+                    "pageCode"
+                ], 
+                "enable": true
+            }, 
+            "id": 875024
+        }, 
+        {
+            "content": {
+                "isPatchLogicEnable": false, 
+                "version": "1.0", 
+                "age": 2592000000, 
+                "request": true, 
+                "api": "mtop.tmall.tac.gateway.execute", 
+                "params": [
+                    "msCodes", 
+                    "params.pageCode"
+                ], 
+                "enable": true
+            }, 
+            "id": 875025
+        }
+    ]
+}

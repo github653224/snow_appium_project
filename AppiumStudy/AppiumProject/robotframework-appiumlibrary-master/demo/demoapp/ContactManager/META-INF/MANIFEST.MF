@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: i7vxaosoiS+9HzKB7ZgIsXMYRLY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: rMehs91HLt89fuRU7f8dtMkLwEc=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: 7Ft/Rirt+l/JRX2KjDREScdbCZk=
+
+Name: res/layout/contact_entry.xml
+SHA1-Digest: cOGTDBZnLhG+SQl71uEO9+y9dMo=
+
+Name: res/layout/contact_manager.xml
+SHA1-Digest: RaF5gTmxPplyXnI46qyQXEP2Wm8=
+
+Name: res/layout/contact_adder.xml
+SHA1-Digest: yhmAdgpX8wDVxW8cdRe/Ciy16PE=
+
+Name: resources.arsc
+SHA1-Digest: CmmjZFpz8QS2FMPV2KDB7ixWKRc=
+
+Name: res/layout/account_entry.xml
+SHA1-Digest: 5cXAUlK+fdKe4qLSTIl8rRPzOgw=
+
+Name: classes.dex
+SHA1-Digest: xneTbF0r69IwbC0VEQlnZyaO+bg=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: Vj/qhxk8ic8FE0/kT6E3vgRJ4mE=
+

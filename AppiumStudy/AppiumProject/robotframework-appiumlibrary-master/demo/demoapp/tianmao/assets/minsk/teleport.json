@@ -1,0 +1,22 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "teleport", 
+    "catalogList": [
+        {
+            "content": {
+                "wangxin": {
+                    "enable": true, 
+                    "interval": 3, 
+                    "black": "OrderBuy|WangXinContacts|WangXinChatting", 
+                    "level": 1100
+                }, 
+                "teleNotifyPopLimitTimes": 3, 
+                "teleNotifyPopLimitDuration": 10, 
+                "teleNotifyEnableForPush": true, 
+                "teleportEnabled": true
+            }, 
+            "id": 874619
+        }
+    ]
+}

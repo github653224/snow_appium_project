@@ -1,0 +1,77 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "template_plus", 
+    "catalogList": [
+        {
+            "content": {
+                "templates": [
+                    {
+                        "url": "https://dtmall-tel.alicdn.com/minsk/pre/fileware/201703/6e45cfe8-0f84-431b-bbbc-e9e88677f433", 
+                        "templateType": "view+", 
+                        "enable": "true", 
+                        "name": "TMOrderList"
+                    }
+                ], 
+                "moduleName": "TMOrderList"
+            }, 
+            "id": 875348
+        }, 
+        {
+            "content": {
+                "templates": [
+                    {
+                        "url": "https://dtmall-tel.alicdn.com/minsk/online/fileware/201705/79f15e99-303d-4807-8456-44d2bae54d30", 
+                        "templateType": "view+", 
+                        "enable": "true", 
+                        "name": "TMOrderDetail"
+                    }
+                ], 
+                "moduleName": "TMOrderDetail"
+            }, 
+            "id": 875349
+        }, 
+        {
+            "content": {
+                "templates": [
+                    {
+                        "url": "https://dtmall-tel.alicdn.com/minsk/online/fileware/201706/8f593529-e111-47e1-b34c-715d5d079410", 
+                        "templateType": "view+", 
+                        "enable": "false", 
+                        "name": "TMDetail"
+                    }
+                ], 
+                "moduleName": "TMDetail"
+            }, 
+            "id": 875350
+        }, 
+        {
+            "content": {
+                "templates": [
+                    {
+                        "url": "https://dtmall-tel.alicdn.com/minsk/pre/fileware/201703/9db020f3-1e8d-4ad3-8c9d-9c092195f9d5", 
+                        "templateType": "view+", 
+                        "enable": "true", 
+                        "name": "TMBuy"
+                    }
+                ], 
+                "moduleName": "TMBuy"
+            }, 
+            "id": 875351
+        }, 
+        {
+            "content": {
+                "templates": [
+                    {
+                        "url": "https://dtmall-tel.alicdn.com/minsk/pre/fileware/201706/38129263-0b72-4285-905d-8d401f5a10ce", 
+                        "templateType": "view+", 
+                        "enable": "true", 
+                        "name": "TMOnePlace"
+                    }
+                ], 
+                "moduleName": "TMOnePlace"
+            }, 
+            "id": 875352
+        }
+    ]
+}

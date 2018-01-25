@@ -1,0 +1,19 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tmall_net_config", 
+    "catalogList": [
+        {
+            "content": {
+                "https_open": true
+            }, 
+            "id": 874429
+        }, 
+        {
+            "content": {
+                "https_open": true
+            }, 
+            "id": 874430
+        }
+    ]
+}

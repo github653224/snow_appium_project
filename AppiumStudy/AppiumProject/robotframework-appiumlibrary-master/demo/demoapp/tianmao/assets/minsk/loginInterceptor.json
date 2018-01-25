@@ -1,0 +1,95 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "loginInterceptor", 
+    "catalogList": [
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "https://login.m.taobao.com/?", 
+                "force": "true"
+            }, 
+            "id": 874345
+        }, 
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "https://login.taobao.com/member/login.jhtml?", 
+                "force": "true"
+            }, 
+            "id": 874346
+        }, 
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "http://login.m.taobao.com/login.htm", 
+                "force": "true"
+            }, 
+            "id": 874347
+        }, 
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "http://login.tmall.com/", 
+                "force": "true"
+            }, 
+            "id": 874348
+        }, 
+        {
+            "content": {
+                "redirect": "", 
+                "host": "http://h5.m.taobao.com/vip/", 
+                "force": "false"
+            }, 
+            "id": 874349
+        }, 
+        {
+            "content": {
+                "redirect": "", 
+                "host": "http://h5.m.taobao.com/awp/mtb/", 
+                "force": "false"
+            }, 
+            "id": 874350
+        }, 
+        {
+            "content": {
+                "redirect": "", 
+                "host": "http://h5.m.taobao.com/fav/index.htm", 
+                "force": "false"
+            }, 
+            "id": 874351
+        }, 
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "http://login.taobao.com/member/login.jhtml", 
+                "force": "true"
+            }, 
+            "id": 874352
+        }, 
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "https://login.taobao.com/member/login.jhtml", 
+                "force": "true"
+            }, 
+            "id": 874353
+        }, 
+        {
+            "content": {
+                "redirect": "", 
+                "host": "http://h5.m.taobao.com/hd/b716.html", 
+                "force": "false"
+            }, 
+            "id": 874354
+        }, 
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "https://login.tmall.com/", 
+                "force": "true"
+            }, 
+            "id": 874355
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "ant_downgrade", 
+    "catalogList": [
+        {
+            "content": {
+                "rewrite": false
+            }, 
+            "id": 875357
+        }, 
+        {
+            "content": {
+                "rewrite": false
+            }, 
+            "id": 875358
+        }
+    ]
+}

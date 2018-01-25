@@ -1,0 +1,25 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_doctor_config", 
+    "catalogList": [
+        {
+            "content": {
+                "moduleNames": [
+                    "com.tmall.wireless.messagebox", 
+                    "com.tmall.wireless.fun", 
+                    "com.tmall.wireless.mytmall", 
+                    "com.tmall.wireless"
+                ], 
+                "exceptionTimes": 2, 
+                "exceptionNames": [
+                    "java.lang.ClassCastException", 
+                    "java.lang.IllegalArgumentException", 
+                    "java.lang.NullPointerException", 
+                    "java.lang.StackOverflowError"
+                ]
+            }, 
+            "id": 875359
+        }
+    ]
+}

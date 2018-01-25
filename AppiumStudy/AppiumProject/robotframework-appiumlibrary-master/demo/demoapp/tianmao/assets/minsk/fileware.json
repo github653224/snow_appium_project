@@ -1,0 +1,41 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "fileware", 
+    "catalogList": [
+        {
+            "content": {
+                "priority": 1, 
+                "url": "http://dtmall-tel.alicdn.com/fileware/5035a3ae55912fa41a0e0f5212decf96", 
+                "version": 17, 
+                "name": "liveFlash.drl"
+            }, 
+            "id": 874559
+        }, 
+        {
+            "content": {
+                "url": "https://dtmall-tel.alicdn.com/minsk/pre/fileware/201701/89271f89-091b-4212-b17a-cb01d37ff44f", 
+                "secureCode": "f00e3bf8aa183b55d0c950c8ce9d584d569b52e3", 
+                "version": 4, 
+                "name": "MisAR.zip"
+            }, 
+            "id": 874560
+        }, 
+        {
+            "content": {
+                "url": "https://gw.alicdn.com/bao/uploaded/LB1LzPBSpXXXXX9XFXXXXXXXXXX.mp4", 
+                "version": 1, 
+                "name": "tmall_pinleiri"
+            }, 
+            "id": 874561
+        }, 
+        {
+            "content": {
+                "url": "https://gw.alicdn.com/bao/uploaded/LB1LzPBSpXXXXX9XFXXXXXXXXXX.mp4", 
+                "version": 1, 
+                "name": "tmall_pinleiri"
+            }, 
+            "id": 874562
+        }
+    ]
+}

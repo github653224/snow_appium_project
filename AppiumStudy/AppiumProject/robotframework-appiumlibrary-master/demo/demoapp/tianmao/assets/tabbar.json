@@ -1,0 +1,80 @@
+{
+  "name": "tabbar",
+  "startTime": "0",
+  "endTime": "0",
+  "background": "",
+  "tabs": [
+    {
+      "tag": "homepage",
+      "focusBackground": "",
+      "unfocusBackground": "",
+      "intent": "tmall://page.tm/mainTabHomePage",
+      "title": "天猫",
+      "focusColor": "#dd2727",
+      "unfocusTitleColor": "#999999",
+      "unfocusIconColor": "#5F646E",
+      "focusIcon": "&#xe68b;",
+      "unfocusIcon": "&#xe67f;"
+    },
+    {
+      "tag": "street",
+      "focusBackground": "",
+      "unfocusBackground": "",
+      "intent": "tmall://page.tm/myStreet",
+      "title": "关注",
+      "focusColor": "#dd2727",
+      "unfocusTitleColor": "#999999",
+      "unfocusIconColor": "#5F646E",
+      "focusIcon": "&#xe68f;",
+      "unfocusIcon": "&#xe68e;"
+    },
+    {
+      "tag": "fun",
+      "focusBackground": "",
+      "unfocusBackground": "",
+      "intent": "tmall://page.tm/funMainPage?pageType=Fun",
+      "title": "范儿",
+      "focusColor": "#dd2727",
+      "unfocusTitleColor": "#999999",
+      "unfocusIconColor": "#5F646E",
+      "focusIcon": "&#xe6bc;",
+      "unfocusIcon": "&#xe6a0;"
+    },
+    {
+      "tag": "cart",
+      "focusBackground": "",
+      "unfocusBackground": "",
+      "intent": "tmall://page.tm/cart",
+      "title": "购物车",
+      "focusColor": "#dd2727",
+      "unfocusTitleColor": "#999999",
+      "unfocusIconColor": "#5F646E",
+      "focusIcon": "&#xe69a;",
+      "unfocusIcon": "&#xe66d;"
+    },
+    {
+      "tag": "mytmall",
+      "focusBackground": "",
+      "unfocusBackground": "",
+      "intent": "tmall://page.tm/myTmall",
+      "title": "我",
+      "focusColor": "#dd2727",
+      "unfocusTitleColor": "#999999",
+      "unfocusIconColor": "#5F646E",
+      "focusIcon": "&#xe696;",
+      "unfocusIcon": "&#xe695;"
+    },
+    {
+      "tag": "live",
+      "focusBackground": "",
+      "unfocusBackground": "",
+      "intent": "tmall://page.tm/funMainPage?pageType=Live",
+      "title": "天猫直播",
+      "focusColor": "#dd2727",
+      "unfocusTitleColor": "#999999",
+      "unfocusIconColor": "#5F646E",
+      "focusIcon": "&#xe780;",
+      "unfocusIcon": "&#xe781;"
+    }
+  ]
+}

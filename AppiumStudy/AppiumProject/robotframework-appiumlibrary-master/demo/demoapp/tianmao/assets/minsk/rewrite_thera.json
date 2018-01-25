@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_thera", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)\\/\\/www\\.dumplings\\.alibaba-inc\\.com\\/qr\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/oreopreview$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875385
+        }
+    ]
+}

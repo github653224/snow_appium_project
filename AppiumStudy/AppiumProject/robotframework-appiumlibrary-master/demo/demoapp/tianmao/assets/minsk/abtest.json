@@ -1,0 +1,91 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "abtest", 
+    "catalogList": [
+        {
+            "content": {
+                "tree": {
+                    "per": [
+                        0.1, 
+                        0.4
+                    ], 
+                    "son": [
+                        {
+                            "node": 1
+                        }, 
+                        {
+                            "node": 2
+                        }
+                    ]
+                }, 
+                "expired": 2000000001, 
+                "name": "minskBeta"
+            }, 
+            "id": 874400
+        }, 
+        {
+            "content": {
+                "tree": {
+                    "per": [
+                        0.5, 
+                        0.5
+                    ], 
+                    "son": [
+                        {
+                            "node": 0
+                        }, 
+                        {
+                            "node": 1
+                        }
+                    ]
+                }, 
+                "expired": 2000000000, 
+                "name": "funHomepage"
+            }, 
+            "id": 874401
+        }, 
+        {
+            "content": {
+                "tree": {
+                    "per": [
+                        0.1, 
+                        0.9
+                    ], 
+                    "son": [
+                        {
+                            "node": 2
+                        }, 
+                        {
+                            "node": 1
+                        }
+                    ]
+                }, 
+                "expired": 2000000001, 
+                "name": "abfrontpage"
+            }, 
+            "id": 874402
+        }, 
+        {
+            "content": {
+                "tree": {
+                    "per": [
+                        0.5, 
+                        0.5
+                    ], 
+                    "son": [
+                        {
+                            "node": 2
+                        }, 
+                        {
+                            "node": 1
+                        }
+                    ]
+                }, 
+                "expired": 2000000001, 
+                "name": "abbiqiang"
+            }, 
+            "id": 874403
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_fanspa", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/vip\\.tmall\\.com\\/tm-member\\/fans-main\\/index\\?(.*)", 
+                "new": "tmall://page.tm/fansPa?hasNoTab=1&$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875107
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/fsp\\/act\\/fans-index\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/fansPa$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875108
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:fans)\\.m\\.tmall\\.com\\/(\\w+)$", 
+                "new": "tmall://page.tm/fansPaSingleParty?sellerId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875109
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:fans)\\.m\\.tmall\\.com\\/(\\w+)(\\?((?!demote2H5=1)(?!lottery=).)*)?$", 
+                "new": "tmall://page.tm/fansPaSingleParty$2&sellerId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875110
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/brandhub\\.m\\.tmall\\.com\\/\\w+\\?((?!demote2H5=1)(?!wh_weex=).)*$", 
+                "new": "tmall://page.tm/weexpage?wh_weex=true&wx_navbar_hidden=true&origin=$$0%26wh_weex%3Dtrue%26wx_navbar_hidden%3Dtrue", 
+                "flag": "l", 
+                "comment": "\u54c1\u724c\u53f7"
+            }, 
+            "id": 875111
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/brandhub\\.m\\.tmall\\.com\\/\\w+$", 
+                "new": "tmall://page.tm/weexpage?wh_weex=true&wx_navbar_hidden=true&origin=$$0%3Fwh_weex%3Dtrue%26wx_navbar_hidden%3Dtrue", 
+                "flag": "l", 
+                "comment": "\u54c1\u724c\u53f7"
+            }, 
+            "id": 875112
+        }
+    ]
+}

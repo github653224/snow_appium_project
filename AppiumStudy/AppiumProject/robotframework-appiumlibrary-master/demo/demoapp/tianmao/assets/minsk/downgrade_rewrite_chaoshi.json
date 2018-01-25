@@ -1,0 +1,39 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_chaoshi", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//chaoshi\\.m\\.tmall\\.com/?(\\?.*)?$", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875319
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//chaoshi\\.m\\.tmall\\.com/welfare\\.htm(\\?.*)?$", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875320
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//pages.tmall.com/wow/chaoshi/act/brand-activity(\\?.*)?$", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875321
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//chaoshi.m.tmall.com/i.htm(\\?.*)?$", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875322
+        }
+    ]
+}

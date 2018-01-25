@@ -1,0 +1,21 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_message_category", 
+    "catalogList": [
+        {
+            "content": {
+                "pinned": [
+                    1, 
+                    4, 
+                    -1
+                ], 
+                "ignored": [
+                    7
+                ], 
+                "unreadNumTMTransferSwitch": 1000
+            }, 
+            "id": 874666
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tida_face", 
+    "catalogList": [
+        {
+            "content": {
+                "url": "https://dtmall-tel.alicdn.com/minsk/online/fileware/201708/17428217-6606-401a-9e3e-abfa85f3efc1", 
+                "secureCode": "09dffa5e7bc0d7644d8ad60ade544e7f", 
+                "wrapperSoMd5": "ee116f28e456ba420ec5ab255fe95016", 
+                "detectSoMd5": "1acefd959df80a8035b1eb044190714d", 
+                "name": "TidaFace.zip"
+            }, 
+            "id": 875389
+        }
+    ]
+}

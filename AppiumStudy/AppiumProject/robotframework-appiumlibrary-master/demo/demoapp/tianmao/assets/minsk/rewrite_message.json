@@ -1,0 +1,41 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_message", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "((?:^https?:)\\/\\/h5.m.taobao.com\\/ww\\/index.htm#\\!dialog-)(.*)(-.*)?", 
+                "new": "$1$#2$3"
+            }, 
+            "id": 875076
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//h5\\.m\\.taobao\\.com/ww/index\\.htm((?!crash=true).)*#\\!(dialog)-([^-]+)?(?:-(\\d*))?(?:-(\\d*))?(?:-(\\d*))?(?:-(\\d*))?(?:-(\\w{8}))?", 
+                "new": "tmall://page.tm/wxsession?source=intercept&originUrl=$$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875077
+        }, 
+        {
+            "content": {
+                "origin": "^(?:tmall:)\\/\\/page.tm\\/(msgList|messageRecommend).*[\\?&]categoryId=(\\w+)", 
+                "new": "tmall://page.tm/messageList?categoryId=$2", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875078
+        }, 
+        {
+            "content": {
+                "origin": "^(?:tmall:)\\/\\/page.tm\\/wxsessionList(.*channel=push.*)", 
+                "new": "tmall://page.tm/messageBox#needLogin", 
+                "flag": "", 
+                "comment": ""
+            }, 
+            "id": 875079
+        }
+    ]
+}

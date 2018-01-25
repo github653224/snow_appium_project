@@ -1,0 +1,60 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_fushi", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop131193202(?:\\.m)?(?:\\.wapa)?\\.(?:tmall|taobao)\\.com\\/?(\\?.*)?", 
+                "new": "//www.tmall.com/wh/tmall/fushi/act/fushi-tuijian-out$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875141
+        }, 
+        {
+            "content": {
+                "origin": "^tmall:\\/\\/page\\.tm/shop(.*[\\?&](shopId=131193202|sellerId=2655858427|user_id=2655858427).*)", 
+                "new": "//www.tmall.com/wh/tmall/fushi/act/fushi-tuijian-out$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875142
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/temaishop(?:\\.m)?\\.tmall\\.com\\/?(\\?.*)?", 
+                "new": "//www.tmall.com/wh/tmall/fushi/act/fushi-tuijian-out$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875143
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop440582845(?:\\.m)?(?:\\.wapa)?\\.(?:tmall|taobao)\\.com\\/?(\\?.*)?", 
+                "new": "//space.tmall.com$1", 
+                "flag": "l"
+            }, 
+            "id": 875144
+        }, 
+        {
+            "content": {
+                "origin": "^tmall:\\/\\/page\\.tm\\/(?:shop|shopDetail)\\?(.*(shopId=440582845|sellerId=3228939284|user_id=3228939284|(sellerNick|nick)=tmallspace%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97).*)", 
+                "new": "//space.tmall.com?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875145
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/tmallspace(?:\\.m)?\\.tmall\\.com\\/?(\\?.*)?", 
+                "new": "//space.tmall.com$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875146
+        }
+    ]
+}

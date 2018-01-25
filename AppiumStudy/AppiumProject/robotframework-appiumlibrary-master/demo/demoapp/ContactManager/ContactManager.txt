@@ -1,0 +1,25 @@
+package: name='com.example.android.contactmanager' versionCode='1' versionName='1.0' platformBuildVersionName=''
+sdkVersion:'5'
+targetSdkVersion:'5'
+uses-permission: name='android.permission.GET_ACCOUNTS'
+uses-permission: name='android.permission.READ_CONTACTS'
+uses-permission: name='android.permission.WRITE_CONTACTS'
+application-icon-120:'res/drawable-ldpi/icon.png'
+application-icon-160:'res/drawable-mdpi/icon.png'
+application-icon-240:'res/drawable-hdpi/icon.png'
+application: label='' icon='res/drawable-mdpi/icon.png'
+application-debuggable
+launchable-activity: name='com.example.android.contactmanager.ContactManager'  label='Contact Manager' icon=''
+uses-permission: name='android.permission.READ_CALL_LOG'
+uses-implied-permission: name='android.permission.READ_CALL_LOG' reason='targetSdkVersion < 16 and requested READ_CONTACTS'
+uses-permission: name='android.permission.WRITE_CALL_LOG'
+uses-implied-permission: name='android.permission.WRITE_CALL_LOG' reason='targetSdkVersion < 16 and requested WRITE_CONTACTS'
+feature-group: label=''
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+main
+other-activities
+supports-screens: 'small' 'normal' 'large'
+supports-any-density: 'true'
+locales:
+densities: '120' '160' '240'

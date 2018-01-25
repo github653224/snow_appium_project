@@ -1,0 +1,43 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_interactive", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:.*__TMInteractiveSDK__=(.*))", 
+                "new": "tmall://component.tm/interactive/webview?url=$$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875230
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:.*(__ARGO_WEBVIEW__)=(.*))", 
+                "new": "tmall://component.tm/argo/component/webview?url=$$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875231
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:.*(__ARGO_WEEX__)=(.*))", 
+                "new": "tmall://component.tm/argo/component/weex?url=$$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875232
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/pages\\.tmall\\.com\\/wow\\/lafite\\/act\\/mirror\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/MirrorHome$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875233
+        }
+    ]
+}

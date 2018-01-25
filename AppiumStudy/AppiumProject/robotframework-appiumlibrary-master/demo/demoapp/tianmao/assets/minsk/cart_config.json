@@ -1,0 +1,19 @@
+{
+    "json": false, 
+    "version": 1, 
+    "name": "cart_config", 
+    "catalogList": [
+        {
+            "content": {
+                "enableCache": true
+            }, 
+            "id": 875392
+        }, 
+        {
+            "content": {
+                "enablePromotionAnimation": true
+            }, 
+            "id": 876666
+        }
+    ]
+}

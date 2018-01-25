@@ -1,0 +1,15 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_coupon", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page.tm\\/myCoupon(\\?.*)?", 
+                "new": "https://h5.m.taobao.com/awp/coupon/list.htm?spm=0.0.0.0&couponType=1&stateType=0&orderType=0&tag=15_0_1_12#!/awp/coupon/list.htm?spm=0.0.0.0&couponType=1&stateType=0&orderType=0&tag=15_0_1_12", 
+                "flag": "l"
+            }, 
+            "id": 875257
+        }
+    ]
+}

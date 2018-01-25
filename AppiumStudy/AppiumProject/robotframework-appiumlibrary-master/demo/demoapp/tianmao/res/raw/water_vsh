@@ -1,0 +1,13 @@
+attribute vec3 aPosition;
+attribute vec2 aTexture;
+
+uniform mat4 uMatrixPVM;
+
+varying vec2 vTexture;
+varying vec2 vTextureFlipY;
+
+void main(){
+    gl_Position = uMatrixPVM * vec4(aPosition,1.0);
+    vTexture = aTexture;
+    vTextureFlipY = vec2(vTexture.s,1.0 - vTexture.t);
+}

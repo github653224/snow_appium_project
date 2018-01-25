@@ -1,0 +1,33 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tm_skin", 
+    "catalogList": [
+        {
+            "content": [
+                {
+                    "endTime": 1478880000000, 
+                    "skinBundle": "https://tmge.alicdn.com/tmge/tmskin/skin1476686172526.zip", 
+                    "enable": true, 
+                    "startTime": 1477929600000, 
+                    "desc": "\u53cc\u5341\u4e00\u5bfc\u822a\u6761icon\u989c\u8272"
+                }, 
+                {
+                    "endTime": 1488988733000, 
+                    "skinBundle": "https://tmge.alicdn.com/tmge/tmskin/skin1488514239502.zip", 
+                    "enable": true, 
+                    "startTime": 1488470458000, 
+                    "desc": "\u8d85\u5e0238\u8282\u6c1b\u56f4"
+                }, 
+                {
+                    "endTime": "1490371200000", 
+                    "skinBundle": "https://tmge.alicdn.com/tmge/tmskin/skin1490250649977.zip", 
+                    "enable": true, 
+                    "startTime": "1490284800000", 
+                    "desc": "Jarvis\u6362\u80a4\u914d\u7f6e"
+                }
+            ], 
+            "id": 874471
+        }
+    ]
+}

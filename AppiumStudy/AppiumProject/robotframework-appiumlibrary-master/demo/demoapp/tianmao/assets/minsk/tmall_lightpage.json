@@ -1,0 +1,22 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_lightpage", 
+    "catalogList": [
+        {
+            "content": {
+                "monitorEnable": true, 
+                "cache": {
+                    "cacheEnable": true, 
+                    "cacheTime": 1800, 
+                    "cacheCount": 1000
+                }, 
+                "demote2h5": false, 
+                "effectMinWidth": 400, 
+                "effectEnable": true, 
+                "effectMinHeight": 300
+            }, 
+            "id": 874663
+        }
+    ]
+}

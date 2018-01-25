@@ -1,0 +1,17 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_traceless_open", 
+    "catalogList": [
+        {
+            "content": {
+                "sampling": 100, 
+                "masterSwitch": true, 
+                "clickBlackList": [
+                    "Page_SearchResult"
+                ]
+            }, 
+            "id": 874589
+        }
+    ]
+}

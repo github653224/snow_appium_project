@@ -1,0 +1,17 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "android_update", 
+    "catalogList": [
+        {
+            "content": {
+                "bundle_update_min_free_size": 50, 
+                "new_activity_support": "1", 
+                "update_frequency": 3, 
+                "new_activity_bundle": "com.tmall.wireless.login", 
+                "bundle_update_strategy": 1
+            }, 
+            "id": 874627
+        }
+    ]
+}

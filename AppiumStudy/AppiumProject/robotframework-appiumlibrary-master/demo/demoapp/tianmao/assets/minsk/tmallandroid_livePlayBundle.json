@@ -1,0 +1,25 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmallandroid_livePlayBundle", 
+    "catalogList": [
+        {
+            "content": {
+                "TMFloatPlayer_downgrade": false, 
+                "refresh_time": 20000, 
+                "default_bannel_img_url": "http://gtms04.alicdn.com/tps/i4/TB1vlY2MpXXXXaWXFXX__3m8VXX-901-901.jpg", 
+                "open_quick_play": false, 
+                "video_cache_Second_thresholdValue": 1500, 
+                "degrade_loop_time": 20000, 
+                "power_degrade": false, 
+                "interfun_refresh_time": 30000, 
+                "enter_horiztotal_show_goods_bubble": true, 
+                "danmu_request_count": 30, 
+                "no_channel_down_grade_url": "https://pages.tmall.com/wow/portal/act/app-download", 
+                "danmu_enable_default": true, 
+                "danmu_refresh_time": 9000
+            }, 
+            "id": 874632
+        }
+    ]
+}

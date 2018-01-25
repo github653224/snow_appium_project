@@ -1,0 +1,25 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_huanxin", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/portal\\/act\\/huanxin-index\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/huanxinMainPage$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875113
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//www\\.tmall\\.com/wh/tpl/refreshmentwh/tag\\.htm.*[\\?&](brandId=(\\d+))", 
+                "new": "tmall://page.tm/huanxin?dataType=2&$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875114
+        }
+    ]
+}

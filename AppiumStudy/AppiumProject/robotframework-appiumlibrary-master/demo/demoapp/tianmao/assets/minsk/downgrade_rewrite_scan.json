@@ -1,0 +1,15 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_scan", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page\\.tm\\/scan", 
+                "new": "//pages.tmall.com/wow/act/15995/tmlimit?http_referer=%2f%2f1111.tmall.com&btn_title=%e5%8e%bb%e4%b8%bb%e4%bc%9a%e5%9c%ba%e8%bd%ac%e8%bd%ac&desc=%e5%93%8e%e5%91%a6%7e%e6%9c%8d%e5%8a%a1%e5%99%a8%e8%a2%ab%e6%8c%a4%e7%88%86%e4%ba%86", 
+                "flag": "l"
+            }, 
+            "id": 875338
+        }
+    ]
+}

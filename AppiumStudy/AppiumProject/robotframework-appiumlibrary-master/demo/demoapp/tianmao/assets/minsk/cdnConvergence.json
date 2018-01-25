@@ -1,0 +1,16 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "cdnConvergence", 
+    "catalogList": [
+        {
+            "content": {
+                "excludePath": "avatar,a.tbcdn.cn,b.tbcdn.cn,gqrcode.alicdn.com,g.tbcdn.cn,m.alicdn.com,assets.alicdn.com,g.alicdn.com,ag.alicdn.com,a.dd.alicdn.com,uaction.alicdn.com,wwc.alicdn.com,osdsc.alicdn.com", 
+                "domainDest": "gw.alicdn.com", 
+                "enable": "true", 
+                "domainSrc": ".wimg.taobao.com,.alicdn.com,.taobaocdn.com"
+            }, 
+            "id": 874337
+        }
+    ]
+}

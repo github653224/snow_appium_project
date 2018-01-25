@@ -1,0 +1,68 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "funTab", 
+    "catalogList": [
+        {
+            "content": {
+                "banners": [
+                    {
+                        "action": "http://h5.m.taobao.com/app/fun/pages/pk/index.html", 
+                        "image": "http://gtms02.alicdn.com/tps/i2/TB1b50iJpXXXXclXXXXWXkEMFXX-1680-400.png"
+                    }, 
+                    {
+                        "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=443987", 
+                        "image": "http://gtms04.alicdn.com/tps/i4/TB1RZxdJpXXXXbcXVXXgoUDMFXX-1680-400.jpg"
+                    }, 
+                    {
+                        "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=441703", 
+                        "image": "http://gtms04.alicdn.com/tps/i4/TB1LKYCJXXXXXXSXFXXgoUDMFXX-1680-400.jpg"
+                    }, 
+                    {
+                        "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=439383", 
+                        "image": "http://gtms03.alicdn.com/tps/i3/TB1gaK9JXXXXXaMXXXXgoUDMFXX-1680-400.jpg"
+                    }, 
+                    {
+                        "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?labelId=441729&from=web", 
+                        "image": "http://gtms02.alicdn.com/tps/i2/TB12qO5JXXXXXbQXVXXgoUDMFXX-1680-400.jpg"
+                    }, 
+                    {
+                        "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?labelId=439868&from=web", 
+                        "image": "http://gtms03.alicdn.com/tps/i3/TB11Fw1IVXXXXX6aXXXgoUDMFXX-1680-400.jpg"
+                    }, 
+                    {
+                        "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=439584", 
+                        "image": "http://gtms03.alicdn.com/tps/i3/TB1F90cJXXXXXahXVXXgoUDMFXX-1680-400.jpg"
+                    }, 
+                    {
+                        "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=434370", 
+                        "image": "http://gtms03.alicdn.com/tps/i3/TB1ttMLIFXXXXXNaXXXgoUDMFXX-1680-400.jpg"
+                    }
+                ], 
+                "page": "post", 
+                "aggreType": "recommended", 
+                "name": "\u63a8\u8350", 
+                "searchSuggest": ""
+            }, 
+            "id": 874373
+        }, 
+        {
+            "content": {
+                "page": "label", 
+                "aggreType": "activity", 
+                "name": "\u8bdd\u9898", 
+                "searchSuggest": "\u641c\u7d22\u6807\u7b7e"
+            }, 
+            "id": 874374
+        }, 
+        {
+            "content": {
+                "page": "post", 
+                "aggreType": "following", 
+                "name": "\u5173\u6ce8", 
+                "searchSuggest": ""
+            }, 
+            "id": 874375
+        }
+    ]
+}

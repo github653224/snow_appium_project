@@ -1,0 +1,21 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_taoke_info_collect", 
+    "catalogList": [
+        {
+            "content": {
+                "search_switch": false, 
+                "detail_switch": false, 
+                "trade_switch": false, 
+                "ip_switch": false, 
+                "apps_switch": true, 
+                "location_switch": false, 
+                "carrier_switch": false, 
+                "source_switch": false, 
+                "wifimac_switch": true
+            }, 
+            "id": 875366
+        }
+    ]
+}

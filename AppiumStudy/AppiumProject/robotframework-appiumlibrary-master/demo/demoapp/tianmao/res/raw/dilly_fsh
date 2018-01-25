@@ -1,0 +1,40 @@
+precision mediump float;
+
+//const vec4 defaultColor = vec4(1.0,1.0,1.0,1.0);
+const vec4 defaultColor = vec4(1.0,1.0,1.0,0.0);
+
+uniform sampler2D uTexture0;
+uniform sampler2D uTexture1;
+uniform bvec2 uTextureValid;
+uniform bvec2 uRGB2BGR;
+uniform float uBlendRadio;
+uniform float uAlphaRadio;
+
+varying vec2 vTexture;
+
+vec4 texture2DAndArgbToAbgrIfNeed(sampler2D texture,bool need){
+    if(need)
+        return texture2D(texture,vTexture).bgra;
+    return texture2D(texture,vTexture);
+}
+
+void main(){
+	vec4 color;
+	if(uTextureValid[0] && !uTextureValid[1]){
+		color = texture2DAndArgbToAbgrIfNeed(uTexture0,uRGB2BGR[0]);
+	}else if(uTextureValid[0] && uTextureValid[1]){
+		color = mix(
+                        texture2DAndArgbToAbgrIfNeed(uTexture0 , uRGB2BGR[0]) ,
+                        texture2DAndArgbToAbgrIfNeed(uTexture1 , uRGB2BGR[1]) ,
+                        uBlendRadio
+                   );
+	}else if(!uTextureValid[0] && uTextureValid[1]){
+		color = texture2DAndArgbToAbgrIfNeed(uTexture1,uRGB2BGR[1]);
+	}else{
+		color = defaultColor;
+    }
+
+	color.a = color.a * uAlphaRadio;
+
+	gl_FragColor = color;
+}

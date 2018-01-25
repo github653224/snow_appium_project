@@ -1,0 +1,15 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "useSpecialIconForSecondTab", 
+    "catalogList": [
+        {
+            "content": {
+                "startDate": "20150116", 
+                "useSpecialIcon": true, 
+                "endDate": "20150121"
+            }, 
+            "id": 874361
+        }
+    ]
+}

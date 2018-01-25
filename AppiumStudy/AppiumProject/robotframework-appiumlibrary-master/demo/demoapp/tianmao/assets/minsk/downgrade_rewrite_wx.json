@@ -1,0 +1,39 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_wx", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:tmall:)\\/\\/page\\.tm\\/wxsession\\/?(\\?.*username=*([0-9a-zA-Z\\%]+).*)?", 
+                "new": "http://h5.m.taobao.com/ww/index.htm#!dialog-$2---", 
+                "flag": "l"
+            }, 
+            "id": 875277
+        }, 
+        {
+            "content": {
+                "origin": "^(?:tmall:)\\/\\/page.tm\\/wxsession\\/?(\\?.*source=intercept&originUrl=(.*))?", 
+                "new": "$2", 
+                "flag": "l"
+            }, 
+            "id": 875278
+        }, 
+        {
+            "content": {
+                "origin": "^(?:tmall:)\\/\\/page\\.tm\\/wxsession\\/?(\\?.*sellerName=*([0-9a-zA-Z\\%]+).*)?", 
+                "new": "http://h5.m.taobao.com/ww/index.htm#!dialog-$2---", 
+                "flag": "l"
+            }, 
+            "id": 875279
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//h5\\.m\\.taobao\\.com/ww/index\\.htm((?!crash=true).)*#\\!(dialog)-([^-]+)?(?:-(\\d*))?(?:-(\\d*))?(?:-(\\d*))?(?:-(\\d*))?(?:-(\\w{8}))?", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875280
+        }
+    ]
+}

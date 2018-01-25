@@ -1,0 +1,47 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_fanspa", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "tmall://page.tm/fansPaBrandMap(.*)?", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875325
+        }, 
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page.tm\\/fansPa$", 
+                "new": "//pages.tmall.com/wow/fsp/act/fans-index", 
+                "flag": "l"
+            }, 
+            "id": 875326
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//pages.tmall.com/wow/fsp/act/fans-index", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875327
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/vip\\.tmall\\.com\\/tm-member\\/fans-main\\/index\\?(.*)", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875328
+        }, 
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page.tm\\/fansPa\\?(.*)", 
+                "new": "//pages.tmall.com/wow/fsp/act/fans-index?$1", 
+                "flag": "l"
+            }, 
+            "id": 875329
+        }
+    ]
+}

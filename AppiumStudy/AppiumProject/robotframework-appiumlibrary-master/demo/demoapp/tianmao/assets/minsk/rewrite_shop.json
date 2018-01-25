@@ -1,0 +1,124 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_shop", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//shop\\.m\\.taobao\\.com/category/index\\.htm\\?(.*shop_id=(\\d+)(?:&user_id=(\\d+))?.*)", 
+                "new": "tmall://page.tm/shopCategory?shopId=$2&sellerId=$3&$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875053
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(\\w+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)\\/shop\\/shop_auction_search\\.htm(\\?(.*([\\?&]scid=(\\d+)).*))?", 
+                "new": "tmall://page.tm/searchShopItem?searchType=shopItem&shopId=$shopid&categoryId=$9&$7", 
+                "flag": "l,s", 
+                "comment": "\u5e97\u94fa\u5185\u641c\u7d22"
+            }, 
+            "id": 875054
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop(\\d+)(\\.m)?(\\.wapa)?\\.taobao\\.com\\/?.*?([\\?&]catId=(\\d+))?.*?#list.*?([\\?&]catId=(\\d+))?", 
+                "new": "tmall://page.tm/searchShopItem?searchType=shopItem&shopId=$1&categoryId=$5$7", 
+                "flag": "l", 
+                "comment": "\u5e97\u94fa\u5185\u641c\u7d22"
+            }, 
+            "id": 875055
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//tb\\.cn/shop\\?(.*)", 
+                "new": "tmall://page.tm/shop?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875056
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop\\.m\\.taobao\\.com\\/shop\\/shop_index\\.htm\\?shopId=(\\d+)#list\\?catId=(\\d+).*", 
+                "new": "tmall://page.tm/searchShopItem?searchType=shopItem&shopId=$1&categoryId=$2", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875057
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(\\w+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)/shop/shop_index.htm([\\?&]shop_id=(\\d+)|[\\?&](user_id|user_number_id)=(\\d+)|[\\?&]nick=((%(\\w\\w)|\\w)+))", 
+                "new": "tmall://page.tm/shop?shopId=$7&sellerId=$9&sellerNick=$10", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875058
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(shop|store)(\\.m)?\\.(taobao|tmall)\\.com/shop(/(shop_index|shopindex|shopIndex|view_shop))?\\.htm.*([\\?&]shop_id=(\\d+)|[\\?&](user_id|user_number_id|userId)=(\\d+)|[\\?&]nick=((%(\\w\\w)|\\w)+))", 
+                "new": "tmall://page.tm/shop?shopId=$7&sellerId=$9&sellerNick=$10", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875059
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//shop(\\d+)(\\.m)?(\\.wapa)?.taobao\\.com/campaign(-(\\d+))?\\.htm", 
+                "new": "tmall://page.tm/webview?url=$$0", 
+                "flag": "l", 
+                "comment": "\u5e97\u94fa\u627f\u63a5\u9875\uff0c\u4e0d\u8df3\u8f6c"
+            }, 
+            "id": 875060
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//shop(\\d+)(\\.m)*(\\.wapa)*.taobao\\.com", 
+                "new": "tmall://page.tm/shop?shopId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875061
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//h5\\.(m|wapa)\\.taobao\\.com/weapp/view_page\\.htm.*?[\\?&]page=shop(/|(%2F))(index|mall_index)([\\?&]shopId=(\\d+)|[\\?&](userId|sellerId)=(\\d+)|[\\?&]userNick=((%(\\w\\w)|\\w)+))", 
+                "new": "tmall://page.tm/shop?shopId=$6&sellerId=$8&sellerNick=$9", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875062
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)\\/shop\\/shop_auction_search\\.htm\\?(.*(suid=(\\d+)).*)", 
+                "new": "tmall://page.tm/searchShopItem?searchType=shopItem&sellerId=$7&$5", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875063
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(wapp|h5)\\.(m|waptest|wapa)\\.taobao\\.com\\/wirelessshop\\/decorator\\/view\\.(html|htm)(.*)", 
+                "new": "tmall://page.tm/weexDecorator$4", 
+                "flag": "l", 
+                "comment": "weex"
+            }, 
+            "id": 875064
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//([\\w|-]+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)/campaign-[\\d|-]+\\.htm\\?(.*shop_navi=promotion.*)", 
+                "new": "tmall://page.tm/shop?shopId=$shopid&$6", 
+                "flag": "l,s", 
+                "comment": "\u627f\u63a5\u9875\u8df3\u8f6ctab3"
+            }, 
+            "id": 875065
+        }
+    ]
+}

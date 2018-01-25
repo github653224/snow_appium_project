@@ -1,0 +1,58 @@
+[
+  {
+    "name": "toast",
+    "displayName": "Toast提示",
+    "summary": "弹出一个Toast",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.executor.ToastExecutor",
+    "category": "提示",
+    "author": "fangbo"
+  },
+  {
+    "name": "layer",
+    "displayName": "弹层",
+    "summary": "弹出一个弹层",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.executor.LayerExecutor",
+    "category": "展示",
+    "author": "fangbo"
+  },
+  {
+    "name": "sensorFetch",
+    "displayName": "传感器数据采集",
+    "summary": "采集多种类型的传感器数据",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.executor.SensorExecutor",
+    "category": "数据收集",
+    "author": "fangbo"
+  },
+  {
+    "name": "floatView",
+    "displayName": "Teleport2.0弹层",
+    "summary": "通过Teleport2.0弹出一个层",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.executor.TeleportExecutor",
+    "category": "Teleport弹层",
+    "author": "fangbo"
+  },
+  {
+    "name": "push",
+    "displayName": "Push消息通知",
+    "summary": "通过Notification弹出一个层",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.executor.PushExector",
+    "category": "Push",
+    "author": "fangbo"
+  },
+  {
+    "name": "signIn",
+    "displayName": "签到执行器",
+    "summary": "配合围栏提供一个签到上报的功能",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.executor.SignInExecutor",
+    "category": "data",
+    "author": "fangbo"
+  },
+  {
+    "name": "dataFetch",
+    "displayName": "上报采集器数据",
+    "summary": "根据配置的采集器数据，进行上报",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.executor.FetchExecutor",
+    "category": "data",
+    "author": "fangbo"
+  }
+]

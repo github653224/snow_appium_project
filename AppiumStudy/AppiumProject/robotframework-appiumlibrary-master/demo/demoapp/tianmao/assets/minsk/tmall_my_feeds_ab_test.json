@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_my_feeds_ab_test", 
+    "catalogList": [
+        {
+            "content": {
+                "enable_atomph": true
+            }, 
+            "id": 875363
+        }
+    ]
+}

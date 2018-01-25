@@ -1,0 +1,61 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_search", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//s\\.m\\.tmall\\.com/m/searchbar\\.htm[\\?]?(.*)", 
+                "new": "tmall://page.tm/searchinput?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875066
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//s\\.m\\.tmall\\.com/search\\.htm.*[\\?&]searchType=tmallhk(.*)", 
+                "new": "tmall://page.tm/searchtmallhk?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875067
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(s|list)(\\.m)?\\.tmall\\.com(/m)?/(search|search_data|search_product).htm(.*)", 
+                "new": "tmall://page.tm/search$5", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875068
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//s\\.m\\.tmall\\.com/industry_search\\.htm(.*)", 
+                "new": "tmall://page.tm/industrySearch$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875069
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//s\\.m\\.tmall\\.com/m/category\\.htm[\\?]?(.*)", 
+                "new": "tmall://page.tm/category?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875070
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//list.tmall.com/coudan/search_product.htm(.*)", 
+                "new": "tmall://page.tm/search$1", 
+                "flag": 1, 
+                "comment": ""
+            }, 
+            "id": 875071
+        }
+    ]
+}

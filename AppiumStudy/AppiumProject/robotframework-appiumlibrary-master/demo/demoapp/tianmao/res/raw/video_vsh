@@ -1,0 +1,12 @@
+attribute vec3 aPosition;
+attribute vec2 aTexture;
+
+uniform mat4 uMatrixPVM;
+uniform mat4 uMatrixST;
+
+varying vec2 vTexture;
+
+void main() {
+    vTexture = (uMatrixST * vec4(aTexture,1.0,1.0)).xy;
+    gl_Position = uMatrixPVM * vec4(aPosition,1.0);
+}

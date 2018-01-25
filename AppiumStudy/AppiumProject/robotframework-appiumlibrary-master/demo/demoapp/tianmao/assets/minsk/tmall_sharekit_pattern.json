@@ -1,0 +1,24 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_sharekit_pattern", 
+    "catalogList": [
+        {
+            "content": {
+                "patterns": [
+                    {
+                        "pattern": "(\\$)[0-9a-zA-Z]*?(\\$)", 
+                        "header": "$", 
+                        "footer": "$"
+                    }, 
+                    {
+                        "pattern": "(\\?\\?)[0-9a-zA-Z]*?(\\?\\?)", 
+                        "header": "??", 
+                        "footer": "??"
+                    }
+                ]
+            }, 
+            "id": 874491
+        }
+    ]
+}

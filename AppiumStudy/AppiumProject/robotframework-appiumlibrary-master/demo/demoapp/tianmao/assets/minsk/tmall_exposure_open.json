@@ -1,0 +1,25 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_exposure_open", 
+    "catalogList": [
+        {
+            "content": {
+                "dimThreshold": 0.5, 
+                "timeThreshold": 500, 
+                "exposureSampling": 100, 
+                "exposureBlackList": [], 
+                "masterSwitch": true, 
+                "batchOpen": false, 
+                "exposureModifyTagList": [
+                    {
+                        "pageName": "Page_SearchResult", 
+                        "argsId": "item_id"
+                    }
+                ], 
+                "singleOpen": true
+            }, 
+            "id": 874656
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "AppUpdate", 
+    "catalogList": [
+        {
+            "content": {
+                "versionUpdate": {
+                    "startupNoDisturbInterval": 120, 
+                    "deepBrowseNoDisturbInterval": 360, 
+                    "deepBrowseQuota": 40
+                }
+            }, 
+            "id": 874617
+        }
+    ]
+}

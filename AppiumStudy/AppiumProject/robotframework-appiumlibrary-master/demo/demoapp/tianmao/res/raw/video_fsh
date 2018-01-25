@@ -1,0 +1,14 @@
+#extension GL_OES_EGL_image_external : require
+precision mediump float;
+
+uniform samplerExternalOES uTexture;
+
+varying vec2 vTexture;
+
+void main() {
+    vec4 tempColor = texture2D(uTexture, vTexture);
+    float rbAverage = tempColor.r * 0.5 + tempColor.b * 0.5;
+    float gDelta = tempColor.g - rbAverage;
+    tempColor.a = 1.0 - smoothstep(0.0, 0.25, gDelta);
+    gl_FragColor = tempColor;
+}

@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "home_downgrade_switch", 
+    "catalogList": [
+        {
+            "content": {
+                "downgrade": true
+            }, 
+            "id": 875364
+        }
+    ]
+}

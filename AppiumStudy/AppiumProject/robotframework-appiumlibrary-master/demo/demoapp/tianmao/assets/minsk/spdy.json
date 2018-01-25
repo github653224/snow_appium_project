@@ -1,0 +1,35 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "spdy", 
+    "catalogList": [
+        {
+            "content": {
+                "host": "ya.tmall.com", 
+                "enable": "false"
+            }, 
+            "id": 874339
+        }, 
+        {
+            "content": {
+                "host": "ya.wapa.tmall.com", 
+                "enable": "false"
+            }, 
+            "id": 874340
+        }, 
+        {
+            "content": {
+                "host": "clientspdy.detail.tmall.com", 
+                "enable": "true"
+            }, 
+            "id": 874341
+        }, 
+        {
+            "content": {
+                "host": "clientpre.detail.tmall.com", 
+                "enable": "true"
+            }, 
+            "id": 874342
+        }
+    ]
+}

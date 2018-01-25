@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tbCalender", 
+    "catalogList": [
+        {
+            "content": {
+                "alarmAutoinject": false
+            }, 
+            "id": 874474
+        }
+    ]
+}

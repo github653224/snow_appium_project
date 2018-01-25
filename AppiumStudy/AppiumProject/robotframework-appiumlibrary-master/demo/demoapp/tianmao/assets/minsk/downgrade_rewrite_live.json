@@ -1,0 +1,23 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_live", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/hotspot\\/act\\/tmall-live-player\\/?(\\?.*)?", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875323
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:www|pages)\\.tmall\\.com\\/wow\\/hotspot\\/act\\/tmalllive-vh-player\\/?(\\?.*)?", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875324
+        }
+    ]
+}

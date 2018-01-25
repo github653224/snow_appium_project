@@ -1,0 +1,55 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_cart", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/cart\\.m\\.tmall\\.com\\/cart\\/myCart\\.htm", 
+                "new": "https://cart.m.tmall.com/cart/myCart.htm?cartfrom=tmall_supermarket&tp_id=725677994", 
+                "flag": "l"
+            }, 
+            "id": 875271
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/cart\\/index\\.htm\\/?(\\?.*)?", 
+                "new": "//h5.m.taobao.com/mlapp/cart.html?cartFrom=tmall_client&hiddenTopBar=true$1", 
+                "flag": "l"
+            }, 
+            "id": 875272
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/awp\\/base\\/cart\\.htm(?!#.*(awp\\/core\\/buy\\.htm))", 
+                "new": "//h5.m.taobao.com/mlapp/cart.html?cartFrom=tmall_client&hiddenTopBar=true", 
+                "flag": "l"
+            }, 
+            "id": 875273
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/d\\.m\\.taobao\\.com\\/mybag\\.htm\\/?(\\?.*)?", 
+                "new": "//h5.m.taobao.com/mlapp/cart.html?cartFrom=tmall_client&hiddenTopBar=true$1", 
+                "flag": "l"
+            }, 
+            "id": 875274
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/cart\\.taobao\\.com\\/my_cart\\.htm\\/?(\\?.*)?", 
+                "new": "//h5.m.taobao.com/mlapp/cart.html?cartFrom=tmall_client&hiddenTopBar=true$1", 
+                "flag": "l"
+            }, 
+            "id": 875275
+        }, 
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page\\.tm\\/cart\\/?(\\?(.*))?", 
+                "new": "//h5.m.taobao.com/mlapp/cart.html?cartFrom=tmall_client&hiddenTopBar=true$1", 
+                "flag": "l"
+            }, 
+            "id": 875276
+        }
+    ]
+}

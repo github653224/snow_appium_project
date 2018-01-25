@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "weex_url_check_switch", 
+    "catalogList": [
+        {
+            "content": {
+                "isrender": true, 
+                "ischeck": true
+            }, 
+            "id": 875246
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+precision mediump float;
+//0:1/(line+gap),1:line/(line + gap),2:offset
+uniform vec3 uParams;
+uniform vec4 uColor;
+varying float vLength;
+void main(){
+    float curModLen = fract((vLength - uParams[2]) * uParams[0]);
+    if(1.0 == step(uParams[1],curModLen))
+        discard;//gap
+        //gl_FragColor = vec4(1.0,0,0,1.0);
+    else
+        gl_FragColor = uColor;
+}

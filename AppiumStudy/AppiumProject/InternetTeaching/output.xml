@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171218 13:22:26.048" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\AppiumProject\InternetTeaching" id="s1" name="InternetTeaching">
+<kw type="setup" name="Start Suite Setup" library="global">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=4.4.2</arg>
+<arg>deviceName=samsung</arg>
+<arg>app=D:/AppiumProject/InternetTeaching/apps/qihubrowser.apk</arg>
+<arg>automationName=appium</arg>
+<arg>appPackage=com.qihoo.browser</arg>
+<arg>appActivity=com.qihoo.browser.launcher.LauncherActivity</arg>
+</arguments>
+<status status="PASS" endtime="20171218 13:23:52.101" starttime="20171218 13:22:26.539"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>20</arg>
+</arguments>
+<msg timestamp="20171218 13:24:12.103" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" endtime="20171218 13:24:12.103" starttime="20171218 13:23:52.102"></status>
+</kw>
+<status status="PASS" endtime="20171218 13:24:12.104" starttime="20171218 13:22:26.538"></status>
+</kw>
+<suite source="D:\AppiumProject\InternetTeaching\Testing-App" id="s1-s1" name="Testing-App">
+<suite source="D:\AppiumProject\InternetTeaching\Testing-App\test_andriod_demo.robot" id="s1-s1-s1" name="Test Andriod Demo">
+<test id="s1-s1-s1-t1" name="test_demo">
+<kw type="setup" name="Login Test Setup" library="global">
+<msg timestamp="20171218 13:24:12.126" level="FAIL">User keyword 'Login Test Setup' contains no keywords.</msg>
+<status status="FAIL" endtime="20171218 13:24:12.127" starttime="20171218 13:24:12.125"></status>
+</kw>
+<kw type="teardown" name="Login Test Teardown" library="global">
+<msg timestamp="20171218 13:24:12.131" level="FAIL">User keyword 'Login Test Teardown' contains no keywords.</msg>
+<status status="FAIL" endtime="20171218 13:24:12.131" starttime="20171218 13:24:12.130">User keyword 'Login Test Teardown' contains no keywords.</status>
+</kw>
+<tags>
+<tag>demo</tag>
+<tag>regression</tag>
+</tags>
+<status status="FAIL" endtime="20171218 13:24:12.132" critical="yes" starttime="20171218 13:24:12.123">Setup failed:
+User keyword 'Login Test Setup' contains no keywords.
+
+Also teardown failed:
+User keyword 'Login Test Teardown' contains no keywords.</status>
+</test>
+<doc>demo for appium library</doc>
+<status status="FAIL" endtime="20171218 13:24:12.135" starttime="20171218 13:24:12.111"></status>
+</suite>
+<status status="FAIL" endtime="20171218 13:24:12.141" starttime="20171218 13:24:12.104"></status>
+</suite>
+<status status="FAIL" endtime="20171218 13:24:12.151" starttime="20171218 13:22:26.056"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">demo</stat>
+<stat fail="1" pass="0">regression</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="InternetTeaching" pass="0">InternetTeaching</stat>
+<stat fail="1" id="s1-s1" name="Testing-App" pass="0">InternetTeaching.Testing-App</stat>
+<stat fail="1" id="s1-s1-s1" name="Test Andriod Demo" pass="0">InternetTeaching.Testing-App.Test Andriod Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

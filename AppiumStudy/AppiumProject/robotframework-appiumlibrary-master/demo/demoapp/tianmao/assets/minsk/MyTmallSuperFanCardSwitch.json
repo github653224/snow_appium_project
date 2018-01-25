@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "MyTmallSuperFanCardSwitch", 
+    "catalogList": [
+        {
+            "content": {
+                "superfanscard_switch": true
+            }, 
+            "id": 875344
+        }
+    ]
+}

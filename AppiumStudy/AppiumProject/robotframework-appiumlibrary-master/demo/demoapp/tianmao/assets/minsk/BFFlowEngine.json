@@ -1,0 +1,19 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "BFFlowEngine", 
+    "catalogList": [
+        {
+            "content": {
+                "flows": [
+                    {
+                        "enable": true, 
+                        "name": "liveFlash.drl", 
+                        "desc": "\u76f4\u64ad\u9996\u9875\u95ea\u5c4f"
+                    }
+                ]
+            }, 
+            "id": 874660
+        }
+    ]
+}

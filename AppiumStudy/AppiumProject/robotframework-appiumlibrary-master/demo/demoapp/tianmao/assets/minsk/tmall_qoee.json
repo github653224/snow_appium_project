@@ -1,0 +1,63 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_qoee", 
+    "catalogList": [
+        {
+            "content": {
+                "monitorOpen": true, 
+                "monitorInterval": -1, 
+                "whiteScreen": {
+                    "checkDelay4G": 10000, 
+                    "enable": true, 
+                    "checkDelay2G": 20000, 
+                    "checkDelay3G": 15000, 
+                    "checkDelayWifi": 10000, 
+                    "sampleRate": 100, 
+                    "checkDelay100": 3000
+                }, 
+                "score": {
+                    "fps": {
+                        "config_full_fps": 60, 
+                        "config_warn_fps": 50, 
+                        "config_ugly_fps": 30
+                    }, 
+                    "loadtime": {
+                        "config_2g_ugly_load_time": 3000, 
+                        "config_wifi_full_load_time": 700, 
+                        "config_2g_warn_load_time": 1800, 
+                        "config_wifi_ugly_load_time": 2000, 
+                        "config_2g_full_load_time": 1200, 
+                        "config_wifi_warn_load_time": 1300
+                    }
+                }, 
+                "monitorPageName": [
+                    "Page_SearchResult", 
+                    "Page_Detail"
+                ], 
+                "report": {
+                    "motuCrash": {
+                        "keywords": [
+                            "TM", 
+                            "tm", 
+                            "tmall", 
+                            "taobao", 
+                            "alibaba"
+                        ], 
+                        "enable": true, 
+                        "version": "QoEE_ALL"
+                    }, 
+                    "motuAppMonitor": {
+                        "sampleRate": 50, 
+                        "enable": true
+                    }
+                }, 
+                "block": {
+                    "memLeak": false, 
+                    "looperInterval": 1500
+                }
+            }, 
+            "id": 874620
+        }
+    ]
+}

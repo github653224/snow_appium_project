@@ -1,0 +1,496 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tmall_pop_layer", 
+    "catalogList": [
+        {
+            "content": {
+                "global_enable": true, 
+                "poplayer_black_list": ""
+            }, 
+            "id": 874434
+        }, 
+        {
+            "content": {
+                "uuid": "homeshellb", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "FrontBPage"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "FrontBPage", 
+                "appear": true
+            }, 
+            "id": 874435
+        }, 
+        {
+            "content": {
+                "uuid": "homedshell", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "SelectedFrontPage"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "SelectedFrontPage", 
+                "appear": true
+            }, 
+            "id": 874436
+        }, 
+        {
+            "content": {
+                "uuid": "fun", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "FunHome"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "FunHome", 
+                "appear": true
+            }, 
+            "id": 874437
+        }, 
+        {
+            "content": {
+                "uuid": "livehome", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "LiveHomePage"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "LiveHomePage", 
+                "appear": true
+            }, 
+            "id": 874438
+        }, 
+        {
+            "content": {
+                "uuid": "funspah5", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "^(?:https?:)?//pages\\.tmall\\.com/wow/fsp/act/fans-index.*", 
+                "appear": true
+            }, 
+            "id": 874439
+        }, 
+        {
+            "content": {
+                "paramContains": "", 
+                "uuid": "newusertask", 
+                "url": "//pages.tmall.com/wow/student/act/yuanketest", 
+                "modalThreshold": 0.9, 
+                "uri": "poplayer://newusertask", 
+                "times": 0, 
+                "showCloseBtn": false, 
+                "appear": true
+            }, 
+            "id": 874440
+        }, 
+        {
+            "content": {
+                "paramContains": "searchhongbao", 
+                "uuid": "searchshop", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "Shop"
+                }, 
+                "uri": "Shop", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874441
+        }, 
+        {
+            "content": {
+                "showCloseBtn": false, 
+                "appear": true, 
+                "url": "https://h5.m.taobao.com/app/searchinteraction/www/tmall_route_1103/index.html", 
+                "modalThreshold": 0.8, 
+                "uri": "poplayer://search", 
+                "times": 0, 
+                "mustPackageApp": false, 
+                "enableHardwareAcceleration": true, 
+                "uuid": "search"
+            }, 
+            "id": 874442
+        }, 
+        {
+            "content": {
+                "paramContains": "poplayer=", 
+                "uuid": "mission", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "Shop"
+                }, 
+                "uri": "Shop", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874443
+        }, 
+        {
+            "content": {
+                "uuid": "myStreet", 
+                "url": "http://www.tmall.com/wow/lafite/act/channel-task", 
+                "modalThreshold": 0.5, 
+                "uri": "poplayer://myStreet", 
+                "times": 0, 
+                "showCloseBtn": false, 
+                "appear": true
+            }, 
+            "id": 874444
+        }, 
+        {
+            "content": {
+                "paramContains": "czyhmjhongbao", 
+                "uuid": "shophongbao", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "Shop"
+                }, 
+                "uri": "Shop", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874445
+        }, 
+        {
+            "content": {
+                "paramContains": "czyhmjhongbao", 
+                "uuid": "webviewhongbao", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874446
+        }, 
+        {
+            "content": {
+                "paramContains": "serviceFeed=true&ssid", 
+                "uuid": "webviewservicefeed", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874447
+        }, 
+        {
+            "content": {
+                "uuid": "supermarketshell", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "Supermarket_shouye"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "Supermarket_shouye", 
+                "appear": true
+            }, 
+            "id": 874448
+        }, 
+        {
+            "content": {
+                "paramContains": "wh_dqc_taskid", 
+                "uuid": "tmallDetail", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "Detail"
+                }, 
+                "uri": "Detail", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874449
+        }, 
+        {
+            "content": {
+                "paramContains": "interactAwardId", 
+                "uuid": "benefitDetail", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "Detail"
+                }, 
+                "uri": "Detail", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874450
+        }, 
+        {
+            "content": {
+                "paramContains": "chaoshi.m.tmall.com", 
+                "uuid": "market_h5_red_home", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874451
+        }, 
+        {
+            "content": {
+                "paramContains": "chaoshi.m.tmall.com", 
+                "uuid": "supermarketh5", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "BrowserActivity", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874452
+        }, 
+        {
+            "content": {
+                "paramContains": "", 
+                "showCloseBtn": true, 
+                "appear": true, 
+                "url": "https://pages.tmall.com/wow/lafite/act/isv-transfer?wvstyle=isv&_hide_action_bar=true", 
+                "modalThreshold": 1, 
+                "uri": "poplayer://isvshop(.*)?", 
+                "times": 0, 
+                "mustPackageApp": false, 
+                "mustAppearIn": "", 
+                "enableHardwareAcceleration": true, 
+                "embed": true, 
+                "uuid": "isvshop"
+            }, 
+            "id": 874453
+        }, 
+        {
+            "content": {
+                "paramContains": "isvappinshop=true", 
+                "showCloseBtn": true, 
+                "appear": true, 
+                "url": "https://pages.tmall.com/wow/lafite/act/isv-transfer?wvstyle=isv&_hide_action_bar=true", 
+                "modalThreshold": 1, 
+                "uri": "Shop", 
+                "times": 0, 
+                "mustPackageApp": false, 
+                "mustAppearIn": "", 
+                "enableHardwareAcceleration": true, 
+                "embed": true, 
+                "uuid": "isvshop"
+            }, 
+            "id": 874454
+        }, 
+        {
+            "content": {
+                "uuid": "cameraScanner", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "CameraScanner"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "CameraScanner", 
+                "appear": true
+            }, 
+            "id": 874455
+        }, 
+        {
+            "content": {
+                "uuid": "FansPaShell", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "FansPa"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "FansPa", 
+                "appear": true
+            }, 
+            "id": 874456
+        }, 
+        {
+            "content": {
+                "paramContains": "searchInteract", 
+                "uuid": "2016searchshop", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "Shop"
+                }, 
+                "uri": "Shop", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874457
+        }, 
+        {
+            "content": {
+                "paramContains": "pages.tmall.com/wow/import/17223/kaicang", 
+                "uuid": "kaicang20170408", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874458
+        }, 
+        {
+            "content": {
+                "uuid": "messagecenter", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "MessageBoxCenter"
+                }, 
+                "sourceType": "dynamic", 
+                "uri": "MessageBoxCenter", 
+                "appear": true
+            }, 
+            "id": 874459
+        }, 
+        {
+            "content": {
+                "paramContains": "", 
+                "uuid": "20170909-hby", 
+                "url": "https://pages.tmall.com/wow/lafite/act/916-hb", 
+                "modalThreshold": 1, 
+                "uri": "poplayer://20170909hby", 
+                "times": 0, 
+                "appear": true
+            }, 
+            "id": 874460
+        }, 
+        {
+            "content": {
+                "paramContains": "38.tmall.com", 
+                "uuid": "tm-38", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874461
+        }, 
+        {
+            "content": {
+                "paramContains": "fans.m.tmall.com/lancome", 
+                "uuid": "birthday-lancome", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874462
+        }, 
+        {
+            "content": {
+                "paramContains": "fans.m.tmall.com/519286239", 
+                "uuid": "birthday-baiqueling", 
+                "extra": {
+                    "cacheTimeout": 60000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874463
+        }, 
+        {
+            "content": {
+                "paramContains": "pages.tmall.com/wow/import/act/japan1", 
+                "uuid": "20170525", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874464
+        }, 
+        {
+            "content": {
+                "paramContains": "shopId=103715363", 
+                "uuid": "916103715363", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "Shop"
+                }, 
+                "uri": "Shop", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874465
+        }, 
+        {
+            "content": {
+                "paramContains": "shopId=464516896", 
+                "uuid": "916464516896", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "Shop"
+                }, 
+                "uri": "Shop", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874466
+        }, 
+        {
+            "content": {
+                "paramContains": "18175", 
+                "uuid": "zhongqiu919", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874467
+        }, 
+        {
+            "content": {
+                "paramContains": "main-100275", 
+                "uuid": "99dingxiang4", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874468
+        }, 
+        {
+            "content": {
+                "paramContains": "618.tmall.com", 
+                "uuid": "618_h5_red_home", 
+                "extra": {
+                    "cacheTimeout": 30000, 
+                    "pageCode": "H5AndWeex"
+                }, 
+                "uri": "^(?:https?:)?//.*", 
+                "appear": true, 
+                "sourceType": "dynamic"
+            }, 
+            "id": 874469
+        }
+    ]
+}

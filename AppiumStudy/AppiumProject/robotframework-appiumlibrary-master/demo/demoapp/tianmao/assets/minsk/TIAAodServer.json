@@ -1,0 +1,17 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "TIAAodServer", 
+    "catalogList": [
+        {
+            "content": {
+                "uploadAPI": "action/mobile/aod/analyseFromFiles.do", 
+                "params": "?pageSize=500&pageNum=1", 
+                "host": "http://aod.alibaba-inc.com/", 
+                "statusAPI": "action/mobile/aod/getUploadStatus.do", 
+                "deprecatedAPI": "action/mobile/aod/getDeprecatedFiles.do"
+            }, 
+            "id": 875345
+        }
+    ]
+}

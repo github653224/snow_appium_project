@@ -1,0 +1,62 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "Update_Apk_Config", 
+    "catalogList": [
+        {
+            "content": {
+                "teleportFrequency": {
+                    "minIntervalHour": 1, 
+                    "cycleDay": 1, 
+                    "maxShowTime": 2
+                }, 
+                "enable": true, 
+                "dialogFrequency": {
+                    "minIntervalHour": 12, 
+                    "cycleDay": 1, 
+                    "maxShowTime": 1
+                }, 
+                "whiteListAndType": [
+                    {
+                        "whiteList": "onStartApp,onLeaveApp", 
+                        "type": "dialog"
+                    }, 
+                    {
+                        "whiteList": "MyStreetMain,Logistics,OrderDetail,https://h5.m.taobao.com/app/cz/cost.html,http://www.tmall.com/wow/portal/act/tmredian-1111,http://buy.m.tmall.com/order/wapPaySuccess.htm", 
+                        "type": "teleport"
+                    }
+                ], 
+                "install_onLeave": {
+                    "cancel": "\u53d6\u6d88", 
+                    "confirm": "\u5b89\u88c5", 
+                    "teleportPrompt": "\u5929\u732b\u65b0\u7248\u4f53\u9a8c\u66f4\u8d5e\u54e6\u3002\u5feb\u6765\u4f53\u9a8c\u5427\uff01", 
+                    "dialogPrompt": "\u5df2\u5728Wi-Fi\u4e0b\u4e3a\u60a8\u4e0b\u8f7d\u597d\u5b89\u88c5\u5305\uff1b\n\u5546\u54c1\u5206\u4eab\u65b0\u795e\u5668\uff1a\u58f0\u6ce2\u5206\u4eab\uff0c\u53bb\u6211\u7684\u5929\u732b\u91cc\uff0c\u627e\u5230\u201c\u542c\u4e00\u542c\u201d\uff0c\u54bb\u54bb\u54bb~\u5c0f\u55b5\u53d1\u529f\u7ed9\u4f60\u4f20\u597d\u8d27\uff01\u5feb\u6765\u5347\u7ea7\uff0c\u4e00\u8d77\u4f53\u9a8c\uff01", 
+                    "title": "\u4e00\u952e\u5b89\u88c5\u6700\u65b0\u7248\u672c\uff1f"
+                }, 
+                "download_onLeave": {
+                    "cancel": "\u53d6\u6d88", 
+                    "confirm": "\u4e0b\u8f7d", 
+                    "teleportPrompt": "\u5929\u732b\u65b0\u7248\u4f53\u9a8c\u66f4\u8d5e\u54e6\u3002\u5feb\u6765\u4f53\u9a8c\u5427\uff01", 
+                    "dialogPrompt": "\u5546\u54c1\u5206\u4eab\u65b0\u795e\u5668\uff1a\u58f0\u6ce2\u5206\u4eab\uff0c\u53bb\u6211\u7684\u5929\u732b\u91cc\uff0c\u627e\u5230\u201c\u542c\u4e00\u542c\u201d\uff0c\u54bb\u54bb\u54bb~\u5c0f\u55b5\u53d1\u529f\u7ed9\u4f60\u4f20\u597d\u8d27\uff01\u5feb\u6765\u5347\u7ea7\uff0c\u4e00\u8d77\u4f53\u9a8c\uff01", 
+                    "title": "\u662f\u5426\u4e0b\u8f7d\u65b0\u7248\u672c\uff1f"
+                }, 
+                "download_duringUse": {
+                    "cancel": "\u53d6\u6d88", 
+                    "confirm": "\u4e0b\u8f7d", 
+                    "teleportPrompt": "\u5929\u732b\u65b0\u7248\u4f53\u9a8c\u66f4\u8d5e\u54e6\u3002\u5feb\u6765\u4f53\u9a8c\u5427\uff01", 
+                    "dialogPrompt": "\u5546\u54c1\u5206\u4eab\u65b0\u795e\u5668\uff1a\u58f0\u6ce2\u5206\u4eab\uff0c\u53bb\u6211\u7684\u5929\u732b\u91cc\uff0c\u627e\u5230\u201c\u542c\u4e00\u542c\u201d\uff0c\u54bb\u54bb\u54bb~\u5c0f\u55b5\u53d1\u529f\u7ed9\u4f60\u4f20\u597d\u8d27\uff01\u5feb\u6765\u5347\u7ea7\uff0c\u4e00\u8d77\u4f53\u9a8c\uff01", 
+                    "title": "\u662f\u5426\u4e0b\u8f7d\u65b0\u7248\u672c\uff1f"
+                }, 
+                "install_duringUse": {
+                    "cancel": "\u53d6\u6d88", 
+                    "confirm": "\u5b89\u88c5", 
+                    "teleportPrompt": "\u5929\u732b\u65b0\u7248\u4f53\u9a8c\u66f4\u8d5e\u54e6\u3002\u5feb\u6765\u4f53\u9a8c\u5427\uff01", 
+                    "dialogPrompt": "\u5df2\u5728Wi-Fi\u4e0b\u4e3a\u60a8\u4e0b\u8f7d\u597d\u5b89\u88c5\u5305\uff1b\n\u5546\u54c1\u5206\u4eab\u65b0\u795e\u5668\uff1a\u58f0\u6ce2\u5206\u4eab\uff0c\u53bb\u6211\u7684\u5929\u732b\u91cc\uff0c\u627e\u5230\u201c\u542c\u4e00\u542c\u201d\uff0c\u54bb\u54bb\u54bb~\u5c0f\u55b5\u53d1\u529f\u7ed9\u4f60\u4f20\u597d\u8d27\uff01\u5feb\u6765\u5347\u7ea7\uff0c\u4e00\u8d77\u4f53\u9a8c\uff01", 
+                    "title": "\u4e00\u952e\u5b89\u88c5\u6700\u65b0\u7248\u672c\uff1f"
+                }, 
+                "teleportShowTimeMinute": 0.2
+            }, 
+            "id": 875026
+        }
+    ]
+}

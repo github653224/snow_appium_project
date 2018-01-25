@@ -1,0 +1,21 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "maneki", 
+    "catalogList": [
+        {
+            "content": {
+                "categoryId2Delay": {
+                    "50010788": 132, 
+                    "30": 150, 
+                    "1801": 144, 
+                    "16": 180
+                }, 
+                "minTriggerInterval": 2, 
+                "defaultDelay": 210, 
+                "triggerOpen": true
+            }, 
+            "id": 874556
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "simpleConfig", 
+    "catalogList": [
+        {
+            "content": {
+                "tabWebWhiteHost": "^http[s]?:\\/\\/(?!(3c|detail\\.))(\\w|\\.)*(www|m)\\.tmall\\.com\\/((?!(wh)).*)|(.*(14020).*)", 
+                "totalARGB8888": "true", 
+                "tabWebWhiteList": "http://page.m.tmall.com/clj/cljList.html*http://shiyong.tmall.com/try/index*http://brand.tmall.com/mobilestreet/fashion.htm?*http://chaoshi.m.tmall.com/?*http://ju.taobao.com/m/jusp/juhuasuantm/mtp.htm?*http://h5.m.taobao.com/market/tmallhk/mobile_index_2014.html*http://www.tmall.com/go/chn/common/u-award.php?*http://vip.tmall.com/point?*http://brand.tmall.com/brand/global.htm*http://miao.tmall.com/go/market/miao/m.php*http://www.tmall.com/go/market/promotion-act/mcwuxian.php*http://nvzhuang.tmall.com/*http://www.tmall.com/go/market/fushi/nanzhuang_mobile.php*http://baby.tmall.com/go/market/baby/m-index-v2.php*http://www.tmall.com/go/market/promotion-act/zxdzwuxian.php*http://mei.tmall.com/*http://myhome.tmall.com/*http://yao.m.tmall.com*http://yundong.tmall.com/market/fushi/sports_mobile.php?*http://brand.tmall.com/brand/globalItem.htm?*http://man.tmall.com/*http://www.tmall.com/wh/tmall/act/chn/13814/vip", 
+                "tabWebMaxLowMem": "3", 
+                "tabWebMax": "3", 
+                "tabWeb": "false"
+            }, 
+            "id": 874338
+        }
+    ]
+}

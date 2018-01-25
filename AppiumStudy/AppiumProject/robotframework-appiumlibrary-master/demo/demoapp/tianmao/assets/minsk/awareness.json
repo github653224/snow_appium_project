@@ -1,0 +1,15 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "awareness", 
+    "catalogList": [
+        {
+            "content": {
+                "disable_awareness_weex": false, 
+                "enable_switch_foreground_update_config": false, 
+                "disable_register_module": false
+            }, 
+            "id": 875373
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "mui", 
+    "catalogList": [
+        {
+            "content": {
+                "imagePerformanceSamplingRate": 500, 
+                "cdnConvergency": {
+                    "excludePath": "avatar,a.tbcdn.cn,b.tbcdn.cn,gqrcode.alicdn.com,g.tbcdn.cn,m.alicdn.com,assets.alicdn.com,g.alicdn.com,ag.alicdn.com,a.dd.alicdn.com,uaction.alicdn.com,wwc.alicdn.com,osdsc.alicdn.com,ossgw.alicdn.com,gjusp.alicdn.com", 
+                    "domainDest": "gw.alicdn.com", 
+                    "enable": true, 
+                    "domainSrc": ".wimg.taobao.com,.alicdn.com,.taobaocdn.com,.mmcdn.cn"
+                }, 
+                "imageCdnPattern": "(.*?\\.(jpg|png|gif|pXX|jpeg))_[a-zA-Z0-9]+.*", 
+                "pullToRefresh": {
+                    "fullScreen": true, 
+                    "endTime": "2015-12-26", 
+                    "image": "http://gtms03.alicdn.com/tps/i3/TB1X_pULXXXXXavXFXXRSMi2pXX-750-696.jpg", 
+                    "refreshingHint": "\u4e0d\u7ecf\u610f\u95f4\uff0c\u6536\u83b7\u66f4\u591a...", 
+                    "next": {
+                        "fullScreen": true, 
+                        "image": "http://gtms03.alicdn.com/tps/i3/TB1uRJ2LXXXXXcIXVXXH9jG2pXX-750-414.gif", 
+                        "refreshingHint": "\u4e0d\u7ecf\u610f\u95f4\uff0c\u6536\u83b7\u66f4\u591a...", 
+                        "pullHint": "\u4e0b\u62c9\u5237\u65b0", 
+                        "stopTime": "2015-12-27", 
+                        "startTime": "2015-12-26", 
+                        "releaseHint": "\u677e\u5f00\u7acb\u5373\u5237\u65b0", 
+                        "isGif": true
+                    }, 
+                    "pullHint": "\u4e0b\u62c9\u5237\u65b0", 
+                    "startTime": "2015-12-24", 
+                    "releaseHint": "\u677e\u5f00\u7acb\u5373\u5237\u65b0", 
+                    "isGif": false
+                }
+            }, 
+            "id": 874419
+        }
+    ]
+}

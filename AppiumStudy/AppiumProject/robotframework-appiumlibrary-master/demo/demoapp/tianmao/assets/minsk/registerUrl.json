@@ -1,0 +1,13 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "registerUrl", 
+    "catalogList": [
+        {
+            "content": {
+                "url": "http://reg.taobao.com/member/new_register.jhtml?_devenv=MobileDeviceWebView&tmallclient=true"
+            }, 
+            "id": 874362
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "trade_recommend_component", 
+    "catalogList": [
+        {
+            "content": {
+                "serviceEnable": {
+                    "page_order_list": true, 
+                    "page_order_detail": true, 
+                    "page_logistic_detail": true, 
+                    "page_cart_sm": true, 
+                    "page_cart": true
+                }, 
+                "paramMap": {
+                    "page_order_list": {
+                        "aldcount": 50, 
+                        "aldpage": 1
+                    }, 
+                    "page_order_detail": {
+                        "aldcount": 50, 
+                        "aldpage": 1
+                    }, 
+                    "page_logistic_detail": {
+                        "aldcount": 50, 
+                        "aldpage": 1
+                    }, 
+                    "page_cart_sm": {
+                        "aldcount": 50, 
+                        "aldpage": 1
+                    }, 
+                    "page_cart": {
+                        "aldcount": 50, 
+                        "aldpage": 1
+                    }
+                }
+            }, 
+            "id": 874428
+        }
+    ]
+}

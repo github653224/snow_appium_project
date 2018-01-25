@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171217 13:59:45.251" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\AppiumProject\robotframework_appium\tests\test_tianmao.robot" id="s1" name="Test Tianmao">
+<test id="s1-t1" name="Test Procedure">
+<kw name="Test Tianmao">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>${Remote_Url}</arg>
+<arg>platformName=${platformName}</arg>
+<arg>platformVersion=${platformVersion}</arg>
+<arg>deviceName=${deviceName}</arg>
+<arg>app=${tianmao_app_path}</arg>
+<arg>automationName=${automationName}</arg>
+<arg>appPackage=${appPackage}</arg>
+<arg>appActivity=${appActivity}</arg>
+</arguments>
+<status status="PASS" endtime="20171217 14:00:05.477" starttime="20171217 13:59:45.796"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20171217 14:00:10.478" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20171217 14:00:10.478" starttime="20171217 14:00:05.477"></status>
+</kw>
+<kw name="Close All Applications" library="AppiumLibrary">
+<doc>Closes all open applications.</doc>
+<status status="PASS" endtime="20171217 14:00:12.092" starttime="20171217 14:00:10.478"></status>
+</kw>
+<status status="PASS" endtime="20171217 14:00:12.092" starttime="20171217 13:59:45.795"></status>
+</kw>
+<status status="PASS" endtime="20171217 14:00:12.096" critical="yes" starttime="20171217 13:59:45.794"></status>
+</test>
+<status status="PASS" endtime="20171217 14:00:12.102" starttime="20171217 13:59:45.261"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test Tianmao" pass="1">Test Tianmao</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

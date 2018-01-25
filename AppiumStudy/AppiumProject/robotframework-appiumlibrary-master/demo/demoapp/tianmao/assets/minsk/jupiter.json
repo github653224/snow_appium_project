@@ -1,0 +1,28 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "jupiter", 
+    "catalogList": [
+        {
+            "content": {
+                "touchpad": {
+                    "gestureSingleLongPress": {
+                        "touchSlot": 100, 
+                        "pressDuration": 1500, 
+                        "enabled": true
+                    }, 
+                    "gestureDoubleLongPress": {
+                        "touchSlot": 1000, 
+                        "pressDuration": 600, 
+                        "enabled": true
+                    }, 
+                    "enabled": true
+                }, 
+                "jarvis": {
+                    "enabled": true
+                }
+            }, 
+            "id": 874659
+        }
+    ]
+}

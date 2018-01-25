@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_hotpatch_config", 
+    "catalogList": [
+        {
+            "content": {
+                "osVersionRegx": "5.1", 
+                "sdkIntRegx": "21", 
+                "brandRegx": "M681C", 
+                "hotpatchClosed": false
+            }, 
+            "id": 875027
+        }
+    ]
+}

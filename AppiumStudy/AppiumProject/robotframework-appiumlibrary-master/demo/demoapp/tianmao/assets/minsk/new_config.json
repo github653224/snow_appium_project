@@ -1,0 +1,13 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "new_config", 
+    "catalogList": [
+        {
+            "content": {
+                "useNew": true
+            }, 
+            "id": 874358
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_topbrand", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//www\\.tmall\\.com/wh/tmall/brand/act/goodshop\\/?(\\?.*)?", 
+                "new": "tmall://page.tm/topbrand$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875239
+        }
+    ]
+}

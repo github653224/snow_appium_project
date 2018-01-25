@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_fun_abtest", 
+    "catalogList": [
+        {
+            "content": {
+                "enable_interfun_goods_list_plugin": false
+            }, 
+            "id": 875360
+        }
+    ]
+}

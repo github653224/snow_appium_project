@@ -1,0 +1,19 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "TMTabBar_Style", 
+    "catalogList": [
+        {
+            "content": {
+                "status": false, 
+                "name": "tabbar", 
+                "startTime": "1461502800000", 
+                "hideFunIcon": 0, 
+                "tabs": [], 
+                "background": "#000000", 
+                "endTime": "1461510000000"
+            }, 
+            "id": 874490
+        }
+    ]
+}

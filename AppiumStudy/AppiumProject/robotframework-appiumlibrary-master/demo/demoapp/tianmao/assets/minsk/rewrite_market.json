@@ -1,0 +1,97 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_market", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/chaoshi(\\.(m|wapa|waptest))?\\.tmall\\.com\\/?(($)|(^|\\?))((?!.*fromNative=true).*$)", 
+                "new": "tmall://page.tm/market.main?__tab__=0&url=$$0", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02_\u9996\u9875"
+            }, 
+            "id": 875131
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/chaoshi\\.m\\.tmall\\.com\\/welfare\\.htm(?!.*fromNative=true).*$", 
+                "new": "tmall://page.tm/market.main?__tab__=1&url=$$0", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02_\u7ffb\u724c"
+            }, 
+            "id": 875132
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/pages\\.tmall\\.com\\/wow\\/chaoshi\\/act\\/brand-activity(?!.*fromNative=true).*$", 
+                "new": "tmall://page.tm/market.main?__tab__=2&url=$$0", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02_\u54c1\u724c\u7279\u60e0"
+            }, 
+            "id": 875133
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//pages\\.tmall\\.com/wow/chaoshi/act/cityselect/?(\\?.*)?$", 
+                "new": "tmall://page.tm/market.citySelector$1", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02_\u5730\u5740\u9009\u62e9"
+            }, 
+            "id": 875134
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/chaoshi\\.m\\.tmall\\.com\\/i\\.htm(?!.*fromNative=true).*$", 
+                "new": "tmall://page.tm/market.main?__tab__=4&url=$$0", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02_\u6211\u7684"
+            }, 
+            "id": 875135
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//shop(101975462|108330122|107693821)(\\.m)?\\.(taobao|tmall)\\.com", 
+                "new": "tmall://page.tm/webview?url=$$0", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02"
+            }, 
+            "id": 875136
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(chaoshihn|chaoshihb|xian)(\\.m)?\\.tmall\\.com", 
+                "new": "tmall://page.tm/webview?url=$$0", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02"
+            }, 
+            "id": 875137
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:s\\.m|list)\\.tmall\\.com\\/chaoshi(?:Wap)?\\.htm(.*)", 
+                "new": "tmall://page.tm/superMarket$1", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02"
+            }, 
+            "id": 875138
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/h5\\.(wapa|waptest|m)\\.taobao\\.com\\/cart\\/gather\\.html\\/?\\?(.*)", 
+                "new": "tmall://page.tm/coudan?$2#needLogin", 
+                "flag": "l", 
+                "comment": "\u5929\u732b\u8d85\u5e02_\u51d1\u5355"
+            }, 
+            "id": 875139
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//shop67597230(\\.m)?\\.(taobao|tmall)\\.com(\\?.*)", 
+                "new": "https://chaoshi.m.tmall.com$3", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875140
+        }
+    ]
+}

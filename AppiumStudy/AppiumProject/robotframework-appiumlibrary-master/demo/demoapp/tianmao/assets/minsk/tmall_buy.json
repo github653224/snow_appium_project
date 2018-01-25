@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_buy", 
+    "catalogList": [
+        {
+            "content": {
+                "buy_degrade_url": ""
+            }, 
+            "id": 875253
+        }
+    ]
+}

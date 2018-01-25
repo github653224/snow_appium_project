@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "ARCoreConfig", 
+    "catalogList": [
+        {
+            "content": {
+                "slam": {
+                    "resourceUrl": "https://dtmall-tel.alicdn.com/minsk/online/fileware/201706/4732eb47-2546-482d-be52-26c919e347db", 
+                    "libUrl": "https://dtmall-tel.alicdn.com/minsk/online/fileware/201706/57861566-8551-4faf-81fb-380d1d046ad0"
+                }
+            }, 
+            "id": 875384
+        }
+    ]
+}

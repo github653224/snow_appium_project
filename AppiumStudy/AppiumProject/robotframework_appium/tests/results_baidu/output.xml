@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171218 21:00:05.892" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\AppiumProject\robotframework_appium\tests\test_install_baidu.robot" id="s1" name="Test Install Baidu">
+<test id="s1-t1" name="Test Procedure">
+<kw name="Shouji Baidu Search">
+<arguments>
+<arg>潘雪岩</arg>
+</arguments>
+<kw name="App Property Settings">
+<arguments>
+<arg>com.baidu.searchbox.lite</arg>
+<arg>com.baidu.searchbox.SplashActivity</arg>
+</arguments>
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>${Remote_Url}</arg>
+<arg>platformName=${platformName}</arg>
+<arg>platformVersion=${platformVersion}</arg>
+<arg>deviceName=${deviceName}</arg>
+<arg>automationName=${automationName}</arg>
+<arg>app=${shoujibaidu_app_path}</arg>
+<arg>appPackage=${appPackage}</arg>
+<arg>appActivity=${appActivity}</arg>
+<arg>unicodeKeyboard=True</arg>
+<arg>resetKeyboard=True</arg>
+</arguments>
+<status status="PASS" endtime="20171218 21:00:29.709" starttime="20171218 21:00:06.543"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:00:29.710" starttime="20171218 21:00:06.542"></status>
+</kw>
+<kw name="Click Shouji Baidu Tiyan Pop-ups">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<arguments>
+<arg>10s</arg>
+<arg>0.5s</arg>
+<arg>Click Element</arg>
+<arg>id=com.baidu.searchbox.lite:id/rs</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=com.baidu.searchbox.lite:id/rs</arg>
+</arguments>
+<msg timestamp="20171218 21:00:29.715" level="INFO">Clicking element 'id=com.baidu.searchbox.lite:id/rs'.</msg>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20171218 21:00:32.122" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20171218 21:00:32.123" starttime="20171218 21:00:30.899"></status>
+</kw>
+<msg timestamp="20171218 21:00:32.125" level="FAIL">ValueError: Element locator 'id=com.baidu.searchbox.lite:id/rs' did not match any elements.</msg>
+<status status="FAIL" endtime="20171218 21:00:32.125" starttime="20171218 21:00:29.714"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=com.baidu.searchbox.lite:id/rs</arg>
+</arguments>
+<msg timestamp="20171218 21:00:32.626" level="INFO">Clicking element 'id=com.baidu.searchbox.lite:id/rs'.</msg>
+<status status="PASS" endtime="20171218 21:00:37.621" starttime="20171218 21:00:32.625"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:00:37.621" starttime="20171218 21:00:29.712"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:00:37.622" starttime="20171218 21:00:29.710"></status>
+</kw>
+<kw name="Click Shouji Baidu Searchbox">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<arguments>
+<arg>10s</arg>
+<arg>0.5s</arg>
+<arg>Click Element</arg>
+<arg>xpath=//*[@class="android.widget.Button"]</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@class="android.widget.Button"]</arg>
+</arguments>
+<msg timestamp="20171218 21:00:37.626" level="INFO">Clicking element 'xpath=//*[@class="android.widget.Button"]'.</msg>
+<status status="PASS" endtime="20171218 21:00:39.368" starttime="20171218 21:00:37.625"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:00:39.371" starttime="20171218 21:00:37.624"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:00:39.371" starttime="20171218 21:00:37.622"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20171218 21:00:44.373" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20171218 21:00:44.373" starttime="20171218 21:00:39.372"></status>
+</kw>
+<kw name="Input Test into Shouji Baidu Searchbox">
+<arguments>
+<arg>${search_text}</arg>
+</arguments>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<arguments>
+<arg>10s</arg>
+<arg>0.5s</arg>
+<arg>Input Text</arg>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+<arg>${search_text}</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+<arg>${search_text}</arg>
+</arguments>
+<msg timestamp="20171218 21:00:44.378" level="INFO">Typing text '潘雪岩' into text field 'xpath=//*[@class="android.widget.EditText"]'</msg>
+<status status="PASS" endtime="20171218 21:00:50.848" starttime="20171218 21:00:44.377"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:00:50.849" starttime="20171218 21:00:44.375"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:00:50.849" starttime="20171218 21:00:44.374"></status>
+</kw>
+<kw name="Clear Text in Shouji Baidu Searbox">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<arguments>
+<arg>10s</arg>
+<arg>0.5s</arg>
+<arg>Clear Text</arg>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+</arguments>
+<kw name="Clear Text" library="AppiumLibrary">
+<doc>Clears the text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+</arguments>
+<msg timestamp="20171218 21:00:50.852" level="INFO">Clear text field 'xpath=//*[@class="android.widget.EditText"]'</msg>
+<status status="PASS" endtime="20171218 21:01:00.901" starttime="20171218 21:00:50.851"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:00.901" starttime="20171218 21:00:50.850"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:00.902" starttime="20171218 21:00:50.849"></status>
+</kw>
+<kw name="Input Test into Shouji Baidu Searchbox">
+<arguments>
+<arg>Halo3224</arg>
+</arguments>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<arguments>
+<arg>10s</arg>
+<arg>0.5s</arg>
+<arg>Input Text</arg>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+<arg>${search_text}</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+<arg>${search_text}</arg>
+</arguments>
+<msg timestamp="20171218 21:01:00.904" level="INFO">Typing text 'Halo3224' into text field 'xpath=//*[@class="android.widget.EditText"]'</msg>
+<status status="PASS" endtime="20171218 21:01:06.725" starttime="20171218 21:01:00.904"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:06.725" starttime="20171218 21:01:00.903"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:06.726" starttime="20171218 21:01:00.902"></status>
+</kw>
+<kw name="Clear Text in Shouji Baidu Searbox">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<arguments>
+<arg>10s</arg>
+<arg>0.5s</arg>
+<arg>Clear Text</arg>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+</arguments>
+<kw name="Clear Text" library="AppiumLibrary">
+<doc>Clears the text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+</arguments>
+<msg timestamp="20171218 21:01:06.731" level="INFO">Clear text field 'xpath=//*[@class="android.widget.EditText"]'</msg>
+<status status="PASS" endtime="20171218 21:01:12.490" starttime="20171218 21:01:06.730"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:12.491" starttime="20171218 21:01:06.728"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:12.492" starttime="20171218 21:01:06.727"></status>
+</kw>
+<kw name="Input Test into Shouji Baidu Searchbox">
+<arguments>
+<arg>潘雪岩</arg>
+</arguments>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<arguments>
+<arg>10s</arg>
+<arg>0.5s</arg>
+<arg>Input Text</arg>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+<arg>${search_text}</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@class="android.widget.EditText"]</arg>
+<arg>${search_text}</arg>
+</arguments>
+<msg timestamp="20171218 21:01:12.496" level="INFO">Typing text '潘雪岩' into text field 'xpath=//*[@class="android.widget.EditText"]'</msg>
+<status status="PASS" endtime="20171218 21:01:18.167" starttime="20171218 21:01:12.495"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:18.168" starttime="20171218 21:01:12.494"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:18.168" starttime="20171218 21:01:12.492"></status>
+</kw>
+<kw name="Click Shouji Baidu Search Button">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<arguments>
+<arg>10s</arg>
+<arg>0.5s</arg>
+<arg>Click Element</arg>
+<arg>id=com.baidu.searchbox.lite:id/a25</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=com.baidu.searchbox.lite:id/a25</arg>
+</arguments>
+<msg timestamp="20171218 21:01:18.171" level="INFO">Clicking element 'id=com.baidu.searchbox.lite:id/a25'.</msg>
+<status status="PASS" endtime="20171218 21:01:19.322" starttime="20171218 21:01:18.170"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:19.322" starttime="20171218 21:01:18.169"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:19.323" starttime="20171218 21:01:18.168"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20171218 21:01:22.324" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20171218 21:01:22.324" starttime="20171218 21:01:19.323"></status>
+</kw>
+<kw name="Go Back" library="AppiumLibrary">
+<doc>Goes one step backward in the browser history.</doc>
+<status status="PASS" endtime="20171218 21:01:22.577" starttime="20171218 21:01:22.325"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>D:/AppiumProject/robotframework_appium/screenshots/a.png</arg>
+</arguments>
+<msg timestamp="20171218 21:01:24.395" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../screenshots/a.png"&gt;&lt;img src="../../screenshots/a.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20171218 21:01:24.396" starttime="20171218 21:01:22.577"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20171218 21:01:27.404" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20171218 21:01:27.405" starttime="20171218 21:01:24.396"></status>
+</kw>
+<kw name="Set Screenshot Directory" library="Screenshot">
+<doc>Sets the directory where screenshots are saved.</doc>
+<arguments>
+<arg>D:\\AppiumProject\\robotframework_appium\\tests/screeshots</arg>
+</arguments>
+<status status="PASS" endtime="20171218 21:01:27.412" starttime="20171218 21:01:27.406"></status>
+</kw>
+<kw name="Take Screenshot" library="Screenshot">
+<doc>Takes a screenshot in JPEG format and embeds it into the log file.</doc>
+<arguments>
+<arg>my_image.png</arg>
+</arguments>
+<msg timestamp="20171218 21:01:27.610" html="yes" level="INFO">&lt;a href="../screeshots/my_image.png_4.jpg"&gt;&lt;img src="../screeshots/my_image.png_4.jpg" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20171218 21:01:27.611" starttime="20171218 21:01:27.412"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20171218 21:01:32.612" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20171218 21:01:32.612" starttime="20171218 21:01:27.611"></status>
+</kw>
+<kw name="Close All Applications" library="AppiumLibrary">
+<doc>Closes all open applications.</doc>
+<status status="PASS" endtime="20171218 21:01:35.544" starttime="20171218 21:01:32.613"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:35.544" starttime="20171218 21:00:06.541"></status>
+</kw>
+<status status="PASS" endtime="20171218 21:01:35.545" critical="yes" starttime="20171218 21:00:06.539"></status>
+</test>
+<status status="PASS" endtime="20171218 21:01:35.549" starttime="20171218 21:00:05.901"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test Install Baidu" pass="1">Test Install Baidu</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

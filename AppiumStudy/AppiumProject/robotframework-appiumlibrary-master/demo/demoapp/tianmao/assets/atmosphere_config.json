@@ -1,0 +1,25 @@
+{
+    "des": "天猫氛围配置",
+    "currentSytleId": 1001,
+    "enable":true,
+    "styles": [
+      {
+        "name": "style双11",
+        "id": 1001,
+        "startTime": "1440675631639",
+        "endTime": "1440775631639",
+        "imgZipUrl":"http://10.1.220.114:8080/static/test.zip",
+        "imgZipMd5":"9ddb94b8923df837508cd4582a1ed5dd",
+        "modules":[
+        {"name":"moduleNav",
+          "textColor": "#6666",
+          "bgColor": "#5555"
+        },
+         {"name":"moduleNav2",
+          "textColor": "#6666",
+          "bgColor": "#5555"
+        }
+        ]
+      }
+    ]
+}

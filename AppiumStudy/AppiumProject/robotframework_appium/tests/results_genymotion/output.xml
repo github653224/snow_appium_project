@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171220 14:53:48.721" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\PythonProjects\AppiumProject\robotframework_appium\tests\test_install_baidu.robot" id="s1" name="Test Install Baidu">
+<test id="s1-t1" name="Test Procedure">
+<kw name="Shouji Baidu Search">
+<arguments>
+<arg>潘雪岩</arg>
+</arguments>
+<kw name="App Property Settings">
+<arguments>
+<arg>com.baidu.searchbox.lite</arg>
+<arg>com.baidu.searchbox.SplashActivity</arg>
+</arguments>
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>${Remote_Url}</arg>
+<arg>platformName=${platformName}</arg>
+<arg>platformVersion=${platformVersion}</arg>
+<arg>deviceName=${deviceName}</arg>
+<arg>automationName=${automationName}</arg>
+<arg>app=${shoujibaidu_app_path}</arg>
+<arg>appPackage=${appPackage}</arg>
+<arg>appActivity=${appActivity}</arg>
+<arg>unicodeKeyboard=True</arg>
+</arguments>
+<kw name="Log Source" library="AppiumLibrary">
+<doc>Logs and returns the entire html source of the current page or frame.</doc>
+<msg timestamp="20171220 14:54:14.345" level="FAIL">No application is open</msg>
+<status status="FAIL" endtime="20171220 14:54:14.346" starttime="20171220 14:54:14.103"></status>
+</kw>
+<msg timestamp="20171220 14:54:14.346" level="WARN">Keyword 'Log Source' could not be run on failure: No application is open</msg>
+<msg timestamp="20171220 14:54:14.353" level="FAIL">SessionNotCreatedException: Message: A new session could not be created. (Original error: Remote install failed: pkg: /data/local/tmp/52fc4e451e87ae81d691cbd53ceb00dd.apk
+Failure [INSTALL_FAILED_CPU_ABI_INCOMPATIBLE])
+</msg>
+<status status="FAIL" endtime="20171220 14:54:14.354" starttime="20171220 14:53:49.781"></status>
+</kw>
+<status status="FAIL" endtime="20171220 14:54:14.354" starttime="20171220 14:53:49.780"></status>
+</kw>
+<status status="FAIL" endtime="20171220 14:54:14.355" starttime="20171220 14:53:49.780"></status>
+</kw>
+<status status="FAIL" endtime="20171220 14:54:14.356" critical="yes" starttime="20171220 14:53:49.779">SessionNotCreatedException: Message: A new session could not be created. (Original error: Remote install failed: pkg: /data/local/tmp/52fc4e451e87ae81d691cbd53ceb00dd.apk
+Failure [INSTALL_FAILED_CPU_ABI_INCOMPATIBLE])
+</status>
+</test>
+<status status="FAIL" endtime="20171220 14:54:14.362" starttime="20171220 14:53:48.735"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Test Install Baidu" pass="0">Test Install Baidu</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20171220 14:54:14.346" level="WARN">Keyword 'Log Source' could not be run on failure: No application is open</msg>
+</errors>
+</robot>

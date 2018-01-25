@@ -1,0 +1,36 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_awareness", 
+    "catalogList": [
+        {
+            "content": {
+                "filter": {
+                    "note": "Is weather 03(\u9634)", 
+                    "id": 511, 
+                    "param": {
+                        "weatherCode": "03", 
+                        "positive": true
+                    }
+                }, 
+                "id": 10002
+            }, 
+            "id": 874596
+        }, 
+        {
+            "content": {
+                "filter": {
+                    "note": "in GeoFence(120.0256, 30.279, 500)", 
+                    "id": 502, 
+                    "param": {
+                        "latitude": 30.279, 
+                        "radius": 500, 
+                        "longitude": 120.0256
+                    }
+                }, 
+                "id": 10001
+            }, 
+            "id": 874597
+        }
+    ]
+}

@@ -1,0 +1,1229 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_fun_config", 
+    "catalogList": [
+        {
+            "content": {
+                "key": "reportReasons", 
+                "postReasons": [
+                    {
+                        "text": "\u8fd9\u662f\u4e2a\u5e7f\u544a", 
+                        "code": "spam"
+                    }, 
+                    {
+                        "text": "\u5f88\u9ec4\u5f88\u66b4\u529b", 
+                        "code": "violence_porn"
+                    }, 
+                    {
+                        "text": "\u76d7\u7528\u6211\u7684\u56fe", 
+                        "code": "pirate"
+                    }
+                ], 
+                "replyReasons": [
+                    {
+                        "text": "\u5e7f\u544a", 
+                        "code": "reply_spam"
+                    }, 
+                    {
+                        "text": "\u4eba\u8eab\u653b\u51fb", 
+                        "code": "reply_abuse"
+                    }
+                ]
+            }, 
+            "id": 874548
+        }, 
+        {
+            "content": {
+                "hintNormal": "\u5199\u4e0b\u6211\u7684\u8303\u513f\u548c\u751f\u6d3b\u6001\u5ea6", 
+                "helpUrl": "http://h5.m.taobao.com/app/fun/pages/evaluation/explanation.html?spm=a222o.7753038.partjoin.2", 
+                "key": "FunSPDescription", 
+                "hintWithItem": "\u5199\u4e0b\u8be6\u7ec6\u7684\u8d2d\u7269\u5fc3\u5f97\uff0c\u5e2e\u52a9\u5927\u5bb6\u66f4\u597d\u7684\u9009\u8d2d"
+            }, 
+            "id": 874549
+        }, 
+        {
+            "content": {
+                "labels": [
+                    {
+                        "type": "activity", 
+                        "name": "\u8fd0\u52a8\u6237\u5916", 
+                        "labelId": "411394", 
+                        "typeText": "\u8bdd\u9898"
+                    }, 
+                    {
+                        "type": "activity", 
+                        "name": "\u6211\u7231\u84dd\u5929 \u65b0\u5e74\u84dd\u5929\u63a5\u529b", 
+                        "labelId": "494397", 
+                        "typeText": "\u8bdd\u9898"
+                    }, 
+                    {
+                        "type": "activity", 
+                        "name": "\u7334\u5b50\u79f0\u738b\uff0c\u4f60\u6700Vans", 
+                        "labelId": "496675", 
+                        "typeText": "\u8bdd\u9898"
+                    }
+                ], 
+                "key": "hot_topics"
+            }, 
+            "id": 874550
+        }, 
+        {
+            "content": {
+                "model": {
+                    "allowedLabelTypes": [
+                        {
+                            "text": "\u8bdd\u9898", 
+                            "minCountPerPost": "0", 
+                            "name": "activity", 
+                            "maxCountPerPost": "20"
+                        }, 
+                        {
+                            "text": "\u54c1\u724c", 
+                            "minCountPerPost": "0", 
+                            "name": "brand", 
+                            "maxCountPerPost": "20"
+                        }, 
+                        {
+                            "text": "\u4f4d\u7f6e", 
+                            "minCountPerPost": "0", 
+                            "name": "location", 
+                            "maxCountPerPost": "1"
+                        }, 
+                        {
+                            "text": "\u5176\u5b83", 
+                            "minCountPerPost": "0", 
+                            "name": "other", 
+                            "maxCountPerPost": "20"
+                        }
+                    ], 
+                    "canAddItem": "true", 
+                    "maxLabels": "20", 
+                    "withLabels": [], 
+                    "allowedItemCount": "3", 
+                    "requireLabel": "true", 
+                    "allowedNewLabelTypes": [
+                        {
+                            "newLabelPrompt": "\u6dfb\u52a0\u65b0\u54c1\u724c\uff1a", 
+                            "text": "\u54c1\u724c", 
+                            "minCountPerPost": "0", 
+                            "name": "brand", 
+                            "maxCountPerPost": "20"
+                        }, 
+                        {
+                            "newLabelPrompt": "\u6dfb\u52a0\u65b0\u8bdd\u9898\uff1a", 
+                            "text": "\u8bdd\u9898", 
+                            "minCountPerPost": "0", 
+                            "name": "activity", 
+                            "maxCountPerPost": "20"
+                        }
+                    ]
+                }, 
+                "key": "postContext"
+            }, 
+            "id": 874551
+        }, 
+        {
+            "content": {
+                "labels": [
+                    {
+                        "official": "false", 
+                        "name": "Nike", 
+                        "labelId": "7531", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20578", 
+                        "alias": "\u8010\u514b", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB10P2VGpXXXXasXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Adidas", 
+                        "labelId": "3313", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3272367", 
+                        "alias": "\u963f\u8fea\u8fbe\u65af", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1Z4bJGpXXXXXiXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u674e\u5b81", 
+                        "labelId": "2234", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20592", 
+                        "alias": "Lining", 
+                        "logo": "http://img.alicdn.com/imgextra/i1/92688455/TB2NZFIcFXXXXa1XpXXXXXXXXXX_!!92688455-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u7f8e\u7684", 
+                        "labelId": "1428", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "30652", 
+                        "alias": "Midea", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1CcW1GFXXXXbPXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "NEW BALANCE", 
+                        "labelId": "2820", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20584", 
+                        "logo": "http://img.alicdn.com/imgextra/i4/520557274/TB2_53MeFXXXXcwXpXXXXXXXXXX_!!520557274-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Disney", 
+                        "labelId": "1379", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "30812", 
+                        "alias": "\u8fea\u58eb\u5c3c", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1ewUmGFXXXXbvXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Casio", 
+                        "labelId": "2801", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "21459", 
+                        "alias": "\u5361\u897f\u6b27", 
+                        "logo": "http://img.alicdn.com/imgextra/i4/749901026/TB2ijMicXXXXXc_XpXXXXXXXXXX_!!749901026-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u97e9\u90fd\u8863\u820d", 
+                        "labelId": "11882", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "8598007", 
+                        "alias": "Hstyle", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1myY4GpXXXXb7XpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Philips", 
+                        "labelId": "1427", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "10246", 
+                        "alias": "\u98de\u5229\u6d66", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1PWKJGFXXXXXmXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u56de\u529b", 
+                        "labelId": "2230", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3227291", 
+                        "alias": "Warrior", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1zEuCGFXXXXXQXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Converse", 
+                        "labelId": "9898", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20582", 
+                        "alias": "\u5321\u5a01", 
+                        "logo": "http://img.alicdn.com/imgextra/i2/1046707508/TB2LCsBdVXXXXa8XpXXXXXXXXXX_!!1046707508-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Apple", 
+                        "labelId": "1157", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "30111", 
+                        "alias": "\u82f9\u679c", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1NSTKGFXXXXbtXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Meizu", 
+                        "labelId": "9701", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "25143", 
+                        "alias": "\u9b45\u65cf", 
+                        "logo": "http://img.alicdn.com/imgextra/i3/1695308781/TB2Laa7gVXXXXarXpXXXXXXXXXX_!!1695308781-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "SAMSUNG", 
+                        "labelId": "1465", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "21652", 
+                        "alias": "\u4e09\u661f", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1TohlGFXXXXa0XpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u767e\u96c0\u7f9a", 
+                        "labelId": "31549", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3278173", 
+                        "alias": "PECHOIN", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1x72IGpXXXXX7XVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "VANS", 
+                        "labelId": "2300", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "29529", 
+                        "alias": "\u4e07\u65af", 
+                        "logo": "http://img.alicdn.com/imgextra/i3/746866993/TB2hocTfpXXXXbsXXXXXXXXXXXX_!!746866993-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Zara", 
+                        "labelId": "7793", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "84669", 
+                        "alias": "\u8428\u62c9", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1FWwqGXXXXXa_XVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u4e54\u4e39", 
+                        "labelId": "7726", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "40843", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1CPmBGFXXXXb7XFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u5fa1\u6ce5\u574a", 
+                        "labelId": "36722", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3287905", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1mDEQGpXXXXclXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Deli", 
+                        "labelId": "2546", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "10446017", 
+                        "alias": "\u5f97\u529b", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1jGckGFXXXXXZXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Jack Jones", 
+                        "labelId": "2761", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "29493", 
+                        "alias": "\u6770\u514b\u743c\u65af", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1LqwXGpXXXXc3XXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "ONLY", 
+                        "labelId": "17755", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "29896", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1Zt7bGpXXXXcKXXXXwu0bFXXX.png", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "L\uff07oreal", 
+                        "labelId": "9640", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20068", 
+                        "alias": "\u6b27\u83b1\u96c5", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1VwQlGFXXXXcfXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Kans", 
+                        "labelId": "49193", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3328525", 
+                        "alias": "\u97e9\u675f", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1mA3bGFXXXXX2XFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Haier", 
+                        "labelId": "2456", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "11016", 
+                        "alias": "\u6d77\u5c14", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1ilp1GFXXXXcBXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Dior", 
+                        "labelId": "17200", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20812", 
+                        "alias": "\u8fea\u5965", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1iiYRGFXXXXcCXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "CARSLAN", 
+                        "labelId": "8058", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "48830", 
+                        "alias": "\u5361\u59ff\u5170", 
+                        "logo": "http://img.alicdn.com/imgextra/i4/755579902/TB2.ZLqepXXXXcMXpXXXXXXXXXX_!!755579902-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Chanel", 
+                        "labelId": "11607", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20019", 
+                        "alias": "\u9999\u5948\u513f", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1.FL.GFXXXXXoaXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "H&M", 
+                        "labelId": "162940", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "45445", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1QwPqGFXXXXXtXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u96c0\u6c0f", 
+                        "labelId": "2506", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3221781", 
+                        "alias": "CHIAUS", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1xr.bGFXXXXbQXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Uniqlo", 
+                        "labelId": "81130", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "29527", 
+                        "alias": "\u4f18\u8863\u5e93", 
+                        "logo": "http://img.alicdn.com/imgextra/i1/196993935/TB2HD6TeFXXXXaKXpXXXXXXXXXX-196993935.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u5468\u5927\u798f", 
+                        "labelId": "37757", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "59957", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1OIsrGpXXXXa6XVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "PEACEBIRD", 
+                        "labelId": "14847", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "109718", 
+                        "alias": "\u592a\u5e73\u9e1f", 
+                        "logo": "http://img.alicdn.com/imgextra/i2/112394247/TB2XdczfpXXXXbYXpXXXXXXXXXX_!!112394247-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u597d\u5b69\u5b50", 
+                        "labelId": "2220", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "33467", 
+                        "alias": "Goodbaby", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1IuYyGFXXXXXGXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "DANIEL WELLINGTON", 
+                        "labelId": "129482", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "155201376", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1lT7AHVXXXXbOXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "GXG", 
+                        "labelId": "52975", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3806841", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1nX9GGFXXXXabXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u76f8\u5b9c\u672c\u8349", 
+                        "labelId": "35223", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "59732", 
+                        "logo": "http://img.alicdn.com/imgextra/i3/90919986/TB2W6hgcXXXXXbNXpXXXXXXXXXX_!!90919986-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u4e50\u753a", 
+                        "labelId": "23916", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "4057780", 
+                        "logo": "http://img01.taobaocdn.com/imgextra/i1/513051429/TB2UayRXpXXXXazXFXXXXXXXXXX_!!513051429-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u5a01\u9732\u58eb", 
+                        "labelId": "4106", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "6301204", 
+                        "alias": "Walch", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1AnIoGFXXXXaTXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Levi\u2019s", 
+                        "labelId": "7794", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3271216", 
+                        "alias": "\u674e\u7ef4\u65af", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1ndY6GpXXXXa5XpXXwu0bFXXX.png", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "CHANDO", 
+                        "labelId": "2900", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "66927", 
+                        "alias": "\u81ea\u7136\u5802", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1_uXkGFXXXXb9XFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Vero Moda", 
+                        "labelId": "17758", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "29902", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1etaFGFXXXXazXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Hotwind", 
+                        "labelId": "51616", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "44606", 
+                        "alias": "\u70ed\u98ce", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1L_GiGFXXXXaYXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u5996\u7cbe\u7684\u53e3\u888b", 
+                        "labelId": "13846", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "10518561", 
+                        "alias": "ELF SACK", 
+                        "logo": "http://img.alicdn.com/tfscom/TB18RFoGFXXXXcnXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u96f7\u86c7", 
+                        "labelId": "1755", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "4535518", 
+                        "alias": "Razer", 
+                        "logo": "http://img.alicdn.com/imgextra/i1/1085315961/TB2tSy2ipXXXXbIXpXXXXXXXXXX_!!1085315961-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Mark Fairwhale", 
+                        "labelId": "32598", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "29482", 
+                        "alias": "\u9a6c\u514b\u534e\u83f2", 
+                        "logo": "http://img.alicdn.com/imgextra/i2/94399436/TB2YGt_gXXXXXX2XpXXXXXXXXXX_!!94399436-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u963f\u8299", 
+                        "labelId": "49556", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3286373", 
+                        "logo": "http://img.alicdn.com/imgextra/i3/379250310/TB2uHgIiXXXXXasXXXXXXXXXXXX_!!379250310-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u771f\u7ef4\u65af", 
+                        "labelId": "52771", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "29495", 
+                        "alias": "Jeanswest", 
+                        "logo": "http://img.alicdn.com/imgextra/i3/289268212/TB2FsNyhXXXXXayXXXXXXXXXXXX_!!289268212-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Lancome", 
+                        "labelId": "10724", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20067", 
+                        "alias": "\u5170\u853b", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1x245GFXXXXbPXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Tissot", 
+                        "labelId": "26883", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "46491", 
+                        "alias": "\u5929\u68ad", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB17e.uGpXXXXXDXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Puma", 
+                        "labelId": "2818", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20581", 
+                        "alias": "\u5f6a\u9a6c", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1lxrxGFXXXXcDXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Logitech", 
+                        "labelId": "1471", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20802", 
+                        "alias": "\u7f57\u6280", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1Bt5GGFXXXXXwXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Lenovo", 
+                        "labelId": "1703", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "11119", 
+                        "alias": "\u8054\u60f3", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1aax7GFXXXXbkXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Lock\uff06Lock", 
+                        "labelId": "6352", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "31916", 
+                        "alias": "\u4e50\u6263\u4e50\u6263", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB15W1LGFXXXXcsXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Sony", 
+                        "labelId": "1738", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "10752", 
+                        "alias": "\u7d22\u5c3c", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1Yq8mGFXXXXciXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u6728\u6797\u68ee", 
+                        "labelId": "8251", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "125708", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1_S5VGVXXXXagaXXXwu0bFXXX.png", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "PROYA", 
+                        "labelId": "11451", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3300940", 
+                        "alias": "\u73c0\u83b1\u96c5", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1hQXsGFXXXXcnaXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u6b27\u666e\u7167\u660e", 
+                        "labelId": "10570", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "100290", 
+                        "alias": "OPPLE", 
+                        "logo": "http://img.alicdn.com/tfscom/TB14o3mGFXXXXc7XXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Zippo", 
+                        "labelId": "6863", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3524184", 
+                        "alias": "\u829d\u5b9d", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1AZ7sGpXXXXcJXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Skechers", 
+                        "labelId": "4417", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "4535636", 
+                        "alias": "\u65af\u51ef\u5947", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1UOB7GFXXXXbqXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Clinique", 
+                        "labelId": "10743", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20021", 
+                        "alias": "\u5029\u78a7", 
+                        "logo": "http://img.alicdn.com/tfscom/TB12aEDGpXXXXXSXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "KFAN", 
+                        "labelId": "228436", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "227416150", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1LTczGVXXXXa4XXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u7ae5\u6cf0", 
+                        "labelId": "20060", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "32056", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1odt1GVXXXXaMXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "VIISHOW", 
+                        "labelId": "38894", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "27084300", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1Qrf9GFXXXXbxXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Mentholatum", 
+                        "labelId": "8056", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20076", 
+                        "alias": "\u66fc\u79c0\u96f7\u6566", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1OqASGpXXXXaZXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Dickies", 
+                        "labelId": "36308", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3272234", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1Q1JLGFXXXXc5XpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "INMAN", 
+                        "labelId": "83062", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "4536243", 
+                        "alias": "\u8335\u66fc", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1ghGXGFXXXXXdXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u6c34\u661f", 
+                        "labelId": "38907", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3685660", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1LHjnGVXXXXXgXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Schwarzkopf", 
+                        "labelId": "8051", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "94136", 
+                        "alias": "\u65bd\u534e\u853b", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB19Qz7GFXXXXaIXpXXwu0bFXXX.png", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u88c2\u5e1b", 
+                        "labelId": "35523", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "115437", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1F31iGFXXXXc7XVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Estee Lauder", 
+                        "labelId": "18925", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20034", 
+                        "alias": "\u96c5\u8bd7\u5170\u9edb", 
+                        "logo": "http://img.alicdn.com/imgextra/i1/2064892827/TB24UJ5gFXXXXblXXXXXXXXXXXX_!!2064892827-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Toread", 
+                        "labelId": "5778", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "28006", 
+                        "alias": "\u63a2\u8def\u8005", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1g5WGGFXXXXX1XFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Hisense", 
+                        "labelId": "1859", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "11599", 
+                        "alias": "\u6d77\u4fe1", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1Jkn.GFXXXXbZXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u5468\u751f\u751f", 
+                        "labelId": "33630", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "59958", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1Im3kGpXXXXa5XXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u521d\u8bed", 
+                        "labelId": "48836", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "116296827", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1cb4pGFXXXXcXXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "exull", 
+                        "labelId": "20036", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "10127352", 
+                        "alias": "\u4f9d\u601dQ", 
+                        "logo": "http://img04.taobaocdn.com/imgextra/i4/274860958/TB2N1XscXXXXXbHXpXXXXXXXXXX_!!274860958-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "UGG", 
+                        "labelId": "25904", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "44615", 
+                        "logo": "https://img.alicdn.com/imgextra/i2/1602582004/TB2z94afpXXXXbXXpXXXXXXXXXX_!!1602582004-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Asics", 
+                        "labelId": "37075", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3290067", 
+                        "alias": "\u4e9a\u745f\u58eb", 
+                        "logo": "https://img.alicdn.com/tfscom/TB1xG9FGFXXXXcOXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "BEATS", 
+                        "labelId": "120065", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "21466766", 
+                        "logo": "https://img.alicdn.com/imgextra/i4/1809177149/TB28sPScXXXXXXfXpXXXXXXXXXX_!!1809177149-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Braun", 
+                        "labelId": "2772", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "112744394", 
+                        "alias": "\u535a\u6717", 
+                        "logo": "https://img.alicdn.com/tfscom/TB1QRj7GVXXXXX4XFXXwu0bFXXX.png", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Ecco", 
+                        "labelId": "35561", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "41657", 
+                        "alias": "\u7231\u6b65", 
+                        "logo": "http://img03.taobaocdn.com/imgextra/i3/721002017/TB2PviiXFXXXXbjXpXXXXXXXXXX_!!721002017-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "fed", 
+                        "labelId": "14546", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "137805949", 
+                        "alias": "\u827e\u8299\u4f0a\u8fea", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1zi_KGVXXXXcgXpXXwu0bFXXX.png", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "JBL", 
+                        "labelId": "2792", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "27197", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB13asgGFXXXXbFXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Lee", 
+                        "labelId": "1808", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20819", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1guudGFXXXXXwXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "MANGO", 
+                        "labelId": "51881", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "115307", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1EzFlGFXXXXcOXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Onitsuka Tiger", 
+                        "labelId": "3344", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "245236252", 
+                        "alias": "\u9b3c\u585a\u864e", 
+                        "logo": "http://img.alicdn.com/tfscom/TB1kIggGFXXXXaTXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Puma", 
+                        "labelId": "2818", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "20581", 
+                        "alias": "\u5f6a\u9a6c", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1lxrxGFXXXXcDXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Puma", 
+                        "labelId": "4417", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "4535636", 
+                        "alias": "\u65af\u51ef\u5947", 
+                        "logo": "http://img03.taobaocdn.com/tfscom/TB1UOB7GFXXXXbqXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Speedo", 
+                        "labelId": "2289", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "44585", 
+                        "alias": "\u901f\u6bd4\u6d9b", 
+                        "logo": "http://img02.taobaocdn.com/imgextra/i2/354545599/TB2CwaocXXXXXXZXpXXXXXXXXXX_!!354545599-0-tmallfun.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "UA", 
+                        "labelId": "87296", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "4453118", 
+                        "alias": "\u4f73\u5029\u4f0a\u4eba", 
+                        "logo": "http://img05.taobaocdn.com/tfscom/i2/T106dDXl8eXXb1upjX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u60a6\u6728\u4e4b\u6e90", 
+                        "labelId": "23536", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "48913586", 
+                        "logo": "http://img02.taobaocdn.com/tfscom/TB1PW7mGFXXXXbJXVXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "\u8335\u66fc", 
+                        "labelId": "25241", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3516162", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1ix5NGFXXXXaLXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Nestle", 
+                        "labelId": "7843", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "130878960", 
+                        "alias": "\u96c0\u5de2", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1xCpNGXXXXXanaXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Dove", 
+                        "labelId": "3964", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "3312124", 
+                        "alias": "\u5fb7\u8299", 
+                        "logo": "http://img01.taobaocdn.com/tfscom/TB1OVOyGVXXXXc2XXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Decathlon", 
+                        "labelId": "51203", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "44506", 
+                        "alias": "\u8fea\u5361\u4fac", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1n8b_GFXXXXacXFXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Canon", 
+                        "labelId": "2091", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "81155", 
+                        "alias": "\u4f73\u80fd", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1CFofGpXXXXXaXpXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }, 
+                    {
+                        "official": "false", 
+                        "name": "Marubi", 
+                        "labelId": "15174", 
+                        "typeIcon": "http://img03.taobaocdn.com/tfscom/TB1yQRmFVXXXXblXpXXwu0bFXXX.png", 
+                        "outerId": "66915", 
+                        "alias": "\u4e38\u7f8e", 
+                        "logo": "http://img04.taobaocdn.com/tfscom/TB1k.AaGFXXXXcWXXXXSutbFXXX.jpg", 
+                        "type": "brand", 
+                        "typeText": "\u54c1\u724c"
+                    }
+                ], 
+                "key": "hot_brands"
+            }, 
+            "id": 874552
+        }, 
+        {
+            "content": {
+                "key": "postPurpose", 
+                "icons": [
+                    {
+                        "action": "tmall://page.tm/funProductList", 
+                        "text": "\u6652\u4e70\u8fc7\u7684", 
+                        "img": "http://gtms02.alicdn.com/tps/i2/TB1A0dNKVXXXXaUXFXXA9wBHpXX-246-246.png"
+                    }, 
+                    {
+                        "action": "tmall://page.tm/photoPicker_v2", 
+                        "text": "\u968f\u4fbf\u6652\u6652", 
+                        "img": "http://gtms03.alicdn.com/tps/i3/TB1koFUKVXXXXaeaXXXA9wBHpXX-246-246.png"
+                    }
+                ]
+            }, 
+            "id": 874553
+        }, 
+        {
+            "content": {
+                "key": "watermarkTag", 
+                "tags": [
+                    {
+                        "url": "http://gtms02.alicdn.com/tps/i2/TB1G7_rLpXXXXaUXXXXmqjTHFXX-60-60.png", 
+                        "type": "1", 
+                        "desc": "new"
+                    }, 
+                    {
+                        "url": "http://gtms02.alicdn.com/tps/i2/TB1eJKQLpXXXXc.XVXXmqjTHFXX-60-60.png", 
+                        "type": "2", 
+                        "desc": "hot"
+                    }, 
+                    {
+                        "url": "http://gtms04.alicdn.com/tps/i4/TB1xqDtLpXXXXX1XXXXmqjTHFXX-60-60.png", 
+                        "type": "3", 
+                        "desc": "dynamic"
+                    }
+                ]
+            }, 
+            "id": 874554
+        }, 
+        {
+            "content": {
+                "enable": false, 
+                "iconURL": "http://gtms01.alicdn.com/tps/i1/TB17GNVLFXXXXbgXpXX.uTD.FXX-10-10.png", 
+                "text": " ", 
+                "action": "tmall://page.tm/funPost?defTabOfFilter=2&defAlbumIdOfFilter=97", 
+                "key": "FunSPHomeNewTip", 
+                "duration": 5000, 
+                "bgURL": "http://gtms03.alicdn.com/tps/i3/TB1rpx_LFXXXXXHXXXXVQrLZFXX-498-417.png", 
+                "textColor": "#333333", 
+                "imageType": 1
+            }, 
+            "id": 874555
+        }
+    ]
+}

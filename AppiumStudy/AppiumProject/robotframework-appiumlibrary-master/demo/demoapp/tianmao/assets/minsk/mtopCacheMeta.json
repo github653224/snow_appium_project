@@ -1,0 +1,19 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "mtopCacheMeta", 
+    "catalogList": [
+        {
+            "content": {
+                "carts": {
+                    "encrypt": true, 
+                    "compress": true, 
+                    "block": "carts", 
+                    "removable": true, 
+                    "size": "5"
+                }
+            }, 
+            "id": 874392
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "crashManager", 
+    "catalogList": [
+        {
+            "content": {
+                "distinguishRom": true, 
+                "patchRom": false
+            }, 
+            "id": 874592
+        }
+    ]
+}

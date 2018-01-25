@@ -1,0 +1,33 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_header", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "(internal:url|iu)=(.*)", 
+                "new": "$2", 
+                "flag": "", 
+                "comment": "\u524d4\u884c\u987a\u5e8f\u56fa\u5b9a"
+            }, 
+            "id": 875028
+        }, 
+        {
+            "content": {
+                "origin": "(link|jump|banner):url=(.*)", 
+                "new": "$2", 
+                "flag": "", 
+                "comment": "\u524d4\u884c\u987a\u5e8f\u56fa\u5b9a"
+            }, 
+            "id": 875029
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/cloud\\.video\\.taobao\\.com\\/(.*mp4)", 
+                "new": "tmall://page.tm/video?url=$$0", 
+                "flag": "l"
+            }, 
+            "id": 875030
+        }
+    ]
+}

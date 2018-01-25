@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171220 17:05:11.285" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\PythonProjects\AppiumProject\robotframework_appium\tests\teset_wechat_login.robot" id="s1" name="Teset Wechat Login">
+<test id="s1-t1" name="Test Protrue">
+<kw name="Open Application Test">
+<arguments>
+<arg>Android</arg>
+<arg>4.2.2</arg>
+<arg>169.254.190.101:5555</arg>
+<arg>D:/PythonProjects/AppiumProject/soft_packge/weixin.apk</arg>
+</arguments>
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=${platformName}</arg>
+<arg>platformVersion=${platformVersion}</arg>
+<arg>deviceName=${deviceName}</arg>
+<arg>app=${app_path}</arg>
+<arg>appPackage=com.tencent.mm</arg>
+<arg>appActivity=com.tencent.mm.ui.LauncherUI</arg>
+<arg>unicodeKeyboard=True</arg>
+<arg>noReset=True</arg>
+</arguments>
+<status status="PASS" endtime="20171220 17:05:32.768" starttime="20171220 17:05:11.816"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Log In</arg>
+<arg>timeout=120</arg>
+</arguments>
+<status status="PASS" endtime="20171220 17:05:32.957" starttime="20171220 17:05:32.769"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20171220 17:05:37.958" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20171220 17:05:37.959" starttime="20171220 17:05:32.958"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@class="android.widget.Button"]</arg>
+</arguments>
+<msg timestamp="20171220 17:05:37.960" level="INFO">Clicking element 'xpath=//*[@class="android.widget.Button"]'.</msg>
+<status status="PASS" endtime="20171220 17:05:39.234" starttime="20171220 17:05:37.959"></status>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>Use WeChat ID/Email/QQ ID to Log in</arg>
+</arguments>
+<msg timestamp="20171220 17:05:39.406" level="INFO">Current page contains text 'Use WeChat ID/Email/QQ ID to Log in'.</msg>
+<status status="PASS" endtime="20171220 17:05:39.406" starttime="20171220 17:05:39.234"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@class="android.widget.Button"]</arg>
+</arguments>
+<msg timestamp="20171220 17:05:39.407" level="INFO">Clicking element 'xpath=//*[@class="android.widget.Button"]'.</msg>
+<status status="PASS" endtime="20171220 17:05:40.817" starttime="20171220 17:05:39.406"></status>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>Log in via mobile number</arg>
+</arguments>
+<msg timestamp="20171220 17:05:40.949" level="INFO">Current page contains text 'Log in via mobile number'.</msg>
+<status status="PASS" endtime="20171220 17:05:40.949" starttime="20171220 17:05:40.817"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=(//android.widget.EditText)[1]</arg>
+<arg>944851899@qq.com</arg>
+</arguments>
+<msg timestamp="20171220 17:05:40.950" level="INFO">Typing text '944851899@qq.com' into text field 'xpath=(//android.widget.EditText)[1]'</msg>
+<status status="PASS" endtime="20171220 17:05:48.935" starttime="20171220 17:05:40.950"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=(//android.widget.EditText)[2]</arg>
+<arg>panxueyan3224..</arg>
+</arguments>
+<msg timestamp="20171220 17:05:48.937" level="INFO">Typing text 'panxueyan3224..' into text field 'xpath=(//android.widget.EditText)[2]'</msg>
+<status status="PASS" endtime="20171220 17:05:57.978" starttime="20171220 17:05:48.936"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//android.widget.Button[contains(@text,"Log In")]</arg>
+</arguments>
+<msg timestamp="20171220 17:05:57.979" level="INFO">Clicking element 'xpath=//android.widget.Button[contains(@text,"Log In")]'.</msg>
+<status status="PASS" endtime="20171220 17:06:01.485" starttime="20171220 17:05:57.978"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>6s</arg>
+</arguments>
+<msg timestamp="20171220 17:06:07.486" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" endtime="20171220 17:06:07.486" starttime="20171220 17:06:01.486"></status>
+</kw>
+<kw name="Close All Applications" library="AppiumLibrary">
+<doc>Closes all open applications.</doc>
+<status status="PASS" endtime="20171220 17:06:08.742" starttime="20171220 17:06:07.487"></status>
+</kw>
+<status status="PASS" endtime="20171220 17:06:08.743" starttime="20171220 17:05:11.815"></status>
+</kw>
+<status status="PASS" endtime="20171220 17:06:08.744" critical="yes" starttime="20171220 17:05:11.813"></status>
+</test>
+<status status="PASS" endtime="20171220 17:06:08.747" starttime="20171220 17:05:11.296"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Teset Wechat Login" pass="1">Teset Wechat Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

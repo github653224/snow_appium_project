@@ -1,0 +1,16 @@
+attribute vec3 aPosition;
+attribute vec2 aTexture;
+attribute float aScale;
+attribute vec3 aCentroid;
+attribute float aAlpha;
+
+uniform mat4 uMatrixPVM;
+
+varying vec2 vTexture;
+varying float vAlpha;
+
+void main(){
+    gl_Position = uMatrixPVM * vec4(aPosition * aScale + aCentroid , 1.0);
+    vTexture = aTexture;
+    vAlpha = aAlpha;
+}

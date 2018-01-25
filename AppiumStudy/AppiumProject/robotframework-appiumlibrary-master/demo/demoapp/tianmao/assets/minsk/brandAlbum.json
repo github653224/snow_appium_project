@@ -1,0 +1,19 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "brandAlbum", 
+    "catalogList": [
+        {
+            "content": {
+                "subject": [
+                    "7", 
+                    "8", 
+                    "9", 
+                    "10", 
+                    "12"
+                ]
+            }, 
+            "id": 874379
+        }
+    ]
+}

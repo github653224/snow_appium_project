@@ -1,0 +1,32 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "WebViewTitleSetting", 
+    "catalogList": [
+        {
+            "content": {
+                "www.tmall.com/wow/if/act/index": "", 
+                "www.tmall.com/wh/tpl/brandshinegowh/index": "e728;#dd2727", 
+                "www.tmall.hk/wh/tmall/import/act/shangou-709": "e6ab;#7E47ED", 
+                "brand.tmall.com/brandstreet-m/shopsell": "e724;#b22d2b", 
+                "portal-jia.tmall.com/tm-jia/kx/index": "e6ac;#dd2727", 
+                "www.tmall.com/wh/tmall/tmall-3c/act/rn-phone": "e71a;#1fb4ff", 
+                "www.tmall.com/wow/brand/act/fashion": "e725;#b22d2b", 
+                "www.tmall.com/wh/tmall/fushi/act/sports": "e6f6;#dd2727", 
+                "3c.m.tmall.com/": "e6aa;#427DEF", 
+                "car.m.tmall.com/tm-car/fp/index": "e6b1;#2983DF", 
+                "www.tmall.com/wh/tmall/baihuo/act/shoes": "e6ad;#dd2727", 
+                "www.tmall.com/wh/tmall/mit/act/import": "e70e;#FA5C5C", 
+                "shiyong.tmall.com/wh/index": "e714;#E54077", 
+                "www.tmall.com/wh/tmall/baihuo/act/meizhuang": "e6b5;#dd2727", 
+                "www.tmall.com/wh/tmall/fushi/act/nvzhuang": "e6b0;#dd2727", 
+                "brand.tmall.com/brandstreet-m/station": "e723;#253843", 
+                "www.tmall.com/wh/tmall/fushi/act/nanzhuang": "e6ae;#dd2727", 
+                "www.tmall.com/wh/tmall/tmall-3c/act/zhineng": "e718;#2FC7AC", 
+                "www.tmall.hk/wh/tmall/import/act/mp-pc-2015": "e6ab;#7E47ED", 
+                "www.tmall.com/wh/tpl/baby-mobile-wormhole/index": "e6b6;#dd2727"
+            }, 
+            "id": 874489
+        }
+    ]
+}

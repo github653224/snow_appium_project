@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_weapp", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(wapp|h5)\\.(m|waptest|wapa)\\.taobao\\.com/weapp/view_page\\.htm(.*[\\?&]page=(shop(/|(%2F))activity|tmallshop(/|(%2F))tmall_individual|shop(/|(%2F))act_detail|shop(/|(%2F))combolist|shop(/|(%2F))campaign-\\d+-\\d+).*)", 
+                "new": "tmall://page.tm/weapp$3", 
+                "flag": "l", 
+                "comment": "weapp"
+            }, 
+            "id": 875037
+        }
+    ]
+}

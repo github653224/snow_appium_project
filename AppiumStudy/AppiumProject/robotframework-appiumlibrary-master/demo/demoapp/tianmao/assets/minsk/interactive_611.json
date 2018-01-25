@@ -1,0 +1,24 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "interactive_611", 
+    "catalogList": [
+        {
+            "content": {
+                "fun_share_content": "\u957f\u6309\u4e8c\u7ef4\u7801\u6216\u9080\u8bf7\u597d\u53cb\n\u4f7f\u7528\u624b\u673a\u5929\u732b\u626b\u7801\u67e5\u770b", 
+                "fun_logo_url": "http://gtms04.alicdn.com/tps/i4/TB1kEK3KXXXXXcJXXXXyqsE7pXX-550-288.jpg", 
+                "name": "imgpre_info", 
+                "fun_qr_content": "\u7528\u5929\u732b\u6216\u6dd8\u5b9d\u626b\u7801\uff0c\u9886\u53d6\u4f60\u7684\u7167\u7247", 
+                "tm_logo_url": "http://gtms04.alicdn.com/tps/i4/TB1kEK3KXXXXXcJXXXXyqsE7pXX-550-288.jpg", 
+                "fun_share_url": "testtesttest", 
+                "fun_logo_content": "\u624b\u673a\u8303\u513f", 
+                "content": "\u6211\u4eec\u5728\u6df1\u5733", 
+                "key_post_img": "wh_img", 
+                "host_address": "https://pages.tmall.com/wow/mit/act/fun-compositegraph?", 
+                "tm_logo_content": "\u624b\u673a\u5929\u732b", 
+                "key_post_id": "wh_postId"
+            }, 
+            "id": 874633
+        }
+    ]
+}

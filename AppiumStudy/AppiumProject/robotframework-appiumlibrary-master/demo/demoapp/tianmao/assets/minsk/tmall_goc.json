@@ -1,0 +1,15 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_goc", 
+    "catalogList": [
+        {
+            "content": {
+                "isFavOpen": true, 
+                "isUseGOC": true, 
+                "dataFilterRate": 100
+            }, 
+            "id": 875332
+        }
+    ]
+}

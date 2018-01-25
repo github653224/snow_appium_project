@@ -1,0 +1,69 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tmall_shake", 
+    "catalogList": [
+        {
+            "content": {
+                "close": false, 
+                "enable_interval": [
+                    {
+                        "url": "https://pages.tmall.com/wow/food/16145/faze", 
+                        "start": "2016-07-09 21:00:00", 
+                        "end": "2016-07-09 23:00:00", 
+                        "title": "\u300a1\u6211\u4eec\u7684\u6cd5\u5219\u300b4999\u5927\u5956\u7b49\u4f60\u6447"
+                    }, 
+                    {
+                        "url": "https://pages.tmall.com/wow/food/16145/faze", 
+                        "start": "2016-07-16 21:00:00", 
+                        "end": "2016-07-16 23:00:00", 
+                        "title": "\u300a1\u6211\u4eec\u7684\u6cd5\u5219\u300b4999\u5927\u5956\u7b49\u4f60\u6447"
+                    }, 
+                    {
+                        "url": "http://budweiser.tmall.com/campaign-3734-2.htm", 
+                        "start": "2016-07-23 20:00:00", 
+                        "end": "2016-07-23 21:00:00", 
+                        "title": "\u767e\u5a01happy hour \u706b\u70ed\u8fdb\u884c\u4e2d\uff0c\u901f\u6765\uff01"
+                    }, 
+                    {
+                        "url": "https://pages.tmall.com/wow/food/16145/faze", 
+                        "start": "2016-07-23 21:00:00", 
+                        "end": "2016-07-23 23:00:00", 
+                        "title": "\u300a1\u6211\u4eec\u7684\u6cd5\u5219\u300b4999\u5927\u5956\u7b49\u4f60\u6447"
+                    }, 
+                    {
+                        "url": "https://pages.tmall.com/wow/food/16145/faze", 
+                        "start": "2016-07-30 21:00:00", 
+                        "end": "2016-07-30 23:00:00", 
+                        "title": "\u300a1\u6211\u4eec\u7684\u6cd5\u5219\u300b4999\u5927\u5956\u7b49\u4f60\u6447"
+                    }, 
+                    {
+                        "url": "https://pages.tmall.com/wow/food/16145/faze", 
+                        "start": "2016-08-06 21:00:00", 
+                        "end": "2016-08-06 23:00:00", 
+                        "title": "\u300a1\u6211\u4eec\u7684\u6cd5\u5219\u300b4999\u5927\u5956\u7b49\u4f60\u6447"
+                    }, 
+                    {
+                        "url": "https://pages.tmall.com/wow/food/16145/faze", 
+                        "start": "2016-08-13 21:00:00", 
+                        "end": "2016-08-13 23:00:00", 
+                        "title": "\u300a1\u6211\u4eec\u7684\u6cd5\u5219\u300b4999\u5927\u5956\u7b49\u4f60\u6447"
+                    }, 
+                    {
+                        "url": "https://pages.tmall.com/wow/food/16145/faze", 
+                        "start": "2016-08-20 21:00:00", 
+                        "end": "2016-08-20 23:00:00", 
+                        "title": "\u300a1\u6211\u4eec\u7684\u6cd5\u5219\u300b4999\u5927\u5956\u7b49\u4f60\u6447"
+                    }, 
+                    {
+                        "url": "https://pages.tmall.com/wow/food/16145/faze", 
+                        "start": "2016-08-27 21:00:00", 
+                        "end": "2016-08-27 23:00:00", 
+                        "title": "\u300a1\u6211\u4eec\u7684\u6cd5\u5219\u300b4999\u5927\u5956\u7b49\u4f60\u6447"
+                    }
+                ]
+            }, 
+            "id": 874472
+        }
+    ]
+}

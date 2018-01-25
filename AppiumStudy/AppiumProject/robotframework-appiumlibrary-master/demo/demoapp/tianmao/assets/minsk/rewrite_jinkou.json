@@ -1,0 +1,79 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_jinkou", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "tmall://page\\.tm/shop\\?(.*(shopId=148445855|sellerId=2807304908).*)", 
+                "new": "http://www.tmall.com/wow/jinkou/act/index?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875147
+        }, 
+        {
+            "content": {
+                "origin": "tmall://page\\.tm/(?:shop|shopDetail)\\?(.*(shopId=123971619|sellerId=2549841410|sellerNick=%E5%A4%A9%E7%8C%AB%E8%A5%BF%E9%80%89).*)", 
+                "new": "http://www.tmall.com/wow/jinkou/act/index?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875148
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//jinkou\\.(?:m\\.)?tmall\\.com\\/?(.*)", 
+                "new": "http://www.tmall.com/wow/jinkou/act/index?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875149
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/store\\.taobao\\.com\\/shop\\/view_shop\\.htm\\?(.*(user_number_id=2549841410|user_number_id=2807304908).*)", 
+                "new": "http://www.tmall.com/wow/jinkou/act/index?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875150
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop\\.m\\.taobao\\.com\\/shop\\/shop_index\\.htm\\?(.*(user_id=2549841410|user_id=2807304908|shop_id=148445855|shop_id=123971619).*)", 
+                "new": "http://www.tmall.com/wow/jinkou/act/index?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875151
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(shop148445855|shop123971619)\\.taobao\\.com\\/?(\\?.*)?", 
+                "new": "http://www.tmall.com/wow/jinkou/act/index?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875152
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop\\.m\\.taobao\\.com\\/shop\\/shopIndex\\.htm\\?(.*(user_id=2549841410|user_id=2807304908|shop_id=148445855).*)", 
+                "new": "http://www.tmall.com/wow/jinkou/act/index?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875153
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/import\\.(m|wapa)\\.tmall\\.com\\/?(\\?.*|$)", 
+                "new": "//jinkou.tmall.com/?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875154
+        }
+    ]
+}

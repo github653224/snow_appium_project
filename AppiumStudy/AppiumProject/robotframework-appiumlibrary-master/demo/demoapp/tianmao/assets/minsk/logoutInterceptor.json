@@ -1,0 +1,23 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "logoutInterceptor", 
+    "catalogList": [
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "http://login.m.taobao.com/logout.htm", 
+                "force": "true"
+            }, 
+            "id": 874343
+        }, 
+        {
+            "content": {
+                "redirect": "redirectURL|tpl_redirect_url|redirect_url", 
+                "host": "https://login.m.taobao.com/logout.htm", 
+                "force": "true"
+            }, 
+            "id": 874344
+        }
+    ]
+}

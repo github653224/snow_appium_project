@@ -1,0 +1,23 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_weex", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:.*_wx_tpl=(.*))", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875281
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:.*wh_weex=true.*)", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875282
+        }
+    ]
+}

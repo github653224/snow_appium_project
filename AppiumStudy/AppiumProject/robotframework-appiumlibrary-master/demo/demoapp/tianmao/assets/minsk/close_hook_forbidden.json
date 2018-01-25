@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "close_hook_forbidden", 
+    "catalogList": [
+        {
+            "content": {
+                "forbidden": true
+            }, 
+            "id": 875386
+        }
+    ]
+}

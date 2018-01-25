@@ -1,0 +1,106 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_fun", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//m\\.tmall\\.com/share/labelShare\\.htm.*[\\?&]id=(\\d+)", 
+                "new": "tmall://page.tm/funLabelDetail?labelId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875120
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//page\\.m\\.tmall\\.com/fun/redirect\\.html\\?type=label.*[\\?&]id=(\\d+)", 
+                "new": "tmall://page.tm/funLabelDetail?labelId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875121
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//gw1\\.alicdn\\.com/L1/444/9662/fun/redirect\\.html\\?type=label.*[\\?&]id=(\\d+)", 
+                "new": "tmall://page.tm/funLabelDetail?labelId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875122
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//gw1\\.alicdn\\.com/L1/444/9662/fun/redirect\\.html\\?type=post.*[\\?&]id=(\\d+)", 
+                "new": "tmall://page.tm/funFeedDetail?feedId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875123
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//m\\.tmall\\.com/share/postShare\\.htm.*[\\?&]id=(\\d+)", 
+                "new": "tmall://page.tm/funFeedDetail?feedId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875124
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//page\\.m\\.tmall\\.com/fun/redirect\\.html\\?type=post.*[\\?&]id=(\\d+)", 
+                "new": "tmall://page.tm/funFeedDetail?feedId=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875125
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(.*)\\.taobao\\.com/app/fun/pages/post/index\\.html\\?postId=(\\d+)(.*)?", 
+                "new": "tmall://page.tm/funFeedDetail?feedId=$2$3", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875126
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//page\\.m\\.tmall\\.com/fun/redirect\\.html\\?type=user.*[\\?&]id=((%(\\w\\w)|\\w)+)", 
+                "new": "tmall://page.tm/funProfile?userNick=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875127
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//gw1\\.alicdn\\.com/L1/444/9662/fun/redirect\\.html\\?type=user.*[\\?&]id=((%(\\w\\w)|\\w)+)", 
+                "new": "tmall://page.tm/funProfile?userNick=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875128
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//m\\.tmall\\.com/share/userShare\\.htm.*[\\?&]id=((%(\\w\\w)|\\w)+)", 
+                "new": "tmall://page.tm/funProfile?userNick=$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875129
+        }, 
+        {
+            "content": {
+                "origin": "tmall://funPopup\\.tm/addToAlbum/?(\\?(.*))?", 
+                "new": "tmall://page.tm/addToAlbum", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875130
+        }
+    ]
+}

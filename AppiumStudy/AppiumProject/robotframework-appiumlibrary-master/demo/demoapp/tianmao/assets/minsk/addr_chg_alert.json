@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "addr_chg_alert", 
+    "catalogList": [
+        {
+            "content": {
+                "show": "true"
+            }, 
+            "id": 874599
+        }
+    ]
+}

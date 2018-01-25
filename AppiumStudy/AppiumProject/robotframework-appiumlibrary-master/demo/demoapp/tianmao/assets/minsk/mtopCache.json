@@ -1,0 +1,31 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "mtopCache", 
+    "catalogList": [
+        {
+            "content": [
+                {
+                    "block": "4", 
+                    "apis": [
+                        {
+                            "version": "4.1", 
+                            "cache": true, 
+                            "api": "mtop.trade.querybag", 
+                            "query": [
+                                "p", 
+                                "netType", 
+                                "feature"
+                            ], 
+                            "push": true, 
+                            "scope": "private", 
+                            "offline": true, 
+                            "block": "4"
+                        }
+                    ]
+                }
+            ], 
+            "id": 874391
+        }
+    ]
+}

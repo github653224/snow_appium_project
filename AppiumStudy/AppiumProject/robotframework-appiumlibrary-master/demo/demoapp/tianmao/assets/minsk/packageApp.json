@@ -1,0 +1,14 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "packageApp", 
+    "catalogList": [
+        {
+            "content": {
+                "updateConfig": "1", 
+                "forceOnline": "0"
+            }, 
+            "id": 874336
+        }
+    ]
+}

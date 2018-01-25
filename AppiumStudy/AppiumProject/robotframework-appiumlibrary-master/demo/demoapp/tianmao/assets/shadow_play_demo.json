@@ -1,0 +1,88 @@
+[
+  {
+    "pluginId": "0",
+    "pluginExtra": "{\"spirit\":\"https://gw.alicdn.com/tps/TB1CnTjPVXXXXaUapXXXXXXXXXX-160-160.png\",\"size\": \"48\",\"birthRange\": \"5\",\"animationTime\": \"5\"}",
+    "title": "统跳唤起表情雨"
+  },
+  {
+    "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.BitmapRainPlugin",
+    "pluginExtra": "{\"spirit\":\"https://gw.alicdn.com/tps/TB1CnTjPVXXXXaUapXXXXXXXXXX-160-160.png\",\"size\": \"48\",\"birthRange\": \"5\",\"animationTime\": \"5\"}",
+    "title": "服务唤起表情雨"
+  },
+  {
+    "pluginId": "1",
+    "pluginExtra": "{\"packageUrl\":\"http://dtmall-tel.alicdn.com/fileware/c590bbf59dd5ab82b234ecda8f108c20\",\"style\":\"1\", \"gravity\": \"5\", \"fadeOut\": \"false\", \"width\": \"117\", \"height\": \"172\"}",
+    "title": "统跳展示道具"
+  },
+  {
+    "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.TMGiftPlugin",
+    "pluginExtra": "{\"packageUrl\":\"http://dtmall-tel.alicdn.com/fileware/c590bbf59dd5ab82b234ecda8f108c20\",\"style\":\"1\", \"gravity\": \"5\", \"fadeOut\": \"false\", \"width\": \"117\", \"height\": \"172\"}",
+    "title": "服务展示道具"
+  },
+  {
+    "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.GraffitPlugin",
+    "pluginExtra": "{\"spirit\":\"/sdcard/test.png\"}",
+    "title": "涂鸦插件"
+  },
+  {
+    "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.goodslistplugin.GoodsListPlugin",
+    "pluginExtra": "[{\"goodsImgUrl\":\"https://dtmall-tel.alicdn.com/fileware/986cd106bfeac8d13869aea47cfee542\",\"goodsTitle\":\"测试测试测试\"},{\"goodsImgUrl\":\"https://dtmall-tel.alicdn.com/fileware/986cd106bfeac8d13869aea47cfee542\",\"goodsTitle\":\"测试测试测试2222\"},{\"goodsImgUrl\":\"https://dtmall-tel.alicdn.com/fileware/986cd106bfeac8d13869aea47cfee542\",\"goodsTitle\":\"测试测试测试33333\"}]",
+    "title": "吸顶边看边买"
+  },
+  {
+    "pluginId": "0",
+    "pluginExtra": "{\"spirit\":\"https://img.alicdn.com/imgextra/i4/168353713/TB2IEkRXHJmpuFjSZFwXXaE4VXa_!!2-tmallfun.png\"}",
+    "title": "先下雨再展示道具",
+    "next": {
+      "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.TMGiftPlugin",
+      "pluginExtra": "{\"packageUrl\":\"http://dtmall-tel.alicdn.com/fileware/c590bbf59dd5ab82b234ecda8f108c20\",\"style\":\"1\", \"gravity\": \"5\", \"fadeOut\": \"false\", \"width\": \"117\", \"height\": \"172\"}",
+      "title": "服务展示道具"
+    }
+  },
+  {
+    "pluginId": "3",
+    "pluginExtra": "{\"imageUrl\":\"https://gw.alicdn.com/tps/TB1tvR5LXXXXXXqXpXXXXXXXXXX-16-16.png\",\"size\":30,\"density\":0.1}}",
+    "title": "3D的雪花氛围带关闭按钮"
+  },
+  {
+    "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.guideplugin.TMGuidePlugin",
+    "pluginId": "4",
+    "pluginExtra": "",
+    "title": "引导页面"
+  },
+  {
+    "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.TMWeexPlugin",
+    "pluginId": "-1",
+    "pluginExtra": "",
+    "title": "WeexPlugin"
+  },
+  {
+    "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.NormalDanmakuPlugin",
+    "pluginId": "-1",
+    "pluginExtra": "",
+    "title": "弹幕插件"
+  },
+  {
+    "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.GesturePlugin",
+    "pluginId": "-1",
+    "pluginExtra": "{\"file\":\"https://dtmall-tel.alicdn.com/minsk/online/fileware/201704/51eedf09-0dd1-4834-beb3-030ae42ed616\"}",
+    "title": "手势插件"
+  },
+  {
+    "pluginId": "7",
+    "pluginExtra": "{\"files\":[\"https://dtmall-tel.alicdn.com/minsk/online/fileware/201704/51eedf09-0dd1-4834-beb3-030ae42ed616\"]}",
+    "title": "下载插件+手势插件",
+    "next": {
+      "pluginClzName": "com.tmall.wireless.interfun.manager.layer.plugins.GesturePlugin",
+      "pluginId": "-1",
+      "pluginExtra": "{\"file\":\"https://dtmall-tel.alicdn.com/minsk/online/fileware/201704/51eedf09-0dd1-4834-beb3-030ae42ed616\",\"tip\":\"https://img.alicdn.com/tfs/TB15oI4QpXXXXb1XVXXXXXXXXXX-422-125.png\",\"action\":\"https://h5.m.taobao.com/app/cz/cost.html?subSource=tmcz_1&pos=2&acm=201506140121-2.1003.2.1448856&scm=1003.2.201506140121-2.OTHER_1485030828674_1448856\"}",
+      "title": "手势插件"
+    }
+  },
+  {
+    "pluginClzName": "Reply",
+    "pluginId": "-1",
+    "pluginExtra": "",
+    "title": "回复表情测试"
+  }
+]

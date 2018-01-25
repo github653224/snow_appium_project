@@ -1,0 +1,24 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_webview", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:.*(hybrid=true|forceh5=true).*)", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875031
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(?:h5)\\.(m|waptest|wapa)\\.taobao\\.com\\/need\\/superMemberDetail\\.html(\\?.*itemId=(\\d+).*)", 
+                "new": "tmall://page.tm/itemDetail$2", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875032
+        }
+    ]
+}

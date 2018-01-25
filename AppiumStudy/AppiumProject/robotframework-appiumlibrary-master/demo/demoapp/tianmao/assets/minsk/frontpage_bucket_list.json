@@ -1,0 +1,23 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "frontpage_bucket_list", 
+    "catalogList": [
+        {
+            "content": {
+                "component": "BlockUnitComponent", 
+                "key": "blockUnit", 
+                "module": "BlockUnitModule"
+            }, 
+            "id": 875387
+        }, 
+        {
+            "content": {
+                "component": "SelectFrontPage", 
+                "key": "recommendContentBucket", 
+                "module": "content"
+            }, 
+            "id": 875388
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "new_share", 
+    "catalogList": [
+        {
+            "content": {
+                "title": "\u8bf7\u67e5\u770b\u8fd9\u4e2a\u6765\u81ea\u5929\u732bApp\u7684\u5206\u4eab", 
+                "image": "https://gtms03.alicdn.com/tps/i3/TB18.tYMXXXXXXvXFXXh7Qm2pXX-750-750.png", 
+                "useNew": true, 
+                "bizHeader": "\u5feb\u770b\uff01", 
+                "desc": "\u4e0a\u5929\u732b\uff0c\u5c31\u591f\u4e86\uff01\u66f4\u591a\u60ca\u559c\u597d\u8d27\u7b49\u4f60\u6765\uff01", 
+                "bizFooter": "\u70b9\u51fb\u94fe\u63a5\uff0c\u6253\u5f00\u624b\u673a\u5929\u732b\u53ef\u76f4\u63a5\u67e5\u770b\u5206\u4eab\u5185\u5bb9"
+            }, 
+            "id": 874415
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "appKeysConfig", 
+    "catalogList": [
+        {
+            "content": {
+                "index": 0, 
+                "appKeys": [
+                    "23181017", 
+                    "12679450"
+                ]
+            }, 
+            "id": 874421
+        }
+    ]
+}

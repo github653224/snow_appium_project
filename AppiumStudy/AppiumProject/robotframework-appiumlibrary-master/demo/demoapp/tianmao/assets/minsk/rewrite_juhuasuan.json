@@ -1,0 +1,79 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_juhuasuan", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//ju\\.taobao\\.com/m/jusp/other/liangfan/mtp\\.htm[\\?]?(.*)", 
+                "new": "tmall://go/ju/luaview?pageUrlKey=other/lftnew&package=lft&luaview_degrade_url=https%3a%2f%2fju.taobao.com%2fm%2fjusp%2fother%2flftnew%2fmtp.htm", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875090
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/(skip\\.)?ju\\.taobao\\.com\\/m\\/jusp(?:.*app=lv.*)", 
+                "new": "tmall://page.tm/lua_or_h5?url=$$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875091
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//detail\\.ju\\.taobao\\.com/home\\.htm.*[\\?&](item_num_id|item_id|(?i)itemid)=(\\d+).*([\\?&]id)=(\\d+)", 
+                "new": "tmall://page.tm/webview?url=$$0", 
+                "flag": "l", 
+                "comment": "\u6709itemId\u548cid\uff0c\u8981\u8fc7\u6ee4\u6389id\uff0c\u7531\u4e8e\u5185\u90e8\u5b9e\u73b0\u539f\u56e0\uff0c\u5bfc\u5411webview\u505a302\u8df3\u8f6c"
+            }, 
+            "id": 875092
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//detail\\.ju\\.taobao\\.com/home\\.htm.*[\\?&](id)=(\\d+).*([\\?&]item_num_id|item_id|(?i)itemid)=(\\d+)", 
+                "new": "tmall://page.tm/webview?url=$$0", 
+                "flag": "l", 
+                "comment": "\u6709itemId\u548cid\uff0c\u8fc7\u6ee4\u6389id\uff0c\u7531\u4e8e\u5185\u90e8\u5b9e\u73b0\u539f\u56e0\uff0c\u5bfc\u5411webview\u505a302\u8df3\u8f6c"
+            }, 
+            "id": 875093
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//detail\\.ju\\.taobao\\.com/home\\.htm.*[\\?&](id|item_num_id|item_id)=(\\d+)", 
+                "new": "tmall://page.tm/itemDetail?itemId=$2", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875094
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//tb\\.cn/x/ju[\\?]?(.*)", 
+                "new": "tmall://page.tm/juhuasuan?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875095
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//ju\\.taobao\\.com/m/jusp/juhuasuantm/mtp\\.htm[\\?]?(.*)", 
+                "new": "tmall://page.tm/juhuasuan?$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875096
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/jusp\\.tmall\\.com(?:.*app=lv.*)", 
+                "new": "tmall://page.tm/lua_or_h5?url=$$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875097
+        }
+    ]
+}

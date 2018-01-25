@@ -1,0 +1,19 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_push_uninstall_question", 
+    "catalogList": [
+        {
+            "content": {
+                "blackList": [
+                    "Xiaomi", 
+                    "Meizu"
+                ], 
+                "url": "https://survey.tmall.com/survey/4gmsCPvkj", 
+                "switch": "aa", 
+                "evokeChance": "1.0"
+            }, 
+            "id": 874665
+        }
+    ]
+}

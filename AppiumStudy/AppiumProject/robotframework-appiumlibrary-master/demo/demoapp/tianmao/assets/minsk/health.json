@@ -1,0 +1,15 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "health", 
+    "catalogList": [
+        {
+            "content": {
+                "pedometer": {
+                    "enable": false
+                }
+            }, 
+            "id": 874634
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+precision mediump float;
+
+uniform sampler2D uTexture;
+uniform bool uTextureValid;
+uniform float uBoundary;//ax+y+b = 0,uBoundary[0]->a,uBoundary[1]->b,uBoundary[2]->maskOrNot(0Not,1Mask)
+uniform bool uAxisX;
+uniform vec4 uColor;
+uniform float uAspect;
+
+varying vec2 vTexture;
+varying vec2 vTextureFlipY;
+
+void main(){
+    vec4 mask = vec4(1.0,1.0,1.0,1.0);
+    if(uTextureValid)
+        mask = texture2D(uTexture,vTextureFlipY);
+
+    if(mask.a <.01){
+        discard;
+    }else{
+        vec2 textureCoords = vTexture;
+        if (uAxisX){//HORIZONTAL
+            float x =   sin(4.0 * textureCoords.y + 1.0*uBoundary) +
+                        sin(1.0 * textureCoords.y + 2.0*uBoundary) +
+                        sin(-2.0 * textureCoords.y + 3.0*uBoundary);
+            x *= .075;
+            x /= uAspect;
+            x += uBoundary;
+            if(textureCoords.x <= x)
+                gl_FragColor = uColor;
+            else
+                discard;
+        }else{//VERTICAL
+            float y =   sin(10.0 * textureCoords.x + 20.0*uBoundary) +
+                        sin(7.0 * textureCoords.x + 23.0*uBoundary) +
+                        sin(4.0 * textureCoords.x + 2.0*uBoundary) +
+                        sin(1.0 * textureCoords.x + 7.0*uBoundary) +
+                        sin(-2.0 * textureCoords.x + 9.0*uBoundary);
+            y *= .02;
+            y *= uAspect;
+            y += uBoundary;
+            if(textureCoords.y <= y)
+                gl_FragColor = uColor;
+            else
+                discard;
+        }
+    }
+}

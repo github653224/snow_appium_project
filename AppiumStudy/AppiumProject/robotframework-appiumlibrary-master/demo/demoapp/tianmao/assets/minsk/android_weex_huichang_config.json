@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "android_weex_huichang_config", 
+    "catalogList": [
+        {
+            "content": {
+                "weex_main_hc_domain": "/wow/portal/act/db11-router,1111.tmall.com,1111wx-test,portal/act/entrance-frame,1212.tmall.com,wow/act/16896/nianhuo,nianhuo.tmall.com,38.tmall.com,new.tmall.com,man.tmall.com,520.tmall.com,/wow/act/17224/qzj,618.tmall.com,/wow/act/17580/testasd,/wow/act/17617/sda223,/wow/ju/17933/ju99frame,/wow/ju/18065/99juframe,/wow/act/18061/pageFrame,/wow/tqg/17473/tqg20170909home,/wow/ju/17473/mjvskocgy59h"
+            }, 
+            "id": 875330
+        }
+    ]
+}

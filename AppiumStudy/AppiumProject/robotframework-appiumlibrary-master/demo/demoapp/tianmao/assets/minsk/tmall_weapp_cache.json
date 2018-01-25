@@ -1,0 +1,13 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tmall_weapp_cache", 
+    "catalogList": [
+        {
+            "content": {
+                "cache_open": "true"
+            }, 
+            "id": 874470
+        }
+    ]
+}

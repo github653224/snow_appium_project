@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_dalvik_speed_up", 
+    "catalogList": [
+        {
+            "content": {
+                "dalvik_speed_up_enable": "true"
+            }, 
+            "id": 875229
+        }
+    ]
+}

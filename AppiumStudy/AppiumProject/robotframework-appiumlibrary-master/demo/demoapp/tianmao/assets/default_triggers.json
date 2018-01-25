@@ -1,0 +1,82 @@
+[
+  {
+    "name": "time",
+    "displayName": "时间触发器",
+    "summary": "特定的时间触发，比如每天的10点",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.TimeTrigger",
+    "category": "时间",
+    "author": "fangbo"
+  },
+  {
+    "name": "data",
+    "displayName": "数据触发器",
+    "summary": "数据变化的时候触发，比如业务线修改了是否打开过范儿的数据",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.DataTrigger",
+    "category": "数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "timer",
+    "displayName": "定时轮询的触发器",
+    "summary": "按特定轮询间隔触发，比如每10分钟判断是否有命中的地理围栏",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.TimerTrigger",
+    "category": "数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "geoFenceAMap",
+    "displayName": "已经废弃，地理围栏触发器",
+    "summary": "已经废弃，使用高德的地理围栏功能",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.GeoFenceTrigger",
+    "category": "LBS",
+    "author": "fangbo"
+  },
+  {
+    "name": "geoFence",
+    "displayName": "地理围栏触发器",
+    "summary": "使用定位的经纬度，自己计算半径的方式处理地理围栏",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.GeoFenceTrigger2",
+    "category": "LBS",
+    "author": "fangbo"
+  },
+  {
+    "name": "gravitySensorTrigger",
+    "displayName": "重力感应触发器",
+    "summary": "使用重力感应监测一些变化如转屏，这个触发器还没有迁移到Sensey,其他sensor类型的触发器已经完成迁移",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.sensor.GravitySensorTrigger",
+    "category": "sensor",
+    "author": "anzheng"
+  },
+  {
+    "name": "sensey",
+    "displayName": "传感器感知库",
+    "summary": "使用Sensey开源库做传感器监听",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.SenseyTrigger",
+    "category": "sensor",
+    "author": "fangbo"
+  },
+  {
+    "name": "wifiFence",
+    "displayName": "近场WIFI围栏",
+    "summary": "使用手淘盒马的近场感知库",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.fence.FenceTrigger",
+    "category": "LBS",
+    "author": "fangbo"
+  },
+  {
+    "name": "beaconFence",
+    "displayName": "近场Beacon围栏",
+    "summary": "使用手淘盒马的近场感知库",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.fence.FenceTrigger",
+    "category": "LBS",
+    "author": "fangbo"
+  },
+  {
+    "name": "sonicFence",
+    "displayName": "近场声波围栏",
+    "summary": "使用手淘盒马的近场感知库",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.trigger.fence.FenceTrigger",
+    "category": "LBS",
+    "author": "fangbo"
+  }
+]

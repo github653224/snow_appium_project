@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_global_navigation", 
+    "catalogList": [
+        {
+            "content": {
+                "closeMenuWebView": false, 
+                "closePullWebView": true, 
+                "closePullAll": false, 
+                "desc": "Switch for GlobalNavigationView pull event"
+            }, 
+            "id": 874540
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "silentDownload", 
+    "catalogList": [
+        {
+            "content": {
+                "downloadURL": "", 
+                "blackList": "", 
+                "packageName": "", 
+                "endTime": "20301016", 
+                "startTime": "20300920"
+            }, 
+            "id": 874356
+        }
+    ]
+}

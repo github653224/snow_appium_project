@@ -1,0 +1,103 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tmall_cache", 
+    "catalogList": [
+        {
+            "content": {
+                "configs": [
+                    {
+                        "key": "tm_funer_mtop", 
+                        "needEcode": false, 
+                        "needSession": true, 
+                        "api": "mtop.tmall.sak.funer.SorPostServiceMtopApi.getGenericPosts", 
+                        "params": {
+                            "compareValue": "", 
+                            "isFirstPage": "true", 
+                            "isNext": "true", 
+                            "pageSize": "10", 
+                            "aggreType": "recommended"
+                        }, 
+                        "triggerPage": "startup", 
+                        "expireSeconds": "3600", 
+                        "type": "mtop", 
+                        "api_v": "2.0"
+                    }, 
+                    {
+                        "key": "tm_wuse_category", 
+                        "api": "com.tmall.industry.portal.hsf.wuse.gettags", 
+                        "triggerPage": "TMHomePageActivity", 
+                        "expireSeconds": "3600", 
+                        "type": "mtop", 
+                        "children": [
+                            {
+                                "dynamicParams": "tag", 
+                                "api": "com.tmall.industry.portal.hsf.wuse.gettopics", 
+                                "params": {
+                                    "tag": "$.data.result[0].tabId", 
+                                    "pageSize": "20", 
+                                    "pageNo": "1"
+                                }, 
+                                "key": "tm_wuse_pagedata", 
+                                "expireSeconds": "3600", 
+                                "type": "mtop", 
+                                "api_v": "1.0"
+                            }, 
+                            {
+                                "dynamicParams": "tag", 
+                                "api": "com.tmall.industry.portal.hsf.wuse.gettopics", 
+                                "params": {
+                                    "tag": "$.data.result[2].tabId", 
+                                    "pageSize": "20", 
+                                    "pageNo": "1"
+                                }, 
+                                "key": "tm_wuse_pagedata", 
+                                "expireSeconds": "3600", 
+                                "type": "mtop", 
+                                "api_v": "1.0"
+                            }, 
+                            {
+                                "dynamicParams": "tag", 
+                                "api": "com.tmall.industry.portal.hsf.wuse.gettopics", 
+                                "params": {
+                                    "tag": "$.data.result[1].tabId", 
+                                    "pageSize": "20", 
+                                    "pageNo": "1"
+                                }, 
+                                "key": "tm_wuse_pagedata", 
+                                "expireSeconds": "3600", 
+                                "type": "mtop", 
+                                "api_v": "1.0"
+                            }
+                        ], 
+                        "api_v": "1.0"
+                    }, 
+                    {
+                        "url": "http://www.tmall.com/market/tmalliphone/wirelessfeedback.php", 
+                        "expireSeconds": "3600", 
+                        "type": "external", 
+                        "key": "feedback", 
+                        "triggerPage": "TMMtmallActivity"
+                    }, 
+                    {
+                        "key": "tm_cart", 
+                        "needEcode": true, 
+                        "needSession": true, 
+                        "api": "mtop.trade.queryBag", 
+                        "params": {
+                            "cartFrom": "tmall_client", 
+                            "extStatus": "0", 
+                            "netType": "1", 
+                            "isPage": "true"
+                        }, 
+                        "triggerPage": "startup", 
+                        "expireSeconds": "1800", 
+                        "type": "mtop", 
+                        "api_v": "4.1"
+                    }
+                ]
+            }, 
+            "id": 874420
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "huoyan", 
+    "catalogList": [
+        {
+            "content": {
+                "logoType": "newType", 
+                "logo": {
+                    "endTime": 1453258800000, 
+                    "img": "http://gtms03.alicdn.com/tps/i3/TB1uf7tJXXXXXbZXFXXFPXh_XXX-450-350.png", 
+                    "desc": ""
+                }, 
+                "select": "qrcode", 
+                "scanLogoDefaultUrl": "http://www.tmall.com/go/rgn/main/scan_logo.php ", 
+                "rectWidth": 500
+            }, 
+            "id": 874388
+        }
+    ]
+}

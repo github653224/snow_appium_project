@@ -1,0 +1,33 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: IiELC1X6qY2AIupzEQBTQMRQ0s0=
+
+Name: AndroidManifest.xml
+SHA1-Digest: YWnnXTQ/JclSl9u1w+YoWwwBvs0=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: Z/yxmMxGRNbFUkjqWONvJQH5rQw=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: iR1AGdcgDutAX/5xyl92TWcEJuw=
+
+Name: res/layout/contact_entry.xml
+SHA1-Digest: gPfVrhs0L3IccYQdS/qLRkEdYUU=
+
+Name: res/layout/contact_manager.xml
+SHA1-Digest: rgJhw1y/a9Oe5rwkagXOh+9p8iU=
+
+Name: res/layout/contact_adder.xml
+SHA1-Digest: RfsqPdCMwkA3Pb9oRdo0wQo5ZTg=
+
+Name: res/layout/account_entry.xml
+SHA1-Digest: NEr5/Zh4B1q/bN4iXW4cWXEutgU=
+
+Name: resources.arsc
+SHA1-Digest: +apK/DPDKscT4tktfD6QUxoAkMc=
+
+Name: classes.dex
+SHA1-Digest: jk04E5Y3EBcAsepj05NUgdB//GA=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: 3vv9derC/UrLpiam9i2Yo16eHXw=
+

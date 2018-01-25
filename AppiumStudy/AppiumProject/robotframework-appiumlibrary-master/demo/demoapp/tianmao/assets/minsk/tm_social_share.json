@@ -1,0 +1,31 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tm_social_share", 
+    "catalogList": [
+        {
+            "content": {
+                "switch": true
+            }, 
+            "id": 874422
+        }, 
+        {
+            "content": {
+                "switch": true
+            }, 
+            "id": 874423
+        }, 
+        {
+            "content": {
+                "switch": true
+            }, 
+            "id": 874424
+        }, 
+        {
+            "content": {
+                "type": "weixin"
+            }, 
+            "id": 874425
+        }
+    ]
+}

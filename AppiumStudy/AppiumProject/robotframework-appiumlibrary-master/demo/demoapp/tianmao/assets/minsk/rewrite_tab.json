@@ -1,0 +1,34 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_tab", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(www|m)\\.tmall\\.com/?(\\?.*)toNative=0", 
+                "new": "$0", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875169
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?//(www|m)\\.tmall\\.com/?(\\?.*)?$", 
+                "new": "tmall://tab.switch/home", 
+                "flag": "l", 
+                "comment": "Tab\u5207\u6362"
+            }, 
+            "id": 875170
+        }, 
+        {
+            "content": {
+                "origin": "tmall://(mtp|mobile\\.tmall\\.com/page)/(.*)", 
+                "new": "tmall://page.tm/$2", 
+                "flag": "", 
+                "comment": ""
+            }, 
+            "id": 875171
+        }
+    ]
+}

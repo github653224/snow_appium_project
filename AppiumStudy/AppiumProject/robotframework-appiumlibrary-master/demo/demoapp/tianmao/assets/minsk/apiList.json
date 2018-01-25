@@ -1,0 +1,52 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "apiList", 
+    "catalogList": [
+        {
+            "content": {
+                "level1": [], 
+                "level2": [
+                    "Application.update", 
+                    "Application.getCameraPic", 
+                    "Application.getGps", 
+                    "Application.alarm", 
+                    "Application.saveFile", 
+                    "Application.sendIHavePost", 
+                    "Application.forceLogin", 
+                    "Application.getPicBase64", 
+                    "Contact.getContact", 
+                    "Search.itemSearch", 
+                    "Server.HybridServer", 
+                    "TBSExt.commitEvent", 
+                    "TBSPage.ctrlClicked", 
+                    "Application.getDeviceId", 
+                    "Application.getUtdId", 
+                    "Contact.checkAuth", 
+                    "Contact.checkInContact", 
+                    "Application.alipaySimplePurchase", 
+                    "Application.checkPayPasswordAction", 
+                    "Application.alipayPurchase", 
+                    "Search.customSize", 
+                    "Application.getPushSettingStatus", 
+                    "Application.setPushSettingStatus", 
+                    "Search.subscribe", 
+                    "Search.customizeModule", 
+                    "Detail.Sku", 
+                    "TmallMarket.updatePrice", 
+                    "TmallMarket.isShowCart", 
+                    "TmallTunla.isShowH5PinMoney", 
+                    "TmallTunla.updatePinMoney"
+                ], 
+                "level3": [
+                    "Application.getCameraPic", 
+                    "Application.getGps", 
+                    "Application.alarm", 
+                    "Application.social", 
+                    "Isv.gateway"
+                ]
+            }, 
+            "id": 874334
+        }
+    ]
+}

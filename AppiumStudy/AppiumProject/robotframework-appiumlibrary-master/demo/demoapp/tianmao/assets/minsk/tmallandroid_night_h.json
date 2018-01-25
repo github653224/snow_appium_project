@@ -1,0 +1,24 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmallandroid_night_h", 
+    "catalogList": [
+        {
+            "content": {
+                "default_resolution": "480p", 
+                "open_quick_play": false, 
+                "enable_defalt_resolution": false, 
+                "interactPageUrl": "https://pages.tmall.com/wow/lafite/act/wh", 
+                "video_cache_Second_thresholdValue": 1500, 
+                "degrade_loop_time": 20000, 
+                "power_degrade": false, 
+                "downdrage_miniPlayer": false, 
+                "enable_navigation_button": false, 
+                "disalbe_live_template": false, 
+                "h265_downgradle": true, 
+                "open_video_downdrag": false
+            }, 
+            "id": 875335
+        }
+    ]
+}

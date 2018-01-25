@@ -1,0 +1,15 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "InterFunConfig", 
+    "catalogList": [
+        {
+            "content": {
+                "commentDuration": 8000, 
+                "emojiAnim": true, 
+                "key": "config"
+            }, 
+            "id": 874635
+        }
+    ]
+}

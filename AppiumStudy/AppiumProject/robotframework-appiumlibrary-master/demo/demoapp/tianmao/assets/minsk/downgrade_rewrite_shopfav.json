@@ -1,0 +1,23 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "downgrade_rewrite_shopfav", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page.tm\\/collectShop(\\?.*)?", 
+                "new": "//h5.m.taobao.com/fav/index.htm#!shop/queryColShop-1", 
+                "flag": "l"
+            }, 
+            "id": 875258
+        }, 
+        {
+            "content": {
+                "origin": "tmall:\\/\\/page.tm\\/collectMain\\?(.*&)?collectType=2", 
+                "new": "//h5.m.taobao.com/fav/index.htm#!shop/queryColShop-1", 
+                "flag": "l"
+            }, 
+            "id": 875259
+        }
+    ]
+}

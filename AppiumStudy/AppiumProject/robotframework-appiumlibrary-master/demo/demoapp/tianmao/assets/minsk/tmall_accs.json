@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_accs", 
+    "catalogList": [
+        {
+            "content": {
+                "hideDaemon": "false"
+            }, 
+            "id": 874539
+        }
+    ]
+}

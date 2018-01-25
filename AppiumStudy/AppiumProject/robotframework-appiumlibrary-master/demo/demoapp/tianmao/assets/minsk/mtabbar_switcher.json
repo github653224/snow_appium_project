@@ -1,0 +1,115 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "mtabbar_switcher", 
+    "catalogList": [
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "http(s)?://chaoshi\\.m\\.tmall\\.com(.*)?", 
+                    "http(s)?://.+\\.tmall\\.com/wh/tmall/chaoshi/act/.+"
+                ]
+            }, 
+            "id": 874477
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "^(?:https?:)?//(pages|pre-wormhole)\\.tmall\\.(?:com|hk)/(?:wh|wow)/(?:tmall/)?import/act(.*)?", 
+                    "^(?:https?:)?//(?:guojia|korea|uk|germany|australia|newzealand|usa|thailand|spain|singapore|malaysia|france|switzerland|turkey|japan|taiwan)\\.tmall\\.(?:com|hk)(.*)?", 
+                    "^(?:https?:)?//ju\\.taobao\\.com/m/jusp/nv/globaltmall/mtp\\.htm(.*)?", 
+                    "^(?:https?:)?//tg\\.tmall\\.com(.*)?"
+                ]
+            }, 
+            "id": 874478
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "http(s)?://www\\.tmall\\.com/(?!.*wh_hide=header).*/tmall-3c/(?!.*wh_hide=header).*$", 
+                    "http(s)?://3c(\\.m)?\\.tmall\\.com\\/(?!.*wh_hide=header).*$"
+                ]
+            }, 
+            "id": 874479
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "^(?:https?:)?//www\\.tmall\\.com/(?:wow|wh)(/tmall)?/jifen/act/(?:index|get-point|point-exchange).*"
+                ]
+            }, 
+            "id": 874480
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "http(s)?://(?:nanzhuang|sports|neiyi|nanxie|nvxie|bag)\\.tmall\\.com/.*$"
+                ]
+            }, 
+            "id": 874481
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "http(s)?://.+\\.tmall\\.com/(wow|wh/tmall)/baihuo/act/.+", 
+                    "http(s)?://(meizhuang|mei)\\.tmall\\.com.*"
+                ]
+            }, 
+            "id": 874482
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "^(?:https?:)?//.*\\.tmall\\.com/wow/jz/act/meijia", 
+                    "^(?:https?:)?//.*\\.tmall\\.com/wow/jz/act/zxj", 
+                    "^(?:https?:)?//.*\\.tmall\\.com/wow/jz/act/mjcats"
+                ]
+            }, 
+            "id": 874483
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "^(?:https?:)?//www\\.tmall\\.com/wow/jinkou/(act|16097)/(fashion2|baby|personalcare|foods|home|nutrition|index|newarrival|99wines)(.*)?", 
+                    "^(?:https?:)?//jinkou\\.tmall\\.com/?"
+                ]
+            }, 
+            "id": 874484
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "http(s)?://(?:nvzhuang|www)\\.tmall\\.com/(?:|wh|wow)(/tmall)?/fushi/act/(?!.*vitual).*$"
+                ]
+            }, 
+            "id": 874485
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "http(s)?://.+?\\.tmall\\.com/(wh|wow)(/tmall)?/baihuo/act/(?:shoes|shoes-brands|xiangbao|xiangbaopinpai|nanxiebrand|nvxiebrand)"
+                ]
+            }, 
+            "id": 874486
+        }, 
+        {
+            "content": {
+                "enable": "true", 
+                "supportUrlRegs": [
+                    "http(s)?://(?:food|chi)(\\.m)?\\.tmall\\.com(?!.*go/market/food).+"
+                ]
+            }, 
+            "id": 874487
+        }
+    ]
+}

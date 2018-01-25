@@ -1,0 +1,111 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "TMMaintab_shadow", 
+    "catalogList": [
+        {
+            "content": {
+                "tabBarConfig": {
+                    "textSelectedColor": "#FF0036", 
+                    "bgImage": "", 
+                    "bgColor": "#ffffff", 
+                    "textNormalColor": "#999999", 
+                    "iconNormalColor": "#5F646E", 
+                    "itemsByTag": [
+                        {
+                            "iconfontNormal": "e602", 
+                            "imageSize": "", 
+                            "coverImageNormal": "", 
+                            "imageSelected": "", 
+                            "title": "\u7cbe\u9009", 
+                            "iconfontSelected": "e602", 
+                            "jumpUrl": "", 
+                            "coverImageSelected": "", 
+                            "tag": "home", 
+                            "intent": "tmall://page.tm/mainTabHomePage", 
+                            "imageNormal": "", 
+                            "forceLogin": false, 
+                            "coverImageSize": ""
+                        }, 
+                        {
+                            "iconfontSelected": "e601", 
+                            "iconfontNormal": "e601", 
+                            "jumpUrl": "", 
+                            "tag": "brandingHome", 
+                            "intent": "tmall://page.tm/brandingHome", 
+                            "title": "\u54c1\u724c", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "imageSize": "", 
+                            "coverImageNormal": "", 
+                            "iconfontNormal": "e625", 
+                            "iconfontSelected": "e625", 
+                            "jumpUrl": "", 
+                            "coverImageSelected": "", 
+                            "tag": "vipPlusHome", 
+                            "intent": "tmall://page.tm/TMVipPlus", 
+                            "coverImageSize": "", 
+                            "title": "\u4f1a\u5458", 
+                            "forceLogin": false
+                        }, 
+                        {
+                            "iconfontNormal": "e604", 
+                            "imageSize": "", 
+                            "coverImageNormal": "", 
+                            "imageSelected": "", 
+                            "title": "\u8d2d\u7269\u8f66", 
+                            "iconfontSelected": "e604", 
+                            "jumpUrl": "", 
+                            "coverImageSelected": "", 
+                            "tag": "cart", 
+                            "intent": "tmall://page.tm/cart", 
+                            "imageNormal": "", 
+                            "forceLogin": true, 
+                            "coverImageSize": ""
+                        }, 
+                        {
+                            "iconfontNormal": "e600", 
+                            "imageSize": "", 
+                            "coverImageNormal": "", 
+                            "imageSelected": "", 
+                            "title": "\u6211", 
+                            "iconfontSelected": "e600", 
+                            "jumpUrl": "", 
+                            "coverImageSelected": "", 
+                            "tag": "myTmallNew", 
+                            "intent": "tmall://page.tm/webview?url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fmit%2Fact%2Fmy-tmall%3FdisableNav%3DYES%26disableProgress%3DYES%26mainTabPreload%3DYES%23%2Fmain", 
+                            "imageNormal": "", 
+                            "forceLogin": false, 
+                            "coverImageSize": ""
+                        }
+                    ], 
+                    "iconSelectedColor": "#FF0036"
+                }, 
+                "baseLayout": [
+                    {
+                        "tag": "home", 
+                        "module": "tab.0"
+                    }, 
+                    {
+                        "tag": "brandingHome", 
+                        "module": "tab.1"
+                    }, 
+                    {
+                        "tag": "vipPlusHome", 
+                        "module": "tab.2"
+                    }, 
+                    {
+                        "tag": "cart", 
+                        "module": "tab.3"
+                    }, 
+                    {
+                        "tag": "myTmallNew", 
+                        "module": "tab.4"
+                    }
+                ]
+            }, 
+            "id": 875368
+        }
+    ]
+}

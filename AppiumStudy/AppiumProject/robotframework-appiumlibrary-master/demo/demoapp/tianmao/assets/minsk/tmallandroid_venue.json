@@ -1,0 +1,16 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmallandroid_venue", 
+    "catalogList": [
+        {
+            "content": {
+                "acds_strategy": "\"cacheonly\"", 
+                "warmuptime": 86400, 
+                "config_prefetch_v": 4, 
+                "warmup": true
+            }, 
+            "id": 874625
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "broadcast", 
+    "catalogList": [
+        {
+            "content": {
+                "turnOffComments": false, 
+                "bannerLink": "", 
+                "bannerUrl": "http://gtms01.alicdn.com/tps/i1/TB1zAv2GFXXXXcDXFXXpyEt0FXX-640-172.png", 
+                "turnOffBroadcast": false, 
+                "turnOffBanner": false, 
+                "programUrl": "http://gtms01.alicdn.com/tps/i1/TB1qg.bGFXXXXavXVXX1yu_7XXX-600-1948.png"
+            }, 
+            "id": 874376
+        }
+    ]
+}

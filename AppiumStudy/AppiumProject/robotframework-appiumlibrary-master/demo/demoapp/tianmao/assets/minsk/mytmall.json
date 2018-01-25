@@ -1,0 +1,80 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "mytmall", 
+    "catalogList": [
+        {
+            "content": {
+                "code": "myAttention", 
+                "functionList": [
+                    {
+                        "actionURL": "tmall://page.tm/collectMain?collectType=1#needLogin", 
+                        "code": "favItem", 
+                        "name": "\u5546\u54c1\u6536\u85cf", 
+                        "icon": "https://gw.alicdn.com/tps/TB1CfViNXXXXXbCXFXXXXXXXXXX-60-60.png"
+                    }, 
+                    {
+                        "actionURL": "tmall://page.tm/collectMain?collectType=2#needLogin", 
+                        "code": "favShop", 
+                        "name": "\u5e97\u94fa\u6536\u85cf", 
+                        "icon": "https://gw.alicdn.com/tps/TB1.f.2MVXXXXbLaXXXXXXXXXXX-60-60.png"
+                    }, 
+                    {
+                        "actionURL": "tmall://page.tm/collectMain?collectType=3#needLogin", 
+                        "code": "favFeed", 
+                        "name": "\u5185\u5bb9\u6536\u85cf", 
+                        "icon": "https://gw.alicdn.com/tps/TB1H6xlNXXXXXaHXFXXXXXXXXXX-60-60.png"
+                    }, 
+                    {
+                        "actionURL": "https://pages.tmall.com/wow/fsp/act/myfeed#needLogin", 
+                        "code": "pinBrand", 
+                        "name": "\u6211\u7684\u5173\u6ce8", 
+                        "icon": "https://gw.alicdn.com/tps/TB1WK4pNXXXXXXEXFXXXXXXXXXX-60-60.png"
+                    }
+                ]
+            }, 
+            "id": 874590
+        }, 
+        {
+            "content": {
+                "actionURL": "tmall://page.tm/orderList?orderType=4&__meta__={\"needLogin\":1}", 
+                "defaultMessage": "\u67e5\u770b\u5168\u90e8\u8ba2\u5355", 
+                "code": "order_all", 
+                "functionList": [
+                    {
+                        "actionURL": "tmall://page.tm/orderList?orderType=0&__meta__={\"needLogin\":1}", 
+                        "code": "to_be_paid", 
+                        "name": "\u5f85\u4ed8\u6b3e", 
+                        "icon": "https://gw.alicdn.com/tps/TB1m8ZJLXXXXXXrapXXXXXXXXXX-52-52.png"
+                    }, 
+                    {
+                        "actionURL": "tmall://page.tm/orderList?orderType=6&__meta__={\"needLogin\":1}", 
+                        "code": "to_be_delevered", 
+                        "name": "\u5f85\u53d1\u8d27", 
+                        "icon": "https://gw.alicdn.com/tps/TB1TA3RLXXXXXaDaXXXXXXXXXXX-52-52.png"
+                    }, 
+                    {
+                        "actionURL": "tmall://page.tm/orderList?orderType=1&__meta__={\"needLogin\":1}", 
+                        "code": "to_be_recived", 
+                        "name": "\u5f85\u6536\u8d27", 
+                        "icon": "https://gw.alicdn.com/tps/TB1NpgTLXXXXXX8aXXXXXXXXXXX-52-52.png"
+                    }, 
+                    {
+                        "actionURL": "tmall://page.tm/orderList?orderType=7&__meta__={\"needLogin\":1}", 
+                        "code": "to_be_rated", 
+                        "name": "\u5f85\u8bc4\u4ef7", 
+                        "icon": "https://gw.alicdn.com/tps/TB1Lgs.LXXXXXX5XpXXXXXXXXXX-52-52.png"
+                    }, 
+                    {
+                        "actionURL": "tmall://page.tm/dispute/wirelessList?__meta__={\"needLogin\":1}", 
+                        "code": "to_be_refunding", 
+                        "name": "\u9000\u6b3e/\u552e\u540e", 
+                        "icon": "https://gw.alicdn.com/tps/TB1aKJjLpXXXXXgXXXXXXXXXXXX-52-52.png"
+                    }
+                ], 
+                "name": "\u5168\u90e8\u8ba2\u5355"
+            }, 
+            "id": 874591
+        }
+    ]
+}

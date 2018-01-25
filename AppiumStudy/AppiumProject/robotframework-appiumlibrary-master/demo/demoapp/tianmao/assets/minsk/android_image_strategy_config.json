@@ -1,0 +1,38 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "android_image_strategy_config", 
+    "catalogList": [
+        {
+            "content": {
+                "domainConvertExcludePath": "i.mmcdn.cn,cbu01.alicdn.com", 
+                "cdn10000Width": "110,150,170,220,240,290,450,570,580,620,790", 
+                "levelRatio": "0.17", 
+                "fuzzyExcludePath": "getAvatar", 
+                "default": {
+                    "highNetScale": "1", 
+                    "highNetSharpen": "", 
+                    "useWebP": 1, 
+                    "lowNetScale": "1", 
+                    "lowNetQ": "q75", 
+                    "lowNetSharpen": "", 
+                    "highNetQ": "q90"
+                }, 
+                "cdn10000Height": "170,220,340,500", 
+                "modules": "default", 
+                "levelModelXZImageSizes": "90,110,200,320,460,640", 
+                "aliCdnDomain": ".wimg.taobao.com,.alicdn.com,.taobaocdn.com,img.taobao.com,i.mmcdn.cn", 
+                "levelModelImageSizes": "90,110,200,320,460,600,760,960,1200", 
+                "cdnImageSizes": "16,20,24,30,32,36,40,48,50,60,64,70,72,80,88,90,100,110,120,125,128,130,145,160,170,180,190,200,210,220,230,234,240,250,270,290,300,310,315,320,336,350,360,400,430,460,468,480,490,540,560,570,580,600,640,670,720,728,760,960,970,1200,2200", 
+                "ossFuzzyExclude": "@watermark,getAvatar", 
+                "globalSwitch": "1", 
+                "domainDest": "gw.alicdn.com", 
+                "exactExcludeDomain": "a.tbcdn.cn,b.tbcdn.cn,gqrcode.alicdn.com,g.tbcdn.cn,m.alicdn.com,assets.alicdn.com,g.alicdn.com,ag.alicdn.com,a.dd.alicdn.com,uaction.alicdn.com,wwc.alicdn.com,osdes.alicdn.com,gjusp.alicdn.com,download.taobaocdn.com,gtb-fun.alicdn.com,qianniu.alicdn.com,gamc.alicdn.com,glife-img.alicdn.com,ossgw.alicdn.com,alchemy-img.alicdn.com,alpha.alicdn.com,h5.m.taobao.com,cx.alicdn.com", 
+                "domainSwitch": "1", 
+                "xzcdnImageSizes": "72,88,90,100,110,120,145,160,170,180,200,230,240,270,290,310,320,430,460,580,640", 
+                "ossCdnDomain": "ossgw.alicdn.com"
+            }, 
+            "id": 875251
+        }
+    ]
+}

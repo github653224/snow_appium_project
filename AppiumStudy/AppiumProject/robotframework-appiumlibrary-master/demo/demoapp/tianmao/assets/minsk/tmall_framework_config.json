@@ -1,0 +1,24 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmall_framework_config", 
+    "catalogList": [
+        {
+            "content": {
+                "ThreadPoolConfig": {
+                    "blockTimeout": 4000, 
+                    "isDumpTraceEnabled": true, 
+                    "isGuardEnabled": true, 
+                    "guardInterval": 200, 
+                    "degradeDeep": 3
+                }, 
+                "ElapheConfig": {
+                    "sysBL": [], 
+                    "useElaphe": false, 
+                    "devBL": []
+                }
+            }, 
+            "id": 875252
+        }
+    ]
+}

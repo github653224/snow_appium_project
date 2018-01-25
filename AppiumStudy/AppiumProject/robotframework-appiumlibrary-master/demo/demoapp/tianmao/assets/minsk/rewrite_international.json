@@ -1,0 +1,15 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_international", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?//www\\.tmall\\.hk/?$", 
+                "new": "https://pages.tmall.com/wow/import/act/index-2016", 
+                "flag": "l"
+            }, 
+            "id": 875367
+        }
+    ]
+}

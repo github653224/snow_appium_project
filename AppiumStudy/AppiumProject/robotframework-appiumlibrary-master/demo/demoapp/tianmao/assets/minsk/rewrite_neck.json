@@ -1,0 +1,40 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_neck", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/pages\\.tmall\\.com\\/wow\\/yao\\/act\\/ziyinghome\\/?(\\?(.*)|$)", 
+                "new": "$0", 
+                "flag": "l"
+            }, 
+            "id": 875177
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/maiyao(\\.m)?\\.tmall\\.com\\/?(\\?(.*)|$)", 
+                "new": "//pages.tmall.com/wow/yao/act/ziyinghome", 
+                "flag": "l"
+            }, 
+            "id": 875178
+        }, 
+        {
+            "content": {
+                "origin": "^tmall:\\/\\/page\\.tm/shop\\/?\\?(.*(shopId=163215406|user_id=2928278102|sellerId=2928278102).*)", 
+                "new": "//pages.tmall.com/wow/yao/act/ziyinghome", 
+                "flag": "l"
+            }, 
+            "id": 875179
+        }, 
+        {
+            "content": {
+                "origin": "^(?:https?:)?\\/\\/shop163215406(?:\\.m)?(?:\\.wapa)?\\.(?:tmall|taobao)\\.com\\/?(\\?.*)?", 
+                "new": "//pages.tmall.com/wow/yao/act/ziyinghome$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875180
+        }
+    ]
+}

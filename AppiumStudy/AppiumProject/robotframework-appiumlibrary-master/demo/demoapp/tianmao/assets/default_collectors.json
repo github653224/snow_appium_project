@@ -1,0 +1,162 @@
+[
+  {
+    "name": "time",
+    "displayName": "时间采集器",
+    "summary": "采集各种格式的时间",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.TimeCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "dayOfYear",
+    "displayName": "时间采集器",
+    "summary": "采集各种格式的时间",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.TimeCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "data",
+    "displayName": "通用数据采集器",
+    "summary": "没有注册的数据类型，会使用这个采集器",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.DataCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "location",
+    "displayName": "地理位置采集器",
+    "summary": "采集完整全量的地理数据，不支持后台使用",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "pageName",
+    "displayName": "采集当前页面名称",
+    "summary": "采集当前页面名称",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.PageNameCollector",
+    "category": "端上页面数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "location",
+    "displayName": "地理位置采集器",
+    "summary": "采集当前经纬度",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "longitude",
+    "displayName": "经度采集器",
+    "summary": "采集经度",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "latitude",
+    "displayName": "纬度采集器",
+    "summary": "采集纬度",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "address",
+    "displayName": "地址采集器",
+    "summary": "采集地址",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "city",
+    "displayName": "城市采集器",
+    "summary": "采集城市",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "district",
+    "displayName": "行政区采集器",
+    "summary": "采集行政区",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "province",
+    "displayName": "省份采集器",
+    "summary": "采集省份",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "road",
+    "displayName": "道路采集器",
+    "summary": "采集道路",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "areaCode",
+    "displayName": "邮编采集器",
+    "summary": "采集邮编",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.LocationCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "weather",
+    "displayName": "采集完整天气信息",
+    "summary": "采集天气",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.WeatherCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "weather_desc",
+    "displayName": "天气描述",
+    "summary": "采集天气",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.WeatherCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "weather_city",
+    "displayName": "天气城市",
+    "summary": "采集天气",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.WeatherCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "weather_code",
+    "displayName": "天气编码",
+    "summary": "采集天气",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.WeatherCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "weather_temperatureLower",
+    "displayName": "最低气温",
+    "summary": "采集天气",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.WeatherCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  },
+  {
+    "name": "weather_temperatureUpper",
+    "displayName": "最高气温",
+    "summary": "采集天气",
+    "clzName": "com.tmall.wireless.awareness.awareness2.core.impl.collector.WeatherCollector",
+    "category": "端上实时数据",
+    "author": "fangbo"
+  }
+]

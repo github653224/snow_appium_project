@@ -1,0 +1,19 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "update_apk_beta", 
+    "catalogList": [
+        {
+            "content": {
+                "update_frequency": 1, 
+                "dialogFrequency": {
+                    "minIntervalHour": 0.01, 
+                    "cycleDay": 1, 
+                    "maxShowTime": 10
+                }, 
+                "exit_app_close_dialog": false
+            }, 
+            "id": 875369
+        }
+    ]
+}

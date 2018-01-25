@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171220 14:49:43.500" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\PythonProjects\AppiumProject\robotframework-appiumlibrary-master\demo\demo_resoure.robot" id="s1" name="Demo Resoure">
+<test id="s1-t1" name="Test Protrue">
+<kw name="TestStart">
+<doc>just demo</doc>
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=4.2.2</arg>
+<arg>deviceName=169.254.228.101:5555</arg>
+<arg>app=D:\\PythonProjects\\AppiumProject\\robotframework-appiumlibrary-master\\demo/demoapp/OrangeDemoApp.apk</arg>
+<arg>automationName=appium</arg>
+<arg>appPackage=com.netease.qa.orangedemo</arg>
+<arg>appActivity=MainActivity</arg>
+</arguments>
+<status status="PASS" endtime="20171220 14:50:02.566" starttime="20171220 14:49:44.162"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20171220 14:50:04.117" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20171220 14:50:04.118" starttime="20171220 14:50:02.567"></status>
+</kw>
+<status status="PASS" endtime="20171220 14:50:04.118" starttime="20171220 14:49:44.162"></status>
+</kw>
+<status status="PASS" endtime="20171220 14:50:04.120" critical="yes" starttime="20171220 14:49:44.160"></status>
+</test>
+<status status="PASS" endtime="20171220 14:50:04.123" starttime="20171220 14:49:43.516"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Demo Resoure" pass="1">Demo Resoure</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

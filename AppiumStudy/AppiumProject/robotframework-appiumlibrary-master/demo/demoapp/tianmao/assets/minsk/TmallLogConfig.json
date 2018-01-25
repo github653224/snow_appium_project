@@ -1,0 +1,16 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "TmallLogConfig", 
+    "catalogList": [
+        {
+            "content": {
+                "tlog_switch": "true", 
+                "tlog_level": "error", 
+                "tlog_destroy": "false", 
+                "tlog_module": "off"
+            }, 
+            "id": 874431
+        }
+    ]
+}

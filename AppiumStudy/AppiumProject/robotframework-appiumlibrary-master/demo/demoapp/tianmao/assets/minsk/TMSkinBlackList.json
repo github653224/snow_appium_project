@@ -1,0 +1,15 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "TMSkinBlackList", 
+    "catalogList": [
+        {
+            "content": {
+                "skin_enabled": "true", 
+                "navigation_blackList": [], 
+                "module_blackList": []
+            }, 
+            "id": 875248
+        }
+    ]
+}

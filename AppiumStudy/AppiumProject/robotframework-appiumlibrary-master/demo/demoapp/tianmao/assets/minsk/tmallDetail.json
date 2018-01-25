@@ -1,0 +1,19 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "tmallDetail", 
+    "catalogList": [
+        {
+            "content": {
+                "useLadder": true, 
+                "isNeedUseStylekit": true, 
+                "isPlaySupply": true, 
+                "isUseGOC": true, 
+                "isOpenPanorama": true, 
+                "isPlaySupplyDesc": true, 
+                "isUseNoEvaluateGuide": true
+            }, 
+            "id": 874377
+        }
+    ]
+}

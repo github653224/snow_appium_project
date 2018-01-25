@@ -1,0 +1,13 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "badger", 
+    "catalogList": [
+        {
+            "content": {
+                "badger_show": true
+            }, 
+            "id": 874588
+        }
+    ]
+}

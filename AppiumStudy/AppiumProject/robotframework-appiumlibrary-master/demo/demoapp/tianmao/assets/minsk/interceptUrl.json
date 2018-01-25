@@ -1,0 +1,148 @@
+{
+    "json": true, 
+    "version": 0, 
+    "name": "interceptUrl", 
+    "catalogList": [
+        {
+            "content": {
+                "http://shop.m.taobao.com/shop/shop_index.htm": {
+                    "pattern": [
+                        "user_id=(\\d*)"
+                    ], 
+                    "type": "user_number_id", 
+                    "indexs": [
+                        1
+                    ]
+                }, 
+                "http://store.taobao.com/shop/view_shop.htm": {
+                    "pattern": [
+                        "user_number_id=(\\d*)"
+                    ], 
+                    "type": "user_number_id", 
+                    "indexs": [
+                        1
+                    ]
+                }, 
+                "http://detail.tmall.com/item.htm": {
+                    "pattern": [
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        2
+                    ]
+                }, 
+                "http://shop.m.tmall.com/shop/shop_index.htm": {
+                    "pattern": [
+                        "shop_id=(\\d*)"
+                    ], 
+                    "type": "shop_id", 
+                    "indexs": [
+                        1
+                    ]
+                }, 
+                "http://h5.m.taobao.com/awp/core/detail.htm": {
+                    "pattern": [
+                        "/(\\d*)\\.(htm|html)", 
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        1, 
+                        2
+                    ]
+                }, 
+                "http://miao.item.taobao.com/": {
+                    "pattern": [
+                        "/(\\d*)\\.(htm|html)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        1
+                    ]
+                }, 
+                "http://item.taobao.com/item.htm?": {
+                    "pattern": [
+                        "/(\\d*)\\.(htm|html)", 
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        1, 
+                        2
+                    ]
+                }, 
+                "http://detail.m.tmall.com/item.htm": {
+                    "pattern": [
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        2
+                    ]
+                }, 
+                "http://a.m.tmall.com": {
+                    "pattern": [
+                        "/i(\\d*)\\.(htm|html)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        1
+                    ]
+                }, 
+                "http://h5.wapa.taobao.com/awp/core/detail.htm": {
+                    "pattern": [
+                        "/(\\d*)\\.(htm|html)", 
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        1, 
+                        2
+                    ]
+                }, 
+                "http://detail.m.tmall.com/": {
+                    "pattern": [
+                        "/(\\d*)\\.(htm|html)", 
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        1, 
+                        2
+                    ]
+                }, 
+                "http://item.tmall.com/item.htm": {
+                    "pattern": [
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        2
+                    ]
+                }, 
+                "http://detail.tmall.hk/hk/item.htm": {
+                    "pattern": [
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        2
+                    ]
+                }, 
+                "http://detail.tmall.com/": {
+                    "pattern": [
+                        "/(\\d*)\\.(htm|html)", 
+                        "(\\?|&)id=(\\d*)"
+                    ], 
+                    "type": "item", 
+                    "indexs": [
+                        1, 
+                        2
+                    ]
+                }
+            }, 
+            "id": 874390
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "rewrite_lightpage", 
+    "catalogList": [
+        {
+            "content": {
+                "origin": "^(?!.*demote2h5=1)(?:https?:)?//content\\.tmall\\.com.*\\?(.*supportNative=1.*)", 
+                "new": "tmall://page.tm/lightpage?ourl=$$0&$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875234
+        }, 
+        {
+            "content": {
+                "origin": "^(?!.*demote2h5=1)(?:https?:)?//content\\.tmall\\.com.*\\?(.*gccpm=\\d+\\.501\\.\\d+\\.link4taobaodaren.*)", 
+                "new": "tmall://page.tm/lightpage?ourl=$$0&$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875235
+        }, 
+        {
+            "content": {
+                "origin": "^(?!.*demote2h5=1)(?:https?:)?//content\\.tmall\\.com.*\\?(.*supportNative=2.*)", 
+                "new": "tmall://page.tm/lightpage?ourl=$$0&$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875236
+        }, 
+        {
+            "content": {
+                "origin": "^(?!.*demote2h5=1)(?:https?:)?//content\\.tmall\\.com.*\\?(.*gccpm=\\d+\\.503\\.\\d+\\.link4taobaodaren.*)", 
+                "new": "tmall://page.tm/lightpage?ourl=$$0&$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875237
+        }, 
+        {
+            "content": {
+                "origin": "^(?!.*demote2h5=1)(?:https?:)?\\/\\/content\\.tmall\\.com.*\\?(.*gccpm=\\d+\\.\\d+\\.\\d+\\.(subject-contentcenter-2761|subject-2347).*)", 
+                "new": "tmall://page.tm/lightpage?ourl=$$0&$1", 
+                "flag": "l", 
+                "comment": ""
+            }, 
+            "id": 875238
+        }
+    ]
+}

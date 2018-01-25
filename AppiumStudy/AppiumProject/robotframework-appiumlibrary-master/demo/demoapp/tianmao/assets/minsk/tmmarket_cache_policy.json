@@ -1,0 +1,14 @@
+{
+    "json": false, 
+    "version": 0, 
+    "name": "tmmarket_cache_policy", 
+    "catalogList": [
+        {
+            "content": {
+                "unuseQueryHomeCache": false, 
+                "unuseSiteInfoCache": true
+            }, 
+            "id": 875254
+        }
+    ]
+}
